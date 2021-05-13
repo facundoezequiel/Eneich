@@ -12,6 +12,14 @@ const HomeContainer = styled.section`
     font-display: swap;
   }
 
+  @font-face {
+    font-family: "MTDalatSansCap";
+    src: url("/fonts/mtdalatsans/MTDalatSans.otf") format('truetype');
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+  }
+
   // Header
   #header {
     backdrop-filter: blur(30px) brightness(1.08);
@@ -22,6 +30,7 @@ const HomeContainer = styled.section`
     display: flex;
     justify-content: space-between;
     align-items: center;
+    top: 0px !important;
     // border-bottom: 1px solid #6a615a;
 
     div {
@@ -34,30 +43,12 @@ const HomeContainer = styled.section`
       margin-left: 15%;
     }
 
-    .ticker {
-      width: 100%;
-      display: flex;
-
-      div {
-        width: 120%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        align-content: center;
-      }
-
-      .telepronterDiv {
-        width: 69% !important;
-        margin: 0% 7% 0% 7%;
-      }
-    }
-
     p {
       color: #141414;
       width: 100%;
       height: 100%;
       text-rendering: optimizeLegibility;
-      font-family: 'Pangea', sans-serif;
+      font-family: "Pangea", sans-serif;
       font-size: 0.9em;
     }
 
@@ -78,6 +69,37 @@ const HomeContainer = styled.section`
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  #introductionDivH1 {
+    width: 100%;
+    text-align: center;
+  }
+
+  // News
+  .ticker {
+    position: relative;
+    overflow: hidden;
+    background-color: #cdccc7;
+  }
+
+  .ticker__element {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  }
+
+  .ticker__element p {
+    margin-right: 70px;
+    color: #e52b08;
+    font-family: "MT Dalat Sans", serif;
+    font-size: 1.1em;
+    letter-spacing: 1px;
   }
 `;
 
