@@ -20,48 +20,6 @@ const HomeContainer = styled.section`
     font-display: swap;
   }
 
-  // Header
-  #header {
-    backdrop-filter: blur(30px) brightness(1.08);
-    -webkit-backdrop-filter: blur(30px) brightness(1.08);
-    min-height: 69px;
-    position: fixed;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    top: 0px !important;
-    // border-bottom: 1px solid #6a615a;
-
-    div {
-      width: 33.33%;
-    }
-
-    img {
-      width: 25%;
-      max-width: 134.89px;
-      margin-left: 15%;
-    }
-
-    p {
-      color: #141414;
-      width: 100%;
-      height: 100%;
-      text-rendering: optimizeLegibility;
-      font-family: "Pangea", sans-serif;
-      font-size: 0.9em;
-    }
-
-    #shopDiv {
-      display: flex;
-      justify-content: flex-end;
-
-      a {
-        margin-right: 15%;
-      }
-    }
-  }
-
   // Introduction
   #introduction {
     width: 100%;
@@ -85,6 +43,11 @@ const HomeContainer = styled.section`
     position: relative;
     overflow: hidden;
     background-color: #cdccc7;
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer */
+    -khtml-user-select: none; /* KHTML browsers (e.g. Konqueror) */
+    -webkit-user-select: none; /* Chrome, Safari, and Opera */
+    -webkit-touch-callout: none; /* Disable Android and iOS callouts*/
   }
 
   .ticker__element {
@@ -97,9 +60,9 @@ const HomeContainer = styled.section`
   .ticker__element p {
     margin-right: 70px;
     color: #e52b08;
-    font-family: "MT Dalat Sans", serif;
-    font-size: 1.1em;
-    letter-spacing: 1px;
+    font-family: "Pangea", sans-serif;
+    font-size: 0.9em;
+    letter-spacing: 0.5px;
   }
 `;
 

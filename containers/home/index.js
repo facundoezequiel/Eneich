@@ -1,6 +1,7 @@
 import React from "react";
 import Head from "next/head";
 import Ticker from "react-ticker";
+import Header from "../../components/header"
 import { HomeContainer } from "./styled";
 
 function Home() {
@@ -21,15 +22,8 @@ function Home() {
           crossOrigin=""
         />
       </Head>
-      {/* Header
-      <div id="header">
-        <div>
-          <img src="images/logos/eneich.svg" alt="Eneich Logo" />
-        </div>
-        <div id="shopDiv">
-          <a>SHOP</a>
-        </div>
-      </div> */}
+      {/* Header */}
+      <Header></Header>
       {/* Introduction */}
       <div
         id="introduction"
