@@ -1,5 +1,4 @@
 import React from "react";
-import Head from "next/head";
 import Ticker from "react-ticker";
 import Header from "../../components/header"
 import { HomeContainer } from "./styled";
@@ -7,21 +6,6 @@ import { HomeContainer } from "./styled";
 function Home() {
   return (
     <HomeContainer>
-      <Head>
-        <title>Eneich</title>
-        <link
-          rel="preload"
-          href="/fonts/pangea/PangeaTextTrial-Light.woff"
-          as="font"
-          crossOrigin=""
-        />
-        <link
-          rel="preload"
-          href="/fonts/mtdalatsans/MTDalatSans.otf"
-          as="font"
-          crossOrigin=""
-        />
-      </Head>
       {/* Header */}
       <Header></Header>
       {/* Introduction */}
@@ -40,7 +24,7 @@ function Home() {
         <Ticker>
           {({ index }) => (
             <>
-              <p>Kali Mist - Gandini ft. Eneich. Live now on Spotify.</p>
+              <p>Overspeed - Eneich ft. Gandini. Live now on Spotify.</p>
             </>
           )}
         </Ticker>

@@ -35,10 +35,6 @@ const HeaderContainer = styled.div`
     align-content: center;
   }
 
-  #shopLenguajeContainerMobile {
-    display: none;
-  }
-
   #logoContainer,
   #shopLenguajeContainer {
     width: 50% !important;
@@ -64,13 +60,44 @@ const HeaderContainer = styled.div`
     max-width: 35.61px;
   }
 
-  p {
-    color: #141414;
-    width: 100%;
-    height: 100%;
+  button {
+    background-color: #141414;
+    width: 20%;
+    max-width: 134px;
+    max-height: 37px!important;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    border-radius: 200px 200px 200px 200px;
+    -moz-border-radius: 200px 200px 200px 200px;
+    -webkit-border-radius: 200px 200px 200px 200px;
+    border: 0px solid #000000;
+    margin-left: 35px;
+    cursor: pointer;
+    transition: 0.2s all;
+  }
+
+  button:hover {
+    background-color: #6A615A;
+  }
+
+  button svg {
+    color: #EDEAE2;
+    font-size: 1.2em;
+    margin-left: 20px;
+  }
+
+  button p {
+    color: #EDEAE2;
     text-rendering: optimizeLegibility;
     font-family: "Pangea", sans-serif;
-    font-size: 0.9em;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    display: block;
+    margin-right: 20px;
+    padding-top: 1px;
   }
 
   #shopDiv {

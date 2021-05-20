@@ -1,5 +1,7 @@
 import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { HeaderContainer } from "./styled";
+import { faShoppingBasket } from "@fortawesome/free-solid-svg-icons";
 
 function Header() {
   return (
@@ -15,11 +17,14 @@ function Header() {
         </div>
         {/* Shop Botton Desktop */}
         <div id="shopLenguajeContainer">
-          <a>SHOP</a>
-        </div>
-        {/* Shop Botton Mobile */}
-        <div id="shopLenguajeContainerMobile">
-          <a>SHOP</a>
+          <div id="lengaujeContainer">
+            <a>ESP</a>
+            <a>ENG</a>
+          </div>
+          <button>
+            <FontAwesomeIcon icon={faShoppingBasket} />
+            <p>SHOP</p>
+          </button>
         </div>
       </div>
     </HeaderContainer>

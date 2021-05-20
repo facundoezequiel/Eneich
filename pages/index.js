@@ -1,9 +1,9 @@
-import Home from '../containers/home/index.js'
+import Home from "../containers/home/index.js";
 
 function Index() {
   return (
-    <Home/>
-  )
+      <Home />
+  );
 }
 
 export default Index;

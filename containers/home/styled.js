@@ -42,7 +42,7 @@ const HomeContainer = styled.section`
   .ticker {
     position: relative;
     overflow: hidden;
-    background-color: #cdccc7;
+    background-color: #6A615A;
     -moz-user-select: none; /* Firefox */
     -ms-user-select: none; /* Internet Explorer */
     -khtml-user-select: none; /* KHTML browsers (e.g. Konqueror) */
@@ -59,7 +59,7 @@ const HomeContainer = styled.section`
 
   .ticker__element p {
     margin-right: 70px;
-    color: #e52b08;
+    color: #EDEAE2;
     font-family: "Pangea", sans-serif;
     font-size: 0.9em;
     letter-spacing: 0.5px;
