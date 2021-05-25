@@ -17,7 +17,7 @@ function Header() {
         </div>
         {/* Shop Botton Desktop */}
         <div id="shopLenguajeContainer">
-          <div id="lengaujeContainer">
+          <div id="lenguajeContainer">
             <a>ESP</a>
             <a>ENG</a>
           </div>

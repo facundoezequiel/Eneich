@@ -1,6 +1,7 @@
 import React from "react";
-import Ticker from "react-ticker";
 import Header from "../../components/header"
+import Introduction from "../../components/introduction";
+import News from "../../components/news"
 import { HomeContainer } from "./styled";
 
 function Home() {
@@ -9,26 +10,9 @@ function Home() {
       {/* Header */}
       <Header></Header>
       {/* Introduction */}
-      <div
-        id="introduction"
-        style={{
-          backgroundImage: `url(${"/images/Background1920.jpg"})`,
-        }}
-      >
-        <div id="introductionDivH1">
-          <h1>House Music DJ and Producer</h1>
-        </div>
-      </div>
+      <Introduction></Introduction>
       {/* News */}
-      <div id="news">
-        <Ticker>
-          {({ index }) => (
-            <>
-              <p>Overspeed - Eneich ft. Gandini. Live now on Spotify.</p>
-            </>
-          )}
-        </Ticker>
-      </div>
+      <News></News>
     </HomeContainer>
   );
 }
