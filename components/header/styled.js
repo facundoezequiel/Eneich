@@ -8,13 +8,23 @@ const HeaderContainer = styled.div`
   width: 100%;
   height: 55px;
   min-height: 55px;
-  backdrop-filter: blur(20px) brightness(1.08);
-  -webkit-backdrop-filter: blur(20px) brightness(1.08);
+  // Blur
+  backdrop-filter: blur(30px) brightness(1.08);
+  -webkit-backdrop-filter: blur(30px) brightness(1.08);
+  // Display
   display: flex;
   justify-content: center;
   align-items: center;
   align-content: center;
 
+  // Fonts
+  @font-face {
+    font-family: "PangeaTextTrial";
+    src: url("/fonts/pangea/PangeaTextTrial-Light.woff");
+    font-style: normal;
+    font-weight: 100;
+    font-display: swap;
+  }
 
   // Logo and Buttons Container
   #logoShopContainer {
