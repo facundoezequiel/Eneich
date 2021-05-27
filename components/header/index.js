@@ -11,7 +11,7 @@ function Header() {
         <div id="logoContainer">
           <h1>
             <a href="#">
-              <img src="images/logos/LogoCiervoEneich.svg" alt="Eneich Logo" />
+              <img src="images/logos/LogoCiervoEneich.svg" draggable="false" alt="Eneich Logo" />
             </a>
           </h1>
         </div>
