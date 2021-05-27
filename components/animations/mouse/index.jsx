@@ -15,7 +15,7 @@ class MouseAnimation extends Component {
       },
     };
     return (
-      <MouseAnimationContainer>
+      <MouseAnimationContainer className="animate__animated animate__fadeIn animate__delay-1s">
         <Lottie options={animationOptions} height={70} width={45} />
       </MouseAnimationContainer>
     );

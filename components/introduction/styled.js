@@ -14,6 +14,7 @@ const IntroductionContainer = styled.div`
   #introductionDivH1 {
     width: 70%;
     max-width: 1344px;
+    margin-top: 60px;
   }
 
   img {

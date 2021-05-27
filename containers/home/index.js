@@ -2,6 +2,7 @@ import React from "react";
 import Header from "../../components/header"
 import Introduction from "../../components/introduction";
 import News from "../../components/news"
+import Biography from "../../components/biography";
 import { HomeContainer } from "./styled";
 
 function Home() {
@@ -9,10 +10,12 @@ function Home() {
     <HomeContainer>
       {/* Header */}
       <Header></Header>
-      {/* Introduction */}
+      {/* Introduction Section */}
       <Introduction></Introduction>
-      {/* News */}
+      {/* News Section */}
       <News></News>
+      {/* Biography Section */}
+      <Biography></Biography>
     </HomeContainer>
   );
 }
