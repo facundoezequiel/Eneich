@@ -6,8 +6,8 @@ function Biography() {
     <BiographyContainer>
       <div id="textImageContainer">
         <div id="textContainer">
-          <p>SOBRE MI</p>
-          <h2>Nicolas Hirschfeld</h2>
+          <span>SOBRE MI</span>
+          <h2>Nicolás Hirschfeld</h2>
           <p>
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry. Lorem Ipsum has been the industry's standard dummy text
@@ -22,7 +22,12 @@ function Biography() {
             content of a page when looking at its layout.
           </p>
           <button>
-            <p>VER MAS</p>
+            <p>BIOGRAFÍA COMPLETA</p>
+            <img
+              src="images/icons/flecha.svg"
+              draggable="false"
+              alt=""
+          />
           </button>
         </div>
         <div id="imageContainer">

@@ -3,19 +3,22 @@ import Header from "../../components/header"
 import Introduction from "../../components/introduction";
 import News from "../../components/news"
 import Biography from "../../components/biography";
+import Fade from "react-reveal/Fade";
 import { HomeContainer } from "./styled";
 
 function Home() {
   return (
     <HomeContainer>
       {/* Header */}
-      <Header></Header>
+      <Header/>
       {/* Introduction Section */}
-      <Introduction></Introduction>
+      <Introduction/>
       {/* News Section */}
-      <News></News>
+      <News/>
       {/* Biography Section */}
-      <Biography></Biography>
+      <Fade duration={800}>
+        <Biography/>
+      </Fade>
     </HomeContainer>
   );
 }

@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 const HomeContainer = styled.section`
   width: 100%;
+  background-color: #edeae2;
 
   // Fonts
   @font-face {
