@@ -20,6 +20,10 @@ const HomeContainer = styled.section`
     font-weight: 400;
     font-display: swap;
   }
+
+  #bioraphyPlatformsSection {
+    width: 100%;
+  }
 `;
 
 export { HomeContainer };
