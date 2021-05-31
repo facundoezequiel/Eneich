@@ -17,6 +17,12 @@ function Home() {
       {/* News Section */}
       <News />
       <div id="bioraphyPlatformsSection">
+        <div id="fristElement">
+          <img
+            src="images/elements/circle.svg"
+            draggable="false"
+          />
+        </div>
         {/* Biography Section */}
         <Fade duration={800}>
           <Biography />

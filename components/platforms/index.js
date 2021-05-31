@@ -10,7 +10,7 @@ function Platforms() {
         <NextLink href="mailto:gandinimusic@gmail.com">
           <a>
             <img
-              src="images/logos/YouTubeLogo.svg"
+              src="images/logos/YouTubeLogo.png"
               draggable="false"
               alt="You Tube Logo"
             />
@@ -19,7 +19,7 @@ function Platforms() {
         <NextLink href="mailto:gandinimusic@gmail.com">
           <a>
             <img
-              src="images/logos/SpotifyLogo.svg"
+              src="images/logos/SpotifyLogo.png"
               draggable="false"
               alt="Spotify Logo"
             />
@@ -28,7 +28,7 @@ function Platforms() {
         <NextLink href="mailto:gandinimusic@gmail.com">
           <a>
             <img
-              src="images/logos/MixCloudLogo.svg"
+              src="images/logos/MixCloudLogo.png"
               draggable="false"
               alt="Mix Cloud Logo"
             />
@@ -37,7 +37,7 @@ function Platforms() {
         <NextLink href="mailto:gandinimusic@gmail.com">
           <a>
             <img
-              src="images/logos/BeatportLogo.svg"
+              src="images/logos/BeatportLogo.png"
               draggable="false"
               alt="Beatport Logo"
             />
@@ -46,7 +46,7 @@ function Platforms() {
         <NextLink href="mailto:gandinimusic@gmail.com">
           <a>
             <img
-              src="images/logos/SoundcloudLogo.svg"
+              src="images/logos/SoundcloudLogo.png"
               draggable="false"
               alt="SoundCloud Logo"
             />
