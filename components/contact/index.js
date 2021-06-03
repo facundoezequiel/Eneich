@@ -1,6 +1,13 @@
 import React from "react";
 import { default as NextLink } from "next/link";
 import { ContactContainer } from "./styled";
+import {
+  faFacebookF,
+  faInstagram,
+  faWhatsapp,
+} from "@fortawesome/free-brands-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
 function Contact() {
   return (
@@ -8,38 +15,23 @@ function Contact() {
       <div id="buttonsContainers">
         <NextLink href="mailto:gandinimusic@gmail.com">
           <a className="buttonBorder">
-            <img
-              src="images/logos/social/WhatsAppLogo.svg"
-              draggable="false"
-              alt="WhatsApp Logo"
-            />
+            <FontAwesomeIcon icon={faWhatsapp} />
           </a>
         </NextLink>
         <NextLink href="mailto:gandinimusic@gmail.com">
           <a id="borderRight">
-            <img
-              src="images/logos/social/InstagramLogo.svg"
-              draggable="false"
-              alt="WhatsApp Logo"
-            />
+            <FontAwesomeIcon icon={faInstagram} />
           </a>
         </NextLink>
         <NextLink href="mailto:gandinimusic@gmail.com">
           <a>
-            <img
-              src="images/logos/social/FacebookLogo.svg"
-              draggable="false"
-              alt="WhatsApp Logo"
-            />
+            <FontAwesomeIcon icon={faFacebookF} />
           </a>
         </NextLink>
         <NextLink href="mailto:gandinimusic@gmail.com">
           <a className="buttonBorder">
-            <img
-              src="images/logos/social/MailLogo.svg"
-              draggable="false"
-              alt="WhatsApp Logo"
-            />
+            {/*Este icono no levantaba de forma regular utilizando la libreria npm*/}
+            <i class="far fa-envelope"></i>
           </a>
         </NextLink>
       </div>

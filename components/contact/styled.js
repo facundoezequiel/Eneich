@@ -16,11 +16,15 @@ const ContactContainer = styled.div`
 
   a {
     width: 25%;
-    padding: 3% 0% 3% 0%;
+    padding: 2% 0% 2% 0%;
     display: flex;
     align-content: center;
     align-items: center;
     justify-content: center;
+    font-size: 1.8em;
+    color: #6A615A;
+    font-size: 1.8em;
+    transition: 0.15s all;
   }
 
   .buttonBorder {
@@ -30,6 +34,11 @@ const ContactContainer = styled.div`
 
   #borderRight {
     border-right: 1.5px #6a615a solid;
+  }
+
+  a:hover {
+    background-color: #6A615A;
+    color: #edeae2;
   }
 `;
 

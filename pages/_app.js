@@ -24,6 +24,7 @@ function MyApp({ Component, pageProps }) {
           as="font"
           crossOrigin=""
         />
+        <script src="https://kit.fontawesome.com/b053533b61.js" crossorigin="anonymous"></script>
         <meta property="og:site_name" content="Eneich"></meta>
         <meta property="og:title" content="Eneich" />
         <meta property="og:url" content="https://www.eneich.com/" />
