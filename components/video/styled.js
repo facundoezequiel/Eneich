@@ -11,8 +11,9 @@ const VideoContainer = styled.div`
     position: absolute;
     display: flex;
     justify-content: flex-start;
-    top: 16%;
+    top: 15.5%;
     left: 0px;
+    z-index: 98;
   }
 
   #textImageContainer {
@@ -29,16 +30,21 @@ const VideoContainer = styled.div`
     height: 356.56px;
     display: flex;
     justify-content: flex-end;
+    z-index: 99;
+  }
+
+  iframe {
+    border-radius: 15px;
   }
 
   #textContainer {
-    width: 42% !important;
+    width: 35.5% !important;
   }
 
   #textContainer span {
     color: #6a615a;
     font-family: "Pangea", sans-serif;
-    font-size: 1em;
+    font-size: 0.8em;
     letter-spacing: 3px;
     text-align: left;
     font-weight: 400;
@@ -52,7 +58,7 @@ const VideoContainer = styled.div`
     font-family: "MT Dalat Sans", serif;
     font-style: normal;
     font-weight: normal;
-    font-size: 55px;
+    font-size: 50px;
     letter-spacing: 0.05em;
     text-align: left;
     margin: 23px 0px 35px 0%;
@@ -62,7 +68,7 @@ const VideoContainer = styled.div`
     color: #141414;
     font-style: normal;
     font-weight: 300;
-    font-size: 15px;
+    font-size: 14px;
     line-height: 27px;
     letter-spacing: 0.045em;
     font-family: "Pangea", sans-serif;
@@ -80,7 +86,7 @@ const VideoContainer = styled.div`
     justify-content: flex-start;
     align-items: center;
     align-content: center;
-    margin: 58px 0px 0px 0px;
+    margin: 52px 0px 0px 0px;
     cursor: pointer;
   }
 

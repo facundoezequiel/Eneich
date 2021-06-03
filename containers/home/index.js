@@ -19,30 +19,28 @@ function Home() {
       <Introduction />
       {/* News Section */}
       <News />
+
       <div id="bioraphyPlatformsSection">
         <div id="fristElement">
-          <img
-            src="images/elements/circle.svg"
-            draggable="false"
-          />
+          <Fade duration={1800}>
+            <img src="images/elements/circle.svg" draggable="false" />
+          </Fade>
         </div>
         {/* Biography Section */}
-        <Fade duration={800}>
+        <Fade duration={1800}>
           <Biography />
         </Fade>
         {/* Platforms Section */}
-        <Fade duration={800}>
+        <Fade duration={1800}>
           <Platforms />
         </Fade>
       </div>
       {/* Video Section */}
-      <Fade duration={800}>
+      <Fade duration={1800}>
         <Video />
       </Fade>
       {/* Contact Section */}
-      <Fade duration={800}>
-        <Contact />
-      </Fade>
+      <Contact />
       {/* News Section */}
       <News />
       {/* Footer */}

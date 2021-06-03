@@ -6,6 +6,16 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
+::-moz-selection {
+  color: #ffffff;
+  background: #e52b08;
+}
+
+::selection {
+  color: #ffffff;
+  background: #e52b08;
+}
+
 a {
   color: inherit;
   text-decoration: none;

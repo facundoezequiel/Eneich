@@ -20,7 +20,7 @@ const BiographyContainer = styled.div`
   #textContainer span {
     color: #6a615a;
     font-family: "Pangea", sans-serif;
-    font-size: 1em;
+    font-size: 0.8em;
     letter-spacing: 3px;
     text-align: left;
     font-weight: 400;
@@ -34,7 +34,7 @@ const BiographyContainer = styled.div`
     font-family: "MT Dalat Sans", serif;
     font-style: normal;
     font-weight: normal;
-    font-size: 55px;
+    font-size: 50px;
     letter-spacing: 0.05em;
     text-align: left;
     margin: 23px 0px 35px 0%;
@@ -44,7 +44,7 @@ const BiographyContainer = styled.div`
     color: #141414;
     font-style: normal;
     font-weight: 300;
-    font-size: 15px;
+    font-size: 14px;
     line-height: 27px;
     letter-spacing: 0.045em;
     font-family: "Pangea", sans-serif;

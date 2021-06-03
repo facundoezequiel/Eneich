@@ -5,7 +5,9 @@ import { FooterContainer } from "./styled";
 function Footer() {
   return (
     <FooterContainer>
-        footer
+        <div id="logoButtonsContainer">
+          hola
+        </div>
     </FooterContainer>
   );
 }
