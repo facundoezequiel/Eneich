@@ -33,10 +33,6 @@ const VideoContainer = styled.div`
     z-index: 99;
   }
 
-  iframe {
-    border-radius: 15px;
-  }
-
   #textContainer {
     width: 35.5% !important;
   }

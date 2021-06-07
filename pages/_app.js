@@ -20,7 +20,7 @@ function MyApp({ Component, pageProps }) {
         />
         <link
           rel="preload"
-          href="/fonts/mtdalatsans/MTDalatSans.otf"
+          href="/fonts/mtdalatsans/MTDalatSans.woff"
           as="font"
           crossOrigin=""
         />

@@ -15,7 +15,7 @@ const HomeContainer = styled.section`
 
   @font-face {
     font-family: "MTDalatSansCap";
-    src: url("/fonts/mtdalatsans/MTDalatSans.otf") format('truetype');
+    src: url("/fonts/mtdalatsans/MTDalatSans.woff") format('truetype');
     font-style: normal;
     font-weight: 400;
     font-display: swap;
