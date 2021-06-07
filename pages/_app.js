@@ -9,17 +9,17 @@ function MyApp({ Component, pageProps }) {
     <>
       <Head>
         <title>Eneich</title>
-        <Link
+        <link
           rel="stylesheet"
           href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
         />
-        <Link
+        <link
           rel="preload"
           href="/fonts/pangea/PangeaTextTrial-Light.woff"
           as="font"
           crossOrigin=""
         />
-        <Link
+        <link
           rel="preload"
           href="/fonts/mtdalatsans/MTDalatSans.woff"
           as="font"
