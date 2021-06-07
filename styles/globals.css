@@ -6,6 +6,22 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
+@font-face {
+  font-family: "Pangea Text Trial";
+  src: url("/fonts/pangea/PangeaTextTrial-Light.woff") format("truetype");
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "MT Dalat Sans";
+  src: url("/fonts/mtdalatsans/MTDalatSans.woff") format("truetype");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
 ::-moz-selection {
   color: #ffffff;
   background: #e52b08;

@@ -31,7 +31,7 @@ const BiographyContainer = styled.div`
   #textContainer h2 {
     color: #e52b08;
     text-rendering: optimizeLegibility;
-    font-family: "MTDalatSans", serif;
+    font-family: "MT Dalat Sans", serif;
     font-style: normal;
     font-weight: normal;
     font-size: 50px;

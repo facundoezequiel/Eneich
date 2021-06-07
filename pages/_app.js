@@ -1,6 +1,7 @@
 import "../styles/globals.css";
 import React from "react";
 import Head from "next/head";
+import Link from "next/link";
 import "@fortawesome/fontawesome-svg-core/styles.css";
 
 function MyApp({ Component, pageProps }) {
@@ -8,17 +9,17 @@ function MyApp({ Component, pageProps }) {
     <>
       <Head>
         <title>Eneich</title>
-        <link
+        <Link
           rel="stylesheet"
           href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
         />
-        <link
+        <Link
           rel="preload"
           href="/fonts/pangea/PangeaTextTrial-Light.woff"
           as="font"
           crossOrigin=""
         />
-        <link
+        <Link
           rel="preload"
           href="/fonts/mtdalatsans/MTDalatSans.woff"
           as="font"
