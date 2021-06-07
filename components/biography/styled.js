@@ -4,23 +4,6 @@ const BiographyContainer = styled.div`
   width: 100%;
   border-bottom: 1.5px #6a615a solid;
 
-  // Fonts
-  @font-face {
-    font-family: "PangeaTextTrial";
-    src: url("/fonts/pangea/PangeaTextTrial-Light.woff");
-    font-style: normal;
-    font-weight: 100;
-    font-display: swap;
-  }
-
-  @font-face {
-    font-family: "MTDalatSansCap";
-    src: url("/fonts/mtdalatsans/MTDalatSans.woff") format('truetype');
-    font-style: normal;
-    font-weight: 400;
-    font-display: swap;
-  }
-
   #textImageContainer {
     width: 70%;
     display: flex;
