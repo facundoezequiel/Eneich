@@ -14,23 +14,31 @@ function Contact() {
       <div id="buttonsContainers">
         <NextLink href="mailto:gandinimusic@gmail.com">
           <a className="buttonBorder">
-            <FontAwesomeIcon icon={faWhatsapp} />
+            <span>
+              <FontAwesomeIcon icon={faWhatsapp} />
+            </span>
           </a>
         </NextLink>
         <NextLink href="mailto:gandinimusic@gmail.com">
           <a id="borderRight">
-            <FontAwesomeIcon icon={faInstagram} />
+            <span>
+              <FontAwesomeIcon icon={faInstagram} />
+            </span>
           </a>
         </NextLink>
         <NextLink href="mailto:gandinimusic@gmail.com">
           <a>
-            <FontAwesomeIcon icon={faFacebookF} />
+            <span id="facebookIcon">
+              <FontAwesomeIcon icon={faFacebookF} />
+            </span>
           </a>
         </NextLink>
         <NextLink href="mailto:gandinimusic@gmail.com">
           <a className="buttonBorder">
-            {/*Este icono no levantaba de forma regular utilizando la libreria npm*/}
-            <i class="far fa-envelope"></i>
+            <span>
+              {/*Este icono no levantaba de forma regular utilizando la libreria npm*/}
+              <i class="far fa-envelope"></i>
+            </span>
           </a>
         </NextLink>
       </div>
