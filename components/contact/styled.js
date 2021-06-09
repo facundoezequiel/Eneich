@@ -53,6 +53,12 @@ const ContactContainer = styled.div`
 
   a:hover > span {
     color: #edeae2;
+    display: block;
+    transform: scale(1.1);
+  }
+
+  a:hover > #facebookIcon {
+    transform: scale(1);
   }
 
   .buttonBorder {
@@ -65,8 +71,8 @@ const ContactContainer = styled.div`
   }
 
   #facebookIcon {
-    font-size: 1.8em !important;
-    padding: 0.1em 0em 0.05em 0em;
+    transform: scale(0.8);
+    transition: 0.2s;
   }
 `;
 

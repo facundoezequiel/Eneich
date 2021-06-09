@@ -8,6 +8,7 @@
     "start": "next start"
   },
   "dependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.13.0",
     "@fortawesome/fontawesome-svg-core": "^1.2.35",
     "@fortawesome/free-brands-svg-icons": "^5.15.3",
     "@fortawesome/free-regular-svg-icons": "^5.15.3",
@@ -19,10 +20,18 @@
     "react": "^17.0.2",
     "react-backdrop-filter": "^2.1.0",
     "react-dom": "^17.0.2",
+    "react-globe": "^5.0.2",
+    "react-intl": "^5.20.1",
     "react-lottie": "^1.2.3",
     "react-player": "^2.9.0",
+    "react-portal": "^4.2.1",
     "react-reveal": "^1.2.2",
+    "react-three-renderer": "^3.2.4",
+    "react-three-renderer-objects": "0.0.6",
     "react-ticker": "^1.2.2",
-    "styled-components": "^5.2.3"
+    "styled-components": "^5.2.3",
+    "three": "^0.129.0",
+    "three-orbitcontrols": "^2.110.3",
+    "tippy.js": "^6.3.1"
   }
 }

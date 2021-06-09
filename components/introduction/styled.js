@@ -61,6 +61,7 @@ const IntroductionContainer = styled.div`
     -webkit-border-radius: 200px 200px 200px 200px;
     border: 0px solid #000000;
     cursor: pointer;
+    transition: 0.2s;
   }
 
   #buttonsContainer button p {
@@ -72,6 +73,15 @@ const IntroductionContainer = styled.div`
     font-weight: 800;
     text-rendering: optimizeLegibility;
     width: 100%;
+    transition: 0.2s;
+  }
+
+  button:hover {
+    transform: scale(1.1);
+  }
+
+  button:hover > p {
+    transform: scale(0.9) !important;
   }
 `;
 

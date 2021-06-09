@@ -18,12 +18,24 @@ function Footer() {
           </NextLink>
         </div>
         <div id="buttonsDiv">
+          <div id="lenguajeButtonsDiv">
+            <NextLink href="#">
+              <a>
+                <span id="esp">ESP</span>
+              </a>
+            </NextLink>
+            <NextLink href="#">
+              <a>
+                <span>EN</span>
+              </a>
+            </NextLink>
+          </div>
           <NextLink href="#">
-            <a>PRESS KIT</a>
+            <a>
+              <span>PRESS KIT</span>
+            </a>
           </NextLink>
-          <p>
-            Todos los derechos reservados. Eneich 2021©
-          </p>
+          <p>Eneich 2021. Todos los derechos reservados.©</p>
         </div>
       </div>
     </FooterContainer>
