@@ -7,6 +7,7 @@ function Footer() {
     <FooterContainer>
       <div id="logoButtonsContainer">
         <div id="logoDiv">
+          {/* LOGO BUTTON */}
           <NextLink href="#">
             <a>
               <img
@@ -19,24 +20,31 @@ function Footer() {
         </div>
         <div id="buttonsDiv">
           <div id="lenguajeButtonsDiv">
+            {/* SPANISH BUTTON */}
             <NextLink href="#">
               <a>
                 <span id="esp">ESP</span>
               </a>
             </NextLink>
+            {/* ENGLISH BUTTON */}
             <NextLink href="#">
               <a>
                 <span>EN</span>
               </a>
             </NextLink>
           </div>
+          {/* PRESS KIT BUTTON */}
           <NextLink href="#">
             <a>
               <span>PRESS KIT</span>
             </a>
           </NextLink>
+          {/* COPYRIGHT */}
           <p>Eneich 2021. Todos los derechos reservados.©</p>
         </div>
+      </div>
+      {/* GRADIENT LINE */}
+      <div id="gradientLine"> 
       </div>
     </FooterContainer>
   );

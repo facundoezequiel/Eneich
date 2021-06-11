@@ -1,4 +1,5 @@
 import React from "react";
+import { default as NextLink } from "next/link";
 import { BiographyContainer } from "./styled";
 
 function Biography() {
@@ -21,14 +22,12 @@ function Biography() {
             established fact that a reader will be distracted by the readable
             content of a page when looking at its layout.
           </p>
-          <button>
-            <p>BIOGRAFÍA COMPLETA</p>
-            <img
-              src="images/icons/flecha.svg"
-              draggable="false"
-              alt=""
-          />
-          </button>
+          <NextLink href="/biografia">
+            <a>
+              <p>BIOGRAFÍA COMPLETA</p>
+              <img src="images/icons/flecha.svg" draggable="false" alt="" />
+            </a>
+          </NextLink>
         </div>
         <div id="imageContainer">
           <img

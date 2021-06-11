@@ -2,7 +2,6 @@ import styled from "styled-components";
 
 const FooterContainer = styled.div`
   width: 100%;
-  padding: 1.5% 0% 1.5% 0%;
   background-color: #6a615a;
   border-top: 1.5px #edeae2 solid;
 
@@ -14,6 +13,7 @@ const FooterContainer = styled.div`
     justify-content: space-between;
     align-items: center;
     align-content: center;
+    padding: 1.5% 0% 1.5% 0%;
   }
 
   #logoDiv {
@@ -104,6 +104,49 @@ const FooterContainer = styled.div`
 
   #esp {
     font-weight: 800 !important;
+  }
+
+  #gradientLine {
+    content: "";
+    background: rgba(250, 201, 171, 1);
+    background: -moz-linear-gradient(
+      left,
+      rgba(250, 201, 171, 1) 0%,
+      rgba(176, 204, 199, 1) 27%,
+      rgba(196, 196, 196, 1) 69%,
+      rgba(229, 45, 8, 1) 100%
+    );
+    background: -webkit-gradient(
+      left top,
+      right top,
+      color-stop(0%, rgba(250, 201, 171, 1)),
+      color-stop(27%, rgba(176, 204, 199, 1)),
+      color-stop(69%, rgba(196, 196, 196, 1)),
+      color-stop(100%, rgba(229, 45, 8, 1))
+    );
+    background: -webkit-linear-gradient(
+      left,
+      rgba(250, 201, 171, 1) 0%,
+      rgba(176, 204, 199, 1) 27%,
+      rgba(196, 196, 196, 1) 69%,
+      rgba(229, 45, 8, 1) 100%
+    );
+    background: -o-linear-gradient(
+      left,
+      rgba(250, 201, 171, 1) 0%,
+      rgba(176, 204, 199, 1) 27%,
+      rgba(196, 196, 196, 1) 69%,
+      rgba(229, 45, 8, 1) 100%
+    );
+    background: -ms-linear-gradient(
+      left,
+      rgba(250, 201, 171, 1) 0%,
+      rgba(176, 204, 199, 1) 27%,
+      rgba(196, 196, 196, 1) 69%,
+      rgba(229, 45, 8, 1) 100%
+    );
+    width: 100%;
+    height: 5px;
   }
 `;
 

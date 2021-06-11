@@ -10,7 +10,7 @@ function Video() {
       </div>
       <div id="textImageContainer">
         <div id="playerContainer">
-          <Player link="https://www.youtube.com/watch?v=pnPfgjTxIZU" />
+          <Player link="https://youtu.be/dQw4w9WgXcQ" />
         </div>
           <div id="textContainer">
             <span>NEW SINGLE</span>

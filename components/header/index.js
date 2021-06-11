@@ -1,4 +1,5 @@
 import React from "react";
+import { default as NextLink } from "next/link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { HeaderContainer } from "./styled";
 import { faShoppingBasket } from "@fortawesome/free-solid-svg-icons";
@@ -10,9 +11,11 @@ function Header() {
         {/* Logo */}
         <div id="logoContainer">
           <h1>
-            <a href="#">
+            <NextLink href="/">
+            <a>
               <img src="images/logos/LogoCiervoEneich.svg" draggable="false" alt="Eneich Logo" />
             </a>
+            </NextLink>
           </h1>
         </div>
         {/* Shop Botton Desktop */}

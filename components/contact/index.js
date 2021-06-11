@@ -12,29 +12,29 @@ function Contact() {
   return (
     <ContactContainer>
       <div id="buttonsContainers">
-        <NextLink href="mailto:gandinimusic@gmail.com">
-          <a className="buttonBorder">
+        <NextLink href="https://api.whatsapp.com/send?phone=5492326422923">
+          <a className="buttonBorder" target="blank">
             <span>
               <FontAwesomeIcon icon={faWhatsapp} />
             </span>
           </a>
         </NextLink>
-        <NextLink href="mailto:gandinimusic@gmail.com">
-          <a id="borderRight">
+        <NextLink href="https://www.instagram.com/eneichmusic/?hl=es-la">
+          <a id="borderRight" target="blank">
             <span>
               <FontAwesomeIcon icon={faInstagram} />
             </span>
           </a>
         </NextLink>
-        <NextLink href="mailto:gandinimusic@gmail.com">
+        <NextLink href="https://www.facebook.com/nico.hirschfeld">
           <a>
-            <span id="facebookIcon">
+            <span id="facebookIcon" target="blank">
               <FontAwesomeIcon icon={faFacebookF} />
             </span>
           </a>
         </NextLink>
         <NextLink href="mailto:gandinimusic@gmail.com">
-          <a className="buttonBorder">
+          <a className="buttonBorder" target="blank">
             <span>
               {/*Este icono no levantaba de forma regular utilizando la libreria npm*/}
               <i class="far fa-envelope"></i>

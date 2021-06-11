@@ -54,7 +54,7 @@ const BiographyContainer = styled.div`
     max-width: 614px;
   }
 
-  #textContainer button {
+  #textContainer a {
     background-color: transparent;
     border: 0px solid;
     padding: 0 !important;
@@ -66,18 +66,20 @@ const BiographyContainer = styled.div`
     cursor: pointer;
   }
 
-  #textContainer button p {
+  #textContainer a p {
     color: #e52b08;
     font-family: "Pangea", sans-serif;
-    font-size: 1em;
+    font-size: 0.9em !important;
     letter-spacing: 3px;
     text-align: left;
     font-weight: 400;
     text-rendering: optimizeLegibility;
-    margin-right: 18px;
+    margin: 0px 18px 0px 0px;
+    display: inline;
+    width: auto;
   }
 
-  #textContainer button img {
+  #textContainer a img {
     width: 29px;
     max-width: 29px;
     display: block;
@@ -85,7 +87,7 @@ const BiographyContainer = styled.div`
     padding-bottom: 2px;
   }
 
-  #textContainer button:hover > img {
+  #textContainer a:hover > img {
     transform: translate(23px);
   }
 
