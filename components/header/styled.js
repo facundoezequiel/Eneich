@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled, { css } from "styled-components";
 
 const HeaderContainer = styled.div`
   // Position and scale
@@ -16,15 +16,6 @@ const HeaderContainer = styled.div`
   justify-content: center;
   align-items: center;
   align-content: center;
-
-  // Fonts
-  @font-face {
-    font-family: "PangeaTextTrial";
-    src: url("/fonts/pangea/PangeaTextTrial-Light.woff");
-    font-style: normal;
-    font-weight: 100;
-    font-display: swap;
-  }
 
   // Logo and Buttons Container
   #logoShopContainer {
@@ -52,13 +43,18 @@ const HeaderContainer = styled.div`
     justify-content: flex-end;
   }
 
-  #logoContainer h1, #logoContainer h1 a {
+  #logoContainer h1,
+  #logoContainer h1 a {
     width: 100%;
   }
 
   #logoContainer img {
     width: 4.5%;
     max-width: 30.23px;
+  }
+
+  #logoWhite {
+    display: none;
   }
 
   //Lenguaje Buttons Container
@@ -72,7 +68,7 @@ const HeaderContainer = styled.div`
   #lenguajeContainer a {
     display: block;
     margin-left: 10px;
-    color: #EDEAE2;
+    color: #edeae2;
     text-rendering: optimizeLegibility;
     font-family: "Pangea", sans-serif;
     font-size: 0.9em;
@@ -84,7 +80,7 @@ const HeaderContainer = styled.div`
     background-color: #141414;
     width: 19%;
     max-width: 127px;
-    max-height: 37px!important;
+    max-height: 37px !important;
     display: flex;
     justify-content: space-between;
     align-content: center;
@@ -100,17 +96,17 @@ const HeaderContainer = styled.div`
   }
 
   button:hover {
-    background-color: #6A615A;
+    background-color: #6a615a;
   }
 
   button svg {
-    color: #EDEAE2;
+    color: #edeae2;
     font-size: 1.1em;
     margin-left: 20px;
   }
 
   button p {
-    color: #EDEAE2;
+    color: #edeae2;
     text-rendering: optimizeLegibility;
     font-family: "Pangea", sans-serif;
     font-size: 12px;
@@ -120,6 +116,23 @@ const HeaderContainer = styled.div`
     margin-right: 20px;
     padding-top: 1px;
   }
+
+  ${(props) =>
+    props.design === "bio" &&
+    css`
+      // Blur
+      backdrop-filter: none;
+      -webkit-backdrop-filter: none;
+      background-color: transparent;
+
+      #logoBlack {
+        display: none;
+      }
+
+      #logoWhite {
+        display: block;
+      }
+  `};
 `;
 
 export { HeaderContainer };

@@ -9,15 +9,32 @@ import { BioespengContainer } from "./styled";
 function Bioesp() {
   return (
     <BioespengContainer>
-      <Header />
+      {/* Header Component */}
+      <Header design="bio" />
+      {/* Bio Container */}
       <div id="bioContainer">
-        <div>
-          <NextLink href="/">
-            <a>
-              <img src="images/icons/flecha.svg" draggable="false" alt="" />
-            </a>
-          </NextLink>
-          <h2>Nico</h2>
+        {/* Button Title Container */}
+        <div id="titleContainer">
+          <div>
+            {/* Back Button */}
+            <NextLink href="/">
+              <a id="backButton">
+                <img
+                  src="images/icons/flechaWhite.svg"
+                  draggable="false"
+                  alt=""
+                />
+                <span>INICIO</span>
+              </a>
+            </NextLink>
+            {/* Title */}
+            <h2>Nicolás Hirschfeld</h2>
+          </div>
+        </div>
+        {/* Gradient Line */}
+        <div id="gradientLine"></div>
+        {/* Paragraph Container */}
+        <div id="pContainer">
           <p>
             Gallardo es un conocidísimo jugador de fútbol argentino que se
             desempeña en el medio campo. Posee una gran trayectoria en el fútbol
@@ -83,8 +100,11 @@ function Bioesp() {
           </p>
         </div>
       </div>
+      {/* Contact Component */}
       <Contact />
+      {/* News Component */}
       <News />
+      {/* Footer Component */}
       <Footer />
     </BioespengContainer>
   );

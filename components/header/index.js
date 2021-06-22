@@ -4,16 +4,17 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { HeaderContainer } from "./styled";
 import { faShoppingBasket } from "@fortawesome/free-solid-svg-icons";
 
-function Header() {
+function Header({design}) {
   return (
-    <HeaderContainer>
+    <HeaderContainer design={design}>
       <div id="logoShopContainer">
         {/* Logo */}
         <div id="logoContainer">
           <h1>
             <NextLink href="/">
             <a>
-              <img src="images/logos/LogoCiervoEneich.svg" draggable="false" alt="Eneich Logo" />
+              <img src="images/logos/LogoCiervoEneich.svg" draggable="false" alt="Eneich Logo" id="logoBlack"/>
+              <img src="images/logos/LogoCiervoEneichWhite.svg" draggable="false" alt="Eneich Logo" id="logoWhite"/>
             </a>
             </NextLink>
           </h1>
