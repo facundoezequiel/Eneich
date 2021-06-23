@@ -17,8 +17,8 @@ const Modal = ({ show, onClose, children }) => {
 
   const modalContent = show ? (
     <ModalContainer>
-      <div id="modalBackground" onClick={handleCloseClick}></div>
-      <div id="windowModal">
+      <div id="modalBackground" className="animate__animated animate__fadeIn"></div>
+      <div id="windowModal" className="animate__animated animate__fadeIn">
         <a href="#" onClick={handleCloseClick}>
           x
         </a>

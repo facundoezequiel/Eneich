@@ -16,7 +16,7 @@ function Video() {
       <Modal
         onClose={() => setShowModal(false)}
         show={showModal}
-        children={<Player link="https://youtu.be/dQw4w9WgXcQ" />}
+        children={<Player className="animate__animated animate__fadeIn" link="https://youtu.be/dQw4w9WgXcQ" />}
       ></Modal>
       <div id="secondElement">
         <img src="images/elements/star.svg" draggable="false" alt="" />
@@ -31,7 +31,7 @@ function Video() {
           <p>
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
+            ever since the 1500s, when an unknown printe r took a galley of type
             and scrambled it to make a type specimen book. It has survived not
             only five. It has survived not only five.
           </p>
