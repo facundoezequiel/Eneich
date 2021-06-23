@@ -10,7 +10,7 @@ function Bioesp() {
   return (
     <BioespengContainer>
       {/* Header Component */}
-      <Header design="bio" />
+      <Header design="bio"/>
       {/* Bio Container */}
       <div id="bioContainer">
         {/* Button Title Container */}
@@ -18,7 +18,7 @@ function Bioesp() {
           <div>
             {/* Back Button */}
             <NextLink href="/">
-              <a id="backButton">
+              <a id="backButton" className="animate__animated animate__fadeIn">
                 <img
                   src="images/icons/flechaWhite.svg"
                   draggable="false"
@@ -28,13 +28,15 @@ function Bioesp() {
               </a>
             </NextLink>
             {/* Title */}
-            <h2>Nicolás Hirschfeld</h2>
+            <h2 className="animate__animated animate__fadeIn">Nicolás Hirschfeld</h2>
+            {/* Subtitle */}
+            <p className="animate__animated animate__fadeIn">PRODUCTOR DE HOUSE MUSIC & DJ</p>
           </div>
         </div>
         {/* Gradient Line */}
         <div id="gradientLine"></div>
         {/* Paragraph Container */}
-        <div id="pContainer">
+        <div id="pContainer" className="animate__animated animate__fadeIn">
           <p>
             Gallardo es un conocidísimo jugador de fútbol argentino que se
             desempeña en el medio campo. Posee una gran trayectoria en el fútbol

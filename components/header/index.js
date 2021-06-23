@@ -13,15 +13,15 @@ function Header({design}) {
           <h1>
             <NextLink href="/">
             <a>
-              <img src="images/logos/LogoCiervoEneich.svg" draggable="false" alt="Eneich Logo" id="logoBlack"/>
-              <img src="images/logos/LogoCiervoEneichWhite.svg" draggable="false" alt="Eneich Logo" id="logoWhite"/>
+              <img src="images/logos/LogoCiervoEneich.svg" draggable="false" alt="Eneich Logo" id="logoBlack" className="animate__animated animate__fadeIn"/>
+              <img src="images/logos/LogoCiervoEneichWhite.svg" draggable="false" alt="Eneich Logo" id="logoWhite" className="animate__animated animate__fadeIn"/>
             </a>
             </NextLink>
           </h1>
         </div>
         {/* Shop Botton Desktop */}
         <div id="shopLenguajeContainer">
-          <div id="lenguajeContainer">
+          <div id="lenguajeContainer" className="animate__animated animate__fadeIn">
             <a>ESP</a>
             <a>ENG</a>
           </div>

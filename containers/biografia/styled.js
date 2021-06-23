@@ -32,13 +32,26 @@ const BioespengContainer = styled.div`
     font-size: 50px;
     letter-spacing: 0.05em;
     text-align: left;
-    padding: 30px 0px 0px 0px;
+    padding: 30px 0px 20px 0px;
     margin: 0px 0px 0px 0px !important;
+  }
+
+  #titleContainer p {
+    color: #edeae2;
+    font-family: "Pangea", sans-serif;
+    font-size: 0.9em !important;
+    letter-spacing: 3px;
+    text-align: left;
+    font-weight: 400;
+    text-rendering: optimizeLegibility;
+    display: inline;
+    border-top: 1px #edeae2 solid;
+    padding: 14px 0px 0px 0px;
   }
   
   #pContainer {
     width: 100%;
-    padding: 5% 0% 5% 0%;
+    padding: 3% 0% 5% 0%;
     background-color: #edeae2;
     z-index: 98;
   }

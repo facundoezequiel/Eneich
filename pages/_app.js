@@ -15,6 +15,7 @@ function MyApp({ Component, pageProps }) {
           rel="stylesheet"
           href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
         />
+        <script src="some-path-where-you-dump-the-javascript-libraries/lib/bodyScrollLock.js"></script> 
         <link
           rel="preload"
           href="/fonts/pangea/PangeaTextTrial-Light.woff"
