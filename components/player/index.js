@@ -1,19 +1,20 @@
 import React from "react";
-import ReactPlayer from "react-player";
+import YouTube from 'react-youtube';
 
-function Player({ link, ...props }) {
+function VideoPlayer({ videoId, ...props }) {
+  
+  const opts = {
+    height: '390',
+    width: '640',
+    playerVars: {
+      // https://developers.google.com/youtube/player_parameters
+      autoplay: 1,
+    },
+  };
+
   return (
-    <ReactPlayer
-      autoplay="false"
-      playing="false"
-      loop="false"
-      controls="true"
-      width="100%"
-      height="100%"
-      url={link}
-      id="reactPlayer"
-    />
+    <YouTube className="animate__animated animate__fadeIn" videoId={videoId} opts={opts} />
   );
 }
 
-export default Player;
+export default VideoPlayer;

@@ -31,9 +31,12 @@
     "react-three-renderer": "^3.2.4",
     "react-three-renderer-objects": "0.0.6",
     "react-ticker": "^1.2.2",
+    "react-youtube": "^7.13.1",
+    "redux": "^4.1.0",
     "styled-components": "^5.2.3",
     "three": "^0.129.0",
     "three-orbitcontrols": "^2.110.3",
-    "tippy.js": "^6.3.1"
+    "tippy.js": "^6.3.1",
+    "video-react": "^0.14.1"
   }
 }
