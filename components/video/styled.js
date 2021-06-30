@@ -1,5 +1,6 @@
 import styled from "styled-components";
 
+// Section Video Container
 const VideoContainer = styled.div`
   width: 100%;
   border-bottom: 1.5px #6a615a solid;
@@ -7,7 +8,8 @@ const VideoContainer = styled.div`
   padding: 112px 0px 112px 0px;
   position: relative;
 
-  #secondElement {
+  // Decoration Element
+  #decorationElement {
     position: absolute;
     display: flex;
     justify-content: flex-start;
@@ -16,6 +18,7 @@ const VideoContainer = styled.div`
     z-index: 98;
   }
 
+  // Text, Title and Image Container
   #textImageContainer {
     width: 70%;
     display: flex;
@@ -24,7 +27,8 @@ const VideoContainer = styled.div`
     justify-content: space-between;
   }
 
-  #playerContainer {
+  // Image Container
+  #imageContainer {
     width: 50%;
     max-width: 634px;
     height: 356.56px;
@@ -33,6 +37,7 @@ const VideoContainer = styled.div`
     z-index: 99;
   }
 
+  // Text Container
   #textContainer {
     width: 35.5% !important;
   }
@@ -48,6 +53,7 @@ const VideoContainer = styled.div`
     width: 100%;
   }
 
+  // Title
   #textContainer h2 {
     color: #e52b08;
     text-rendering: optimizeLegibility;
@@ -60,6 +66,7 @@ const VideoContainer = styled.div`
     margin: 23px 0px 35px 0%;
   }
 
+  // Paragraph
   #textContainer p {
     color: #141414;
     font-style: normal;
@@ -74,6 +81,7 @@ const VideoContainer = styled.div`
     max-width: 614px;
   }
 
+  // Open Modal Button
   #textContainer button {
     background-color: transparent;
     border: 0px solid;

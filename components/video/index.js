@@ -18,16 +18,16 @@ function Video() {
       <Modal
         onClose={() => setShowModal(false)}
         show={showModal}
-        children={<VideoPlayer videoId="dQw4w9WgXcQ" />}
+        children={<VideoPlayer videoId="-_nupRfjkWw" />}
       ></Modal>
       {/* Decoration Element */}
-      <div id="secondElement">
+      <div id="decorationElement">
         <img src="images/elements/star.svg" draggable="false" alt="" />
       </div>
       {/* Title, text and image container */}
       <div id="textImageContainer">
         {/* Image Container */}
-        <div id="playerContainer">
+        <div id="imageContainer">
           hola
         </div>
         {/* Title and text Container */}
