@@ -19,7 +19,6 @@ function Home() {
       <Introduction />
       {/* News Section */}
       <News />
-
       <div id="bioraphyPlatformsSection">
         <div id="fristElement">
           <Fade duration={1800}>

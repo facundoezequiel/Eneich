@@ -4,21 +4,18 @@ import Colors from "./colors";
 const GlobalStyle = createGlobalStyle`
 :root{
     /* Colors */
-    --black: ${Colors.black.toCSS()};
-    --white: ${Colors.white.toCSS()};
-    --orange: ${Colors.orange.toCSS()};
-    --blue: ${Colors.blue.toCSS()};
-    --gray: ${Colors.gray.toCSS()};
-    --gray2: ${Colors.gray2.toCSS()};
-    --greenlight: ${Colors.greenlight.toCSS()};
+    --nhorange: ${Colors.nhorange.toCSS()};
+    --nhskin: ${Colors.nhskin.toCSS()};
+    --nhdarkgray: ${Colors.nhdarkgray.toCSS()};
+    --nhlightgray: ${Colors.nhlightgray.toCSS()};
+    --nhblack: ${Colors.nhblack.toCSS()};
+    --nhwhite: ${Colors.nhwhite.toCSS()};
+    --purewhite: ${Colors.purewhite.toCSS()};
+    --pureblack: ${Colors.pureblack.toCSS()};
     --transparent: ${Colors.transparent.toCSS()};
-    --inputgray: ${Colors.inputgray.toCSS()};
-    --inputgrayfont: ${Colors.inputgrayfont.toCSS()};
-    --bluefacebook: ${Colors.bluefacebook.toCSS()};
     /* Fonts 
     --poppins: "poppins" , -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     --proximasoft: "proxima-soft" , -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    --inter: "inter" , -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     */
 }
 

@@ -1,17 +1,15 @@
 const Color = require("color-js");
 
 const Colors = {
-  black: Color("#000000"),
-  white: Color("#ffffff"),
-  orange: Color("#FF6B00"),
-  blue: Color("#105AFF"),
-  gray: Color("#EAEAEA"),
-  gray2: Color("#FAFAFA"),
-  greenlight: Color("#E7ECEC"),
+  nhorange: Color("#E52B08"),
+  nhskin: Color("#FAC9AB"),
+  nhdarkgray: Color("#6A615A"),
+  nhlightgray: Color("#C4C4C4"),
+  nhblack: Color("#141414"),
+  nhwhite: Color("#EDEAE2"),
+  purewhite: Color("#FFFFFF"),
+  pureblack: Color("000000"),
   transparent: Color("transparent"),
-  inputgray: Color("#d8dfe1"),
-  inputgrayfont: Color("#818689"),
-  bluefacebook: Color("#4267B2"),
 };
 
 export default Colors;

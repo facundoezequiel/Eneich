@@ -1,5 +1,7 @@
 import styled from "styled-components";
+import { breakpoints } from "../../constants/media";
 
+// Section Introduction Container
 const IntroductionContainer = styled.div`
   width: 100%;
   height: 100vh !important;
@@ -10,13 +12,16 @@ const IntroductionContainer = styled.div`
   align-items: center;
   align-content: center;
   justify-content: center;
+  background-image: url(${"/images/Background2560.jpg"});
 
-  #introductionDivH1 {
+  // Logo, title and buttons container
+  #logoTitleButtonsContainer {
     width: 70%;
     max-width: 1344px;
     margin-top: 65px;
   }
 
+  // Eneich logo
   img {
     display: block;
     width: 20%;
@@ -28,6 +33,7 @@ const IntroductionContainer = styled.div`
     user-select: none;
   }
 
+  // Title
   h1 {
     color: #141414;
     text-rendering: optimizeLegibility;
@@ -44,6 +50,7 @@ const IntroductionContainer = styled.div`
     margin: 4% 0% 4% 0%;
   }
 
+  // Buttons container
   #buttonsContainer {
     display: flex;
     align-items: center;
@@ -53,7 +60,7 @@ const IntroductionContainer = styled.div`
   }
 
   #buttonsContainer button {
-    background-color: #EDEAE2;
+    background-color: #edeae2;
     margin-right: 46px;
     padding: 0.1% 3% 0.1% 3%;
     border-radius: 200px 200px 200px 200px;
@@ -65,7 +72,7 @@ const IntroductionContainer = styled.div`
   }
 
   #buttonsContainer button p {
-    color: #E52B08;
+    color: #e52b08;
     font-family: "Pangea", sans-serif;
     font-size: 0.85em;
     letter-spacing: 3px;

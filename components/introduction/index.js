@@ -4,25 +4,29 @@ import { IntroductionContainer } from "./styled";
 
 function Introduction() {
   return (
-    <IntroductionContainer
-      style={{
-        backgroundImage: `url(${"/images/Background2560.jpg"})`,
-      }}
-    >
-      <div id="introductionDivH1">
+    {/* Introduction Container */},
+    <IntroductionContainer>
+      {/* Logo. title and buttons container */}
+      <div id="logoTitleButtonsContainer">
+        {/* Eneich Logo */}
         <img
           src="images/logos/LogoEneichFont.svg"
           draggable="false"
           alt="Eneich Logo"
           className="animate__animated animate__fadeIn animate__delay-1s"
         />
+        {/* Title */}
         <h1 className="animate__animated animate__fadeIn animate__delay-1s">
           House Music<br></br>DJ and Producer
         </h1>
+        {/* Buttons */}
         <div id="buttonsContainer" className="animate__animated animate__fadeIn animate__delay-1s">
+          {/* Escuchame button */}
           <button><p>ESCUCHAME</p></button>
+          {/* Contacto button */}
           <button><p>CONTACTO</p></button>
         </div>
+        {/* Mouse Lottie Animation */}
         <MouseAnimation></MouseAnimation>
       </div>
     </IntroductionContainer>

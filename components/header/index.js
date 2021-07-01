@@ -6,7 +6,9 @@ import { faShoppingBasket } from "@fortawesome/free-solid-svg-icons";
 
 function Header({design}) {
   return (
+    {/* Header Container */},
     <HeaderContainer design={design}>
+      {/* Logo Shop Container */}
       <div id="logoShopContainer">
         {/* Logo */}
         <div id="logoContainer">

@@ -1,13 +1,16 @@
 export const breakpoints = {
+  // Mobile Resolutions
   galaxyFold: "280px",
   iphone5SE: "320px",
   motoG4: "360px",
-  iphone678: "375px",
+  iPhoneX: "375px",
   iphone678Plus: "414px",
   mobileMedium: "550px",
   mobile: "651px",
+  // Tablet Resolutions
   iPad: "768px",
   iPadPro: "1024px",
+  // Desktop Resolutions
   monitorEstandarSmall: "1202px",
   monitorEstandar: "1366px",
   monitorMedium: "1440px",
