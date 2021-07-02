@@ -13,7 +13,7 @@ const VideoContainer = styled.div`
     position: absolute;
     display: flex;
     justify-content: flex-start;
-    top: 15.5%;
+    top: 20.7%;
     left: 0px;
     z-index: 98;
   }
@@ -25,21 +25,24 @@ const VideoContainer = styled.div`
     margin: 0 auto;
     max-width: 1344px;
     justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap-reverse !important;
   }
 
   // Image Container
   #imageContainer {
-    width: 50%;
     max-width: 634px;
-    height: 356.56px;
     display: flex;
     justify-content: flex-end;
-    z-index: 99;
+    z-index: 99 !important;
   }
 
   // Text Container
   #textContainer {
-    width: 35.5% !important;
+    padding-left: 50px;
+    display: inline;
   }
 
   #textContainer span {
@@ -77,8 +80,7 @@ const VideoContainer = styled.div`
     font-family: "Pangea", sans-serif;
     text-align: left;
     text-rendering: optimizeLegibility;
-    width: 100%;
-    max-width: 614px;
+    max-width: 480px;
   }
 
   // Open Modal Button

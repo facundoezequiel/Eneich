@@ -1,22 +1,23 @@
 export const breakpoints = {
   // Mobile Resolutions
-  galaxyFold: "280px",
-  iphone5SE: "320px",
-  motoG4: "360px",
-  iPhoneX: "375px",
-  iphone678Plus: "414px",
-  mobileMedium: "550px",
-  mobile: "651px",
+  mobile280: "280px", // Galaxy Fold
+  mobile320: "320px", // iPhone 5 SE
+  mobile360: "360px", // Moto G4
+  mobile375: "375px", // iPhone X
+  mobile414: "414px", // iPhone 6 7 8 Plus
+  mobile550: "550px",
+  mobile651: "651px",
   // Tablet Resolutions
-  iPad: "768px",
-  iPadPro: "1024px",
+  tablet768: "768px", // iPad
+  tablet1024: "1024px", // iPad Pro
   // Desktop Resolutions
-  monitorEstandarSmall: "1202px",
-  monitorEstandar: "1366px",
-  monitorMedium: "1440px",
+  window1250: "1250px",
+  window1366: "1366px", // Estandar
+  window1440: "1440px",
   window1624: "1624px",
   window1710: "1710px",
+  window1750: "1750px",
   window1860: "1860px",
-  monitorFullHD: "1920px",
-  monitorUltraWide: "2560px",
+  window1920: "1920px", // Full HD
+  window2560: "2560px", // Ultrawide or +
 };

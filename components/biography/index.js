@@ -33,7 +33,7 @@ function Biography() {
           <img
             src="images/Arco.png"
             draggable="false"
-            alt="Foto de Nicolas Hirschfeld"
+            alt="Foto de Nicolás Hirschfeld"
           />
         </div>
       </div>
