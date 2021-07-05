@@ -4,11 +4,19 @@ import { BiographyContainer } from "./styled";
 
 function Biography() {
   return (
+    {
+      /* Biography Container */
+    },
     <BiographyContainer>
+      {/* Text and Image Container */}
       <div id="textImageContainer">
-        <div id="textContainer">
+        {/* Text Container */}
+        <article id="textContainer">
+          {/* Subtitle */}
           <span>SOBRE MI</span>
+          {/* Title */}
           <h2>Nicolás Hirschfeld</h2>
+          {/* Text */}
           <p>
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry. Lorem Ipsum has been the industry's standard dummy text
@@ -22,15 +30,18 @@ function Biography() {
             established fact that a reader will be distracted by the readable
             content of a page when looking at its layout.
           </p>
+          {/* Button */}
           <NextLink href="/biografia">
             <a>
               <p>BIOGRAFÍA COMPLETA</p>
               <img src="images/icons/flecha.svg" draggable="false" alt="" />
             </a>
           </NextLink>
-        </div>
+        </article>
+        {/* Image */}
         <img
           src="images/Arco.png"
+          id="nhimage"
           draggable="false"
           alt="Foto de Nicolás Hirschfeld"
         />

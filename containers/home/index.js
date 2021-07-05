@@ -15,8 +15,8 @@ function Home() {
     <HomeContainer>
       {/* Header */}
       <Header />
-      {/* Introduction Section */}
-      <Introduction />
+      {/* Introduction Section
+      <Introduction /> */}
       {/* News Section */}
       <News />
       <div id="bioraphyPlatformsSection">

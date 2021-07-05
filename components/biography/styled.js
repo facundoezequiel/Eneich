@@ -4,28 +4,28 @@ import { breakpoints } from "../../constants/media";
 // BiographyContainer
 const BiographyContainer = styled.section`
   width: 100%;
-  border-bottom: 1px #6a615a solid;
+  border-bottom: 1px var(--nhdarkgray) solid;
 
   // Text Image Container
   #textImageContainer {
     width: 70%;
-    display: flex;
-    margin: 0 auto;
     max-width: 1344px;
-    justify-content: space-between;
     padding-top: 112px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
   }
 
   // Text Container
   #textContainer {
-    width: 48% !important;
+    width: 48%;
   }
 
   // Subtitle
   #textContainer span {
-    color: #6a615a;
+    color: var(--nhdarkgray);
     font-family: "Pangea", sans-serif;
-    font-size: 87.5%;
+    font-size: 0.875em;
     letter-spacing: 3px;
     text-align: left;
     font-weight: 400;
@@ -35,20 +35,20 @@ const BiographyContainer = styled.section`
 
   // Title
   #textContainer h2 {
-    color: #e52b08;
+    color: var(--nhorange);
     text-rendering: optimizeLegibility;
     font-family: "MT Dalat Sans", serif;
     font-style: normal;
     font-weight: normal;
-    font-size: 1.953vw;
+    font-size: 3.125em;
     letter-spacing: 0.05em;
     text-align: left;
-    margin: 23px 0px 35px 0%;
+    margin: 23px 0px 35px 0px;
   }
 
   // Text
   #textContainer p {
-    color: #141414;
+    color: var(--nhblack);
     font-style: normal;
     font-weight: 300;
     font-size: 0.875em;
@@ -62,7 +62,7 @@ const BiographyContainer = styled.section`
 
   // Button
   #textContainer a {
-    background-color: transparent;
+    background-color: var(--transparent);
     border: 0px solid;
     padding: 0 !important;
     display: flex;
@@ -75,9 +75,9 @@ const BiographyContainer = styled.section`
 
   // Button Text
   #textContainer a p {
-    color: #e52b08;
+    color: var(--nhorange);
     font-family: "Pangea", sans-serif;
-    font-size: 0.9em !important;
+    font-size: 0.875em;
     letter-spacing: 3px;
     text-align: left;
     font-weight: 400;
@@ -102,7 +102,7 @@ const BiographyContainer = styled.section`
   }
 
   // Image
-  img {
+  #nhimage {
     width: 33%;
     height: auto;
   }
@@ -118,15 +118,15 @@ const BiographyContainer = styled.section`
 
     // Subtitle
     #textContainer span {
-      font-size: 0.79em !important;
+      font-size: 0.85em;
     }
 
     // Title
     #textContainer h2 {
-      font-size: 48px;
-      margin: 22px 0px 34px 0%;
+      margin: 22px 0px 34px 0px;
+      font-size: 3em;
     }
-    
+
     // Text
     #textContainer p {
       font-size: 0.85em;
@@ -140,7 +140,7 @@ const BiographyContainer = styled.section`
 
     // Button Text
     #textContainer a p {
-      font-size: 0.79em !important;
+      font-size: 0.85em;
     }
 
     // Button Image
@@ -158,13 +158,13 @@ const BiographyContainer = styled.section`
 
     // Subtitle
     #textContainer span {
-      font-size: 0.77em !important;
+      font-size: 0.825em;
     }
 
     // Title
     #textContainer h2 {
-      font-size: 46px;
       margin: 22px 0px 32px 0%;
+      font-size: 2.875em;
     }
 
     // Text
@@ -180,7 +180,7 @@ const BiographyContainer = styled.section`
 
     // Button Text
     #textContainer a p {
-      font-size: 0.77em !important;
+      font-size: 0.825em;
     }
 
     // Button Image
@@ -196,15 +196,20 @@ const BiographyContainer = styled.section`
       width: 73%;
     }
 
+    // Text Container
+    #textContainer {
+      width: 50%;
+    }
+
     // Subtitle
     #textContainer span {
-      font-size: 0.75em !important;
+      font-size: 0.806em;
     }
 
     // Title
     #textContainer h2 {
-      font-size: 44px;
       margin: 21px 0px 31px 0%;
+      font-size: 2.75em;
     }
 
     // Text
@@ -220,7 +225,7 @@ const BiographyContainer = styled.section`
 
     // Button Text
     #textContainer a p {
-      font-size: 0.75em !important;
+      font-size: 0.806em;
     }
 
     // Button Image
@@ -233,19 +238,19 @@ const BiographyContainer = styled.section`
   @media (max-width: ${breakpoints.window1624}) {
     // Text Image Container
     #textImageContainer {
-      width: 74%;
+      width: 75%;
     }
 
     // Subtitle
     #textContainer span {
-      font-size: 0.74em !important;
+      font-size: 0.788em;
       letter-spacing: 2px;
     }
 
     // Title
     #textContainer h2 {
-      font-size: 42px;
       margin: 21px 0px 29px 0%;
+      font-size: 2.625em;
     }
 
     // Text
@@ -261,7 +266,7 @@ const BiographyContainer = styled.section`
 
     // Button Text
     #textContainer a p {
-      font-size: 0.74em !important;
+      font-size: 0.788em;
       letter-spacing: 2px;
     }
 
@@ -275,18 +280,18 @@ const BiographyContainer = styled.section`
   @media (max-width: ${breakpoints.window1440}) {
     // Text Image Container
     #textImageContainer {
-      width: 76%;
+      width: 78%;
     }
 
     // Subtitle
     #textContainer span {
-      font-size: 0.73em !important;
+      font-size: 0.769em;
     }
 
     // Title
     #textContainer h2 {
-      font-size: 40px;
       margin: 21px 0px 27px 0%;
+      font-size: 2.5em;
     }
 
     // Text
@@ -302,7 +307,7 @@ const BiographyContainer = styled.section`
 
     // Button Text
     #textContainer a p {
-      font-size: 0.73em !important;
+      font-size: 0.769em;
     }
 
     // Button Image
@@ -315,18 +320,23 @@ const BiographyContainer = styled.section`
   @media (max-width: ${breakpoints.window1366}) {
     // Text Image Container
     #textImageContainer {
-      width: 78%;
+      width: 81%;
+    }
+
+    // Text Container
+    #textContainer {
+      width: 52%;
     }
 
     // Subtitle
     #textContainer span {
-      font-size: 0.72em !important;
+      font-size: 0.75em;
     }
 
     // Title
     #textContainer h2 {
-      font-size: 37px;
       margin: 20px 0px 25px 0%;
+      font-size: 2.375em;
     }
 
     // Text
@@ -342,7 +352,7 @@ const BiographyContainer = styled.section`
 
     // Button Text
     #textContainer a p {
-      font-size: 0.72em !important;
+      font-size: 0.75em;
     }
 
     // Button Image
@@ -355,18 +365,18 @@ const BiographyContainer = styled.section`
   @media (max-width: ${breakpoints.window1250}) {
     // Text Image Container
     #textImageContainer {
-      width: 80%;
+      width: 83%;
     }
 
     // Subtitle
     #textContainer span {
-      font-size: 0.71em !important;
+      font-size: 0.688em;
     }
 
     // Title
     #textContainer h2 {
-      font-size: 34px;
       margin: 18px 0px 23px 0px;
+      font-size: 2.25em;
     }
 
     // Text
@@ -382,7 +392,7 @@ const BiographyContainer = styled.section`
 
     // Button Text
     #textContainer a p {
-      font-size: 0.71em !important;
+      font-size: 0.688em;
     }
 
     // Button Image
@@ -392,6 +402,171 @@ const BiographyContainer = styled.section`
   }
 
   /* ----------- TABLET RESPONSIVE ----------- */
+
+  //1024px Tablet -----------
+  @media (max-width: ${breakpoints.tablet1024}) {
+    // Text Image Container
+    #textImageContainer {
+      width: 87%;
+      padding-top: 70px;
+    }
+
+    // Text Container
+    #textContainer {
+      width: 54%;
+    }
+
+    // Subtitle
+    #textContainer span {
+      font-size: 0.688em;
+    }
+
+    // Title
+    #textContainer h2 {
+      margin: 16px 0px 21px 0px;
+      font-size: 2.25em;
+    }
+
+    // Text
+    #textContainer p {
+      font-size: 0.688em;
+      line-height: 21px;
+    }
+
+    // Button
+    #textContainer a {
+      margin: 35px 0px 0px 0px;
+    }
+
+    // Button Text
+    #textContainer a p {
+      font-size: 0.688em;
+    }
+
+    // Button Image
+    #textContainer a img {
+      width: 22px;
+    }
+  }
+
+  //934px Tablet -----------
+  @media (max-width: ${breakpoints.tablet934}) {
+    // Text Image Container
+    #textImageContainer {
+      width: 60%;
+      padding-top: 70px;
+      display: block;
+    }
+
+    // Text Container
+    #textContainer {
+      width: 100%;
+    }
+
+    // Subtitle
+    #textContainer span {
+      font-size: 0.875em;
+    }
+
+    // Title
+    #textContainer h2 {
+      margin: 16px 0px 21px 0px;
+      font-size: 3.125em;
+    }
+
+    // Text
+    #textContainer p {
+      font-size: 0.875em;
+      line-height: 27px;
+      text-align: justify;
+    }
+
+    // Button
+    #textContainer a {
+      margin: 35px 0px 0px 0px;
+    }
+
+    // Button Text
+    #textContainer a p {
+      font-size: 0.875em;
+    }
+
+    // Button Image
+    #textContainer a img {
+      width: 29px;
+    }
+
+    // Image
+    #nhimage {
+      padding-top: 80px;
+      display: block;
+      width: 90%;
+      margin: 0 auto;
+    }
+  }
+
+  /* ----------- MOBILE RESPONSIVE ----------- */
+
+  //651px Mobile -----------
+  @media (max-width: ${breakpoints.mobile651}) {
+    // Text Image Container
+    #textImageContainer {
+      width: 80%;
+      padding-top: 82px;
+      display: block;
+    }
+
+    // Text Container
+    #textContainer {
+      width: 100%;
+    }
+
+    // Subtitle
+    #textContainer span {
+      font-size: 18px;
+      letter-spacing: 0.225em;
+    }
+
+    // Title
+    #textContainer h2 {
+      margin: 23px 0px 36px 0px;
+      font-size: 55px;
+      line-height: 54px;
+      letter-spacing: 0.05em;
+    }
+
+    // Text
+    #textContainer p {
+      font-size: 1.313em;
+      line-height: 35px;
+      letter-spacing: 0.025em;
+      text-align: left;
+    }
+
+    // Button
+    #textContainer a {
+      margin: 58px 0px 0px 0px;
+    }
+
+    // Button Text
+    #textContainer a p {
+      font-size: 18px;
+      letter-spacing: 0.225em;
+    }
+
+    // Button Image
+    #textContainer a img {
+      width: 35px;
+      max-width: 35px;
+    }
+
+    // Image
+    #nhimage {
+      padding-top: 100px;
+      display: block;
+      width: 100%;
+    }
+  }
 `;
 
 export { BiographyContainer };
