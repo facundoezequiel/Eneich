@@ -29,13 +29,11 @@ function Biography() {
             </a>
           </NextLink>
         </div>
-        <div id="imageContainer">
-          <img
-            src="images/Arco.png"
-            draggable="false"
-            alt="Foto de Nicolás Hirschfeld"
-          />
-        </div>
+        <img
+          src="images/Arco.png"
+          draggable="false"
+          alt="Foto de Nicolás Hirschfeld"
+        />
       </div>
     </BiographyContainer>
   );

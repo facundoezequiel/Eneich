@@ -2,7 +2,7 @@ import styled from "styled-components";
 import { breakpoints } from "../../constants/media";
 
 // BiographyContainer
-const BiographyContainer = styled.div`
+const BiographyContainer = styled.section`
   width: 100%;
   border-bottom: 1px #6a615a solid;
 
@@ -25,7 +25,7 @@ const BiographyContainer = styled.div`
   #textContainer span {
     color: #6a615a;
     font-family: "Pangea", sans-serif;
-    font-size: 0.8em;
+    font-size: 87.5%;
     letter-spacing: 3px;
     text-align: left;
     font-weight: 400;
@@ -40,7 +40,7 @@ const BiographyContainer = styled.div`
     font-family: "MT Dalat Sans", serif;
     font-style: normal;
     font-weight: normal;
-    font-size: 50px;
+    font-size: 1.953vw;
     letter-spacing: 0.05em;
     text-align: left;
     margin: 23px 0px 35px 0%;
@@ -51,9 +51,8 @@ const BiographyContainer = styled.div`
     color: #141414;
     font-style: normal;
     font-weight: 300;
-    font-size: 14px;
+    font-size: 0.875em;
     line-height: 27px;
-    letter-spacing: 0.045em;
     font-family: "Pangea", sans-serif;
     text-align: left;
     text-rendering: optimizeLegibility;
@@ -102,19 +101,10 @@ const BiographyContainer = styled.div`
     transform: translate(23px);
   }
 
-  // Image Container
-  #imageContainer {
-    width: 48% !important;
-    display: flex;
-    justify-content: flex-end;
-  }
-
   // Image
-  #imageContainer img {
-    width: 100%;
-    max-width: 475px;
-    padding-left: 200px;
-    display: block;
+  img {
+    width: 33%;
+    height: auto;
   }
 
   /* ----------- DESKTOP RESPONSIVE ----------- */
@@ -139,7 +129,8 @@ const BiographyContainer = styled.div`
     
     // Text
     #textContainer p {
-      letter-spacing: 0.044em;
+      font-size: 0.85em;
+      line-height: 26.5px;
     }
 
     // Button
@@ -155,11 +146,6 @@ const BiographyContainer = styled.div`
     // Button Image
     #textContainer a img {
       width: 28px;
-    }
-
-    // Image
-    #imageContainer img {
-      max-width: 450px;
     }
   }
 
@@ -183,9 +169,8 @@ const BiographyContainer = styled.div`
 
     // Text
     #textContainer p {
-      font-size: 13px;
+      font-size: 0.825em;
       line-height: 26px;
-      letter-spacing: 0.041em;
     }
 
     // Button
@@ -201,11 +186,6 @@ const BiographyContainer = styled.div`
     // Button Image
     #textContainer a img {
       width: 27px;
-    }
-
-    // Image
-    #imageContainer img {
-      max-width: 435px;
     }
   }
 
@@ -229,7 +209,8 @@ const BiographyContainer = styled.div`
 
     // Text
     #textContainer p {
-      letter-spacing: 0.037em;
+      font-size: 0.806em;
+      line-height: 25px;
     }
 
     // Button
@@ -245,11 +226,6 @@ const BiographyContainer = styled.div`
     // Button Image
     #textContainer a img {
       width: 26px;
-    }
-
-    // Image
-    #imageContainer img {
-      max-width: 415px;
     }
   }
 
@@ -274,8 +250,8 @@ const BiographyContainer = styled.div`
 
     // Text
     #textContainer p {
-      line-height: 25px;
-      letter-spacing: 0.035em;
+      font-size: 0.788em;
+      line-height: 24px;
     }
 
     // Button
@@ -293,18 +269,13 @@ const BiographyContainer = styled.div`
     #textContainer a img {
       width: 25px;
     }
-
-    // Image
-    #imageContainer img {
-      max-width: 400px;
-    }
   }
 
   //1440px Window -----------
   @media (max-width: ${breakpoints.window1440}) {
     // Text Image Container
     #textImageContainer {
-      width: 75%;
+      width: 76%;
     }
 
     // Subtitle
@@ -320,8 +291,8 @@ const BiographyContainer = styled.div`
 
     // Text
     #textContainer p {
-      font-size: 12px;
-      letter-spacing: 0.033em;
+      font-size: 0.769em;
+      line-height: 23px;
     }
 
     // Button
@@ -338,18 +309,13 @@ const BiographyContainer = styled.div`
     #textContainer a img {
       width: 24px;
     }
-
-    // Image
-    #imageContainer img {
-      max-width: 390px;
-    }
   }
 
   //1366px Window -----------
   @media (max-width: ${breakpoints.window1366}) {
     // Text Image Container
     #textImageContainer {
-      width: 76%;
+      width: 78%;
     }
 
     // Subtitle
@@ -365,8 +331,8 @@ const BiographyContainer = styled.div`
 
     // Text
     #textContainer p {
-      line-height: 24px;
-      letter-spacing: 0.03em;
+      font-size: 0.75em;
+      line-height: 22px;
     }
 
     // Button
@@ -383,18 +349,13 @@ const BiographyContainer = styled.div`
     #textContainer a img {
       width: 23px;
     }
-
-    // Image
-    #imageContainer img {
-      max-width: 375px;
-    }
   }
 
   //1250px Window -----------
   @media (max-width: ${breakpoints.window1250}) {
     // Text Image Container
     #textImageContainer {
-      width: 77%;
+      width: 80%;
     }
 
     // Subtitle
@@ -410,9 +371,8 @@ const BiographyContainer = styled.div`
 
     // Text
     #textContainer p {
-      font-size: 11px;
-      line-height: 23px;
-      letter-spacing: 0.025em;
+      font-size: 0.688em;
+      line-height: 21px;
     }
 
     // Button
@@ -428,11 +388,6 @@ const BiographyContainer = styled.div`
     // Button Image
     #textContainer a img {
       width: 22px;
-    }
-
-    // Image
-    #imageContainer img {
-      max-width: 355px;
     }
   }
 
