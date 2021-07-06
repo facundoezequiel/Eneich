@@ -13,7 +13,7 @@ function Platforms() {
         <p>ESCUCHAME EN</p>
         {/* Buttons Container */}
         <div id="buttonsContainer">
-        <hr/>
+        <hr></hr>
           {/* YouTube Button */}
           <NextLink href="https://open.spotify.com/artist/4HcGE8imaEVi1n65PyFNwJ?si=hAIcY84uRteJygH0u9Pjog&dl_branch=1">
             <a target="blank" id="youtubeLogo" className="leftButtonMobile">
@@ -34,7 +34,7 @@ function Platforms() {
               />
             </a>
           </NextLink>
-          <hr/>
+          <hr></hr>
           {/* MixCloud Button */}
           <NextLink href="mailto:gandinimusic@gmail.com">
             <a target="blank" id="mixcloudLogo" className="leftButtonMobile">
@@ -55,7 +55,7 @@ function Platforms() {
               />
             </a>
           </NextLink>
-          <hr/>
+          <hr></hr>
           {/* Soundcloud Button */}
           <NextLink href="mailto:gandinimusic@gmail.com">
             <a

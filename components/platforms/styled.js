@@ -12,7 +12,7 @@ const PlatformsContainer = styled.section`
     text-align: center;
     font-style: normal;
     font-weight: 300;
-    font-size: 15px;
+    font-size: 1em;
     color: var(--nhblack);
     letter-spacing: 0.425em;
     font-family: "Pangea", sans-serif;
@@ -83,6 +83,11 @@ const PlatformsContainer = styled.section`
 
   //1860px Window -----------
   @media (max-width: ${breakpoints.window1860}) {
+    // Title
+    p {
+      font-size: 0.95em;
+    }
+
     // Buttons Container
     #buttonsContainer {
       width: 71%;
@@ -91,6 +96,11 @@ const PlatformsContainer = styled.section`
 
   //1750px Window -----------
   @media (max-width: ${breakpoints.window1750}) {
+    // Title
+    p {
+      font-size: 0.9em;
+    }
+
     // Buttons Container
     #buttonsContainer {
       width: 72%;
@@ -115,6 +125,11 @@ const PlatformsContainer = styled.section`
 
   //1710px Window -----------
   @media (max-width: ${breakpoints.window1710}) {
+    // Title
+    p {
+      font-size: 0.87em;
+    }
+
     // Buttons Container
     #buttonsContainer {
       width: 73%;
@@ -123,6 +138,11 @@ const PlatformsContainer = styled.section`
 
   //1624px Window -----------
   @media (max-width: ${breakpoints.window1624}) {
+    // Title
+    p {
+      font-size: 0.84em;
+    }
+
     // Buttons Container
     #buttonsContainer {
       width: 75%;
@@ -147,6 +167,11 @@ const PlatformsContainer = styled.section`
 
   //1440px Window -----------
   @media (max-width: ${breakpoints.window1440}) {
+    // Title
+    p {
+      font-size: 0.81em;
+    }
+
     // Buttons Container
     #buttonsContainer {
       width: 78%;
@@ -172,6 +197,11 @@ const PlatformsContainer = styled.section`
   //1366px Window -----------
   //Estandar
   @media (max-width: ${breakpoints.window1366}) {
+    // Title
+    p {
+      font-size: 0.79em;
+    }
+
     // Buttons Container
     #buttonsContainer {
       width: 81%;
@@ -196,6 +226,11 @@ const PlatformsContainer = styled.section`
 
   //1250px Window -----------
   @media (max-width: ${breakpoints.window1250}) {
+    // Title
+    p {
+      font-size: 0.77em;
+    }
+
     // Buttons Container
     #buttonsContainer {
       width: 83%;
@@ -223,6 +258,11 @@ const PlatformsContainer = styled.section`
   //1024px Tablet -----------
   //iPad Pro
   @media (max-width: ${breakpoints.tablet1024}) {
+    // Title
+    p {
+      font-size: 0.77em;
+    }
+
     // Buttons Container
     #buttonsContainer {
       width: 87%;
@@ -252,6 +292,7 @@ const PlatformsContainer = styled.section`
 
     // Title
     p {
+      font-size: 0.875em;
       margin-bottom: 60px;
     }
 
@@ -328,6 +369,11 @@ const PlatformsContainer = styled.section`
 
   //651px Mobile -----------
   @media (max-width: ${breakpoints.mobile651}) {
+    // Title
+    p {
+      font-size: 1em;
+    }
+
     // Buttons Container
     #buttonsContainer {
       width: 100%;
@@ -354,11 +400,20 @@ const PlatformsContainer = styled.section`
 
   //550px Mobile -----------
   @media (max-width: ${breakpoints.mobile550}) {
+    // Title
+    p {
+      font-size: 0.95em;
+    }
   }
 
   //414px Mobile -----------
   //iPhone 6 7 8 Plus
   @media (max-width: ${breakpoints.mobile414}) {
+    // Title
+    p {
+      font-size: 0.9em;
+    }
+
     // Buttons Logo image
     img {
       width: 7.5rem;
@@ -379,6 +434,11 @@ const PlatformsContainer = styled.section`
   //375px Mobile -----------
   //iPhone X
   @media (max-width: ${breakpoints.mobile375}) {
+    // Title
+    p {
+      font-size: 0.8em;
+    }
+
     // Buttons Logo image
     img {
       width: 7rem;
@@ -399,11 +459,20 @@ const PlatformsContainer = styled.section`
   //360px Mobile -----------
   //Moto G4
   @media (max-width: ${breakpoints.mobile360}) {
+    // Title
+    p {
+      font-size: 0.77em;
+    }
   }
 
   //320px Mobile -----------
   //iPhone 5 SE
   @media (max-width: ${breakpoints.mobile320}) {
+    // Title
+    p {
+      font-size: 0.75em;
+    }
+
     // Buttons Logo image
     img {
       width: 6rem;
@@ -424,7 +493,10 @@ const PlatformsContainer = styled.section`
   //280px Mobile -----------
   //Galaxy Fold
   @media (max-width: ${breakpoints.mobile280}) {
-
+    // Title
+    p {
+      font-size: 0.7em;
+    }
   }
 `;
 
