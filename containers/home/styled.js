@@ -1,14 +1,17 @@
 import styled from "styled-components";
 import { breakpoints } from "../../constants/media";
 
+// Home Container
 const HomeContainer = styled.section`
   width: 100%;
   background-color: #edeae2;
 
-  #bioraphyPlatformsSection {
+  // Biography and Platforms Container
+  #biographyPlatformsSection {
     width: 100%;
   }
 
+  // Image Container
   #fristElement {
     display: flex;
     position: relative;
@@ -109,13 +112,76 @@ const HomeContainer = styled.section`
 
   /* ----------- MOBILE RESPONSIVE ----------- */
 
-  //651px Tablet -----------
+  //651px Mobile -----------
   @media (max-width: ${breakpoints.mobile651}) {
     // Image
     #fristElement img {
-      max-width: 800px;
+      max-width: 530px;
       width: 530px;
-      padding-top: 940px;
+      padding-top: 800px;
+    }
+  }
+
+  //550px Mobile -----------
+  @media (max-width: ${breakpoints.mobile550}) {
+    // Image
+    #fristElement img {
+      max-width: 450px;
+      width: 450px;
+      padding-top: 870px;
+    }
+  }
+
+  //414px Mobile -----------
+  // iPhone 6 7 8 Plus
+  @media (max-width: ${breakpoints.mobile414}) {
+    // Image
+    #fristElement img {
+      max-width: 360px;
+      width: 360px;
+      padding-top: 760px;
+    }
+  }
+
+  //375px Mobile -----------
+  // iPhone x
+  @media (max-width: ${breakpoints.mobile375}) {
+    // Image
+    #fristElement img {
+      max-width: 330px;
+      width: 330px;
+    }
+  }
+
+  //360px Mobile -----------
+  // Moto G4
+  @media (max-width: ${breakpoints.mobile360}) {
+    // Image
+    #fristElement img {
+      max-width: 320px;
+      width: 320px;
+      padding-top: 780px;
+    }
+  }
+
+  //320px Mobile -----------
+  // IPhone 5 SE
+  @media (max-width: ${breakpoints.mobile320}) {
+    // Image
+    #fristElement img {
+      max-width: 270px;
+      width: 270px;
+    }
+  }
+
+  //280px Mobile -----------
+  // Galaxy Fold
+  @media (max-width: ${breakpoints.mobile280}) {
+    // Image
+    #fristElement img {
+      max-width: 240px;
+      width: 240px;
+      padding-top: 690px;
     }
   }
 `;

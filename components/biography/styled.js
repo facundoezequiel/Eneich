@@ -447,6 +447,11 @@ const BiographyContainer = styled.section`
     #textContainer a img {
       width: 22px;
     }
+
+    // Button Hover
+    #textContainer a:hover > img {
+      transform: translate(0px);
+    }
   }
 
   //934px Tablet -----------
@@ -523,21 +528,21 @@ const BiographyContainer = styled.section`
 
     // Subtitle
     #textContainer span {
-      font-size: 18px;
+      font-size: 1em;
       letter-spacing: 0.225em;
     }
 
     // Title
     #textContainer h2 {
       margin: 23px 0px 36px 0px;
-      font-size: 55px;
+      font-size: 40px;
       line-height: 54px;
       letter-spacing: 0.05em;
     }
 
     // Text
     #textContainer p {
-      font-size: 1.313em;
+      font-size: 1em;
       line-height: 35px;
       letter-spacing: 0.025em;
       text-align: left;
@@ -550,7 +555,7 @@ const BiographyContainer = styled.section`
 
     // Button Text
     #textContainer a p {
-      font-size: 18px;
+      font-size: 16px;
       letter-spacing: 0.225em;
     }
 
@@ -565,6 +570,181 @@ const BiographyContainer = styled.section`
       padding-top: 100px;
       display: block;
       width: 100%;
+    }
+  }
+
+  //414px Mobile -----------
+  // iPhone 6 7 8 Plus
+  @media (max-width: ${breakpoints.mobile414}) {
+    // Text Image Container
+    #textImageContainer {
+      padding-top: 60px;
+    }
+
+    // Subtitle
+    #textContainer span {
+      font-size: 0.9em;
+    }
+
+    // Title
+    #textContainer h2 {
+      margin: 23px 0px 23px 0px;
+      font-size: 37px;
+    }
+
+    // Text
+    #textContainer p {
+      font-size: 0.9em;
+      line-height: 28px;
+    }
+
+    // Button
+    #textContainer a {
+      margin: 40px 0px 0px 0px;
+    }
+
+    // Button Text
+    #textContainer a p {
+      font-size: 0.9em;
+    }
+
+    // Button Image
+    #textContainer a img {
+      width: 32px;
+      max-width: 32px;
+    }
+
+    // Image
+    #nhimage {
+      padding-top: 80px;
+    }
+  }
+
+  //375px Mobile -----------
+  // iPhone X
+  @media (max-width: ${breakpoints.mobile375}) {
+    // Subtitle
+    #textContainer span {
+      font-size: 0.8em;
+    }
+
+    // Title
+    #textContainer h2 {
+      font-size: 34px;
+    }
+
+    // Text
+    #textContainer p {
+      font-size: 0.85em;
+    }
+
+    // Button Text
+    #textContainer a p {
+      font-size: 0.8em;
+    }
+
+    // Button Image
+    #textContainer a img {
+      width: 30px;
+      max-width: 30px;
+    }
+
+    // Image
+    #nhimage {
+      padding-top: 75px;
+    }
+  }
+
+  //320px Mobile -----------
+  // iPhone 5 SE
+  @media (max-width: ${breakpoints.mobile320}) {
+    // Text Image Container
+    #textImageContainer {
+      padding-top: 50px;
+    }
+
+    // Subtitle
+    #textContainer span {
+      font-size: 0.75em;
+    }
+
+    // Title
+    #textContainer h2 {
+      font-size: 28px;
+      margin: 15px 0px 15px 0px;
+    }
+
+    // Text
+    #textContainer p {
+      font-size: 0.8em;
+    }
+
+    // Button
+    #textContainer a {
+      margin: 30px 0px 0px 0px;
+    }
+
+    // Button Text
+    #textContainer a p {
+      font-size: 0.75em;
+    }
+
+    // Button Image
+    #textContainer a img {
+      width: 27px;
+      max-width: 27px;
+    }
+
+    // Image
+    #nhimage {
+      padding-top: 55px;
+    }
+  }
+
+  //280px Mobile -----------
+  // Galaxy Fold
+  @media (max-width: ${breakpoints.mobile280}) {
+    // Text Image Container
+    #textImageContainer {
+      padding-top: 40px;
+    }
+
+    // Subtitle
+    #textContainer span {
+      font-size: 0.7em;
+    }
+
+    // Title
+    #textContainer h2 {
+      font-size: 26px;
+      margin: 10px 0px 10px 0px;
+    }
+
+    // Text
+    #textContainer p {
+      font-size: 0.75em;
+      line-height: 24px;
+    }
+
+    // Button
+    #textContainer a {
+      margin: 30px 0px 0px 0px;
+    }
+
+    // Button Text
+    #textContainer a p {
+      font-size: 0.7em;
+    }
+
+    // Button Image
+    #textContainer a img {
+      width: 24px;
+      max-width: 24px;
+    }
+
+    // Image
+    #nhimage {
+      padding-top: 50px;
     }
   }
 `;
