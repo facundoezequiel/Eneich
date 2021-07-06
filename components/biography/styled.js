@@ -317,6 +317,7 @@ const BiographyContainer = styled.section`
   }
 
   //1366px Window -----------
+  //Estandar
   @media (max-width: ${breakpoints.window1366}) {
     // Text Image Container
     #textImageContainer {
@@ -404,6 +405,7 @@ const BiographyContainer = styled.section`
   /* ----------- TABLET RESPONSIVE ----------- */
 
   //1024px Tablet -----------
+  //iPad Pro
   @media (max-width: ${breakpoints.tablet1024}) {
     // Text Image Container
     #textImageContainer {
@@ -574,7 +576,7 @@ const BiographyContainer = styled.section`
   }
 
   //414px Mobile -----------
-  // iPhone 6 7 8 Plus
+  //iPhone 6 7 8 Plus
   @media (max-width: ${breakpoints.mobile414}) {
     // Text Image Container
     #textImageContainer {
@@ -621,7 +623,7 @@ const BiographyContainer = styled.section`
   }
 
   //375px Mobile -----------
-  // iPhone X
+  //iPhone X
   @media (max-width: ${breakpoints.mobile375}) {
     // Subtitle
     #textContainer span {
@@ -656,7 +658,7 @@ const BiographyContainer = styled.section`
   }
 
   //320px Mobile -----------
-  // iPhone 5 SE
+  //iPhone 5 SE
   @media (max-width: ${breakpoints.mobile320}) {
     // Text Image Container
     #textImageContainer {
@@ -702,7 +704,7 @@ const BiographyContainer = styled.section`
   }
 
   //280px Mobile -----------
-  // Galaxy Fold
+  //Galaxy Fold
   @media (max-width: ${breakpoints.mobile280}) {
     // Text Image Container
     #textImageContainer {

@@ -13,64 +13,61 @@ function Platforms() {
         <p>ESCUCHAME EN</p>
         {/* Buttons Container */}
         <div id="buttonsContainer">
+        <hr/>
           {/* YouTube Button */}
           <NextLink href="https://open.spotify.com/artist/4HcGE8imaEVi1n65PyFNwJ?si=hAIcY84uRteJygH0u9Pjog&dl_branch=1">
-            <a target="blank">
-              <div className="imgContainer">
-                <img
-                  src="images/logos/YouTubeLogo.svg"
-                  draggable="false"
-                  alt="You Tube Logo"
-                />
-              </div>
+            <a target="blank" id="youtubeLogo" className="leftButtonMobile">
+              <img
+                src="images/logos/YouTubeLogo.svg"
+                draggable="false"
+                alt="You Tube Logo"
+              />
             </a>
           </NextLink>
           {/* Spotify Button */}
           <NextLink href="https://open.spotify.com/artist/4HcGE8imaEVi1n65PyFNwJ?si=hAIcY84uRteJygH0u9Pjog&dl_branch=1">
-            <a target="blank">
-              <div className="imgContainer">
-                <img
-                  src="images/logos/SpotifyLogo.svg"
-                  draggable="false"
-                  alt="Spotify Logo"
-                />
-              </div>
+            <a target="blank" id="spotifyLogo" className="rightButtonMobile">
+              <img
+                src="images/logos/SpotifyLogo.svg"
+                draggable="false"
+                alt="Spotify Logo"
+              />
             </a>
           </NextLink>
+          <hr/>
           {/* MixCloud Button */}
           <NextLink href="mailto:gandinimusic@gmail.com">
-            <a target="blank">
-              <div className="imgContainer">
-                <img
-                  src="images/logos/MixCloudLogo.svg"
-                  draggable="false"
-                  alt="Mix Cloud Logo"
-                />
-              </div>
+            <a target="blank" id="mixcloudLogo" className="leftButtonMobile">
+              <img
+                src="images/logos/MixCloudLogo.svg"
+                draggable="false"
+                alt="Mix Cloud Logo"
+              />
             </a>
           </NextLink>
           {/* Beatport Button */}
           <NextLink href="mailto:gandinimusic@gmail.com">
-            <a target="blank">
-              <div className="imgContainer">
-                <img
-                  src="images/logos/BeatportLogo.svg"
-                  draggable="false"
-                  alt="Beatport Logo"
-                />
-              </div>
+            <a target="blank" id="beatportLogo" className="rightButtonMobile">
+              <img
+                src="images/logos/BeatportLogo.svg"
+                draggable="false"
+                alt="Beatport Logo"
+              />
             </a>
           </NextLink>
+          <hr/>
           {/* Soundcloud Button */}
           <NextLink href="mailto:gandinimusic@gmail.com">
-            <a target="blank">
-              <div className="imgContainer">
-                <img
-                  src="images/logos/SoundcloudLogo.svg"
-                  draggable="false"
-                  alt="SoundCloud Logo"
-                />
-              </div>
+            <a
+              target="blank"
+              id="soundcloudLogo"
+              className="centerButtonMobile"
+            >
+              <img
+                src="images/logos/SoundcloudLogo.svg"
+                draggable="false"
+                alt="SoundCloud Logo"
+              />
             </a>
           </NextLink>
         </div>
