@@ -74,9 +74,11 @@ const PlatformsContainer = styled.section`
     width: 14rem;
   }
 
-  // Buttons Hover
-  a:hover {
-    transform: scale(1.1);
+  // Hover Effects
+  @media (hover: hover) {
+    a:hover {
+      transform: scale(1.1);
+    }
   }
 
   /* ----------- DESKTOP RESPONSIVE ----------- */
@@ -357,11 +359,6 @@ const PlatformsContainer = styled.section`
     // Soundcloud Logo
     #soundcloudLogo img {
       width: 11rem;
-    }
-
-    // Buttons Hover
-    a:hover {
-      transform: scale(1);
     }
   }
 

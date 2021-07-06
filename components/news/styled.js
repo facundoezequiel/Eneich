@@ -6,7 +6,7 @@ const NewsContainer = styled.div`
   .ticker {
     position: relative;
     overflow: hidden;
-    background-color: #6a615a;
+    background-color: var(--nhdarkgray);
     -moz-user-select: none; /* Firefox */
     -ms-user-select: none; /* Internet Explorer */
     -khtml-user-select: none; /* KHTML browsers (e.g. Konqueror) */
@@ -25,7 +25,7 @@ const NewsContainer = styled.div`
   // Text
   .ticker__element p {
     margin-right: 70px;
-    color: #edeae2;
+    color: var(--nhwhite);
     font-family: "Pangea", sans-serif;
     font-size: 0.9em;
     letter-spacing: 0.5px;

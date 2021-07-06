@@ -96,15 +96,18 @@ const BiographyContainer = styled.section`
     padding-bottom: 2px;
   }
 
-  // Button Hover
-  #textContainer a:hover > img {
-    transform: translate(23px);
-  }
-
   // Image
   #nhimage {
     width: 33%;
     height: auto;
+  }
+
+  // Hover Effects
+  @media (hover: hover) {
+    // Button Hover
+    #textContainer a:hover > img {
+      transform: translate(23px);
+    }
   }
 
   /* ----------- DESKTOP RESPONSIVE ----------- */
@@ -448,11 +451,6 @@ const BiographyContainer = styled.section`
     // Button Image
     #textContainer a img {
       width: 22px;
-    }
-
-    // Button Hover
-    #textContainer a:hover > img {
-      transform: translate(0px);
     }
   }
 
