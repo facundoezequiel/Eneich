@@ -1,10 +1,9 @@
 import styled from "styled-components";
 
 const MouseAnimationContainer = styled.div`
-  width: 100%;
+  width: 45px;
   display: flex;
   justify-content: flex-start;
-  margin-top: 5%;
 
   div {
       margin: 0 !important;

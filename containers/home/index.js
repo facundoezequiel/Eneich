@@ -15,8 +15,8 @@ function Home() {
     <HomeContainer>
       {/* Header */}
       <Header />
-      {/* Introduction Section
-      <Introduction /> */}
+      {/* Introduction Section  */}
+      <Introduction />
       {/* News Section */}
       <News />
       <div id="bioraphyPlatformsSection">
@@ -34,10 +34,10 @@ function Home() {
           <Platforms />
         </Fade>
       </div>
-      {/* Video Section */}
+      {/* Video Section 
       <Fade duration={1800}>
         <Video />
-      </Fade>
+      </Fade> */}
       {/* Contact Section */}
       <Contact />
       {/* News Section */}

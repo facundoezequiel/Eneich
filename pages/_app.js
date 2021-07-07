@@ -1,6 +1,5 @@
 import React from "react";
 import Head from "next/head";
-import Link from "next/link";
 import GlobalStyles from "../constants/globalStyles";
 import "@fortawesome/fontawesome-svg-core/styles.css";
 
