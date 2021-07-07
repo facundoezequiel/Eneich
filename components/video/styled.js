@@ -39,6 +39,16 @@ const VideoContainer = styled.div`
     z-index: 99 !important;
   }
 
+  #imageContainer img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 18px 18px 18px 18px;
+    -moz-border-radius: 18px 18px 18px 18px;
+    -webkit-border-radius: 18px 18px 18px 18px;
+    border: 0px solid #000000;
+  }
+
   // Text Container
   #textContainer {
     padding-left: 50px;
@@ -115,8 +125,11 @@ const VideoContainer = styled.div`
     padding-bottom: 2px;
   }
 
-  #textContainer button:hover > img {
-    transform: translate(23px);
+  // Hover Effects
+  @media (hover: hover) {
+    #textContainer button:hover > img {
+      transform: translate(23px);
+    }
   }
 `;
 

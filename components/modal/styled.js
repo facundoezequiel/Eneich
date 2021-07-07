@@ -42,8 +42,11 @@ const ModalContainer = styled.div`
     transition: all 0.2s ease-out;
   }
 
-  #windowModal a:hover {
-    transform: scale(1.3);
+  // Hover Effects
+  @media (hover: hover) {
+    #windowModal a:hover {
+      transform: scale(1.3);
+    }
   }
 
   // Ifram Container

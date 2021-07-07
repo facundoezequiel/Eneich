@@ -2,8 +2,6 @@ import React from "react";
 import Head from "next/head";
 import Link from "next/link";
 import GlobalStyles from "../constants/globalStyles";
-import "tippy.js/dist/tippy.css";
-import "tippy.js/animations/scale.css";
 import "@fortawesome/fontawesome-svg-core/styles.css";
 
 function MyApp({ Component, pageProps }) {

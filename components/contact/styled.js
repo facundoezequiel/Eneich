@@ -38,10 +38,6 @@ const ContactContainer = styled.div`
     transition: 0.2s ease-out;
   }
 
-  a:hover::before {
-    height: 0%;
-  }
-
   span {
     color: #6a615a;
     position: relative;
@@ -51,14 +47,21 @@ const ContactContainer = styled.div`
     height: 100%;
   }
 
-  a:hover > span {
-    color: #edeae2;
-    display: block;
-    transform: scale(1.1);
-  }
+  // Hover Effects
+  @media (hover: hover) {
+    a:hover::before {
+      height: 0%;
+    }
 
-  a:hover > #facebookIcon {
-    transform: scale(1);
+    a:hover > span {
+      color: #edeae2;
+      display: block;
+      transform: scale(1.1);
+    }
+
+    a:hover > #facebookIcon {
+      transform: scale(1);
+    }
   }
 
   .buttonBorder {

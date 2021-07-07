@@ -4,12 +4,13 @@ import VideoPlayer from "../../components/player";
 import Modal from "../modal";
 
 function Video() {
+  // Modal States
   const [showModal, setShowModal] = useState(false);
 
   // Block scroll when the modal is open
-  /* if (showModal == true) {
+  if (showModal == true) {
     document.body.style.overflow = "hidden";
-  } */
+  }
 
   return (
     {
@@ -31,7 +32,6 @@ function Video() {
         <div id="textImageContainer">
           {/* Image Container */}
           <div id="imageContainer">
-            
           </div>
           {/* Title and text Container */}
           <div id="textContainer">

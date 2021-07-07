@@ -6,11 +6,9 @@ import { faTimes } from "@fortawesome/free-solid-svg-icons";
 
 const Modal = ({ show, onClose, children }) => {
   const [isBrowser, setIsBrowser] = useState(false);
-
   useEffect(() => {
     setIsBrowser(true);
   }, []);
-
   {
     /* Close Modal Function */
   }
@@ -19,7 +17,6 @@ const Modal = ({ show, onClose, children }) => {
     onClose();
     document.body.style.overflow = "unset";
   };
-
   const modalContent = show
     ? ({
         /* Modal */
@@ -43,7 +40,6 @@ const Modal = ({ show, onClose, children }) => {
         </ModalContainer>
       ))
     : null;
-
   if (isBrowser) {
     return ReactDOM.createPortal(
       modalContent,

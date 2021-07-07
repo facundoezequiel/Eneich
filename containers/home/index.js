@@ -21,7 +21,7 @@ function Home() {
       <News />
       <div id="bioraphyPlatformsSection">
         <div id="fristElement">
-          <Fade duration={1800}>
+          <Fade duration={2800}>
             <img src="images/elements/circle.svg" draggable="false" />
           </Fade>
         </div>
@@ -34,10 +34,10 @@ function Home() {
           <Platforms />
         </Fade>
       </div>
-      {/* Video Section
+      {/* Video Section */}
       <Fade duration={1800}>
         <Video />
-      </Fade> */}
+      </Fade>
       {/* Contact Section */}
       <Contact />
       {/* News Section */}
