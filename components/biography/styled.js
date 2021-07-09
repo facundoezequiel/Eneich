@@ -1,24 +1,19 @@
 import styled from "styled-components";
 import { breakpoints } from "../../constants/media";
 
-// BiographyContainer
+// Biography Container
 const BiographyContainer = styled.section`
   width: 100%;
+  padding: 112px 0px 0px 0px;
   border-bottom: 1px var(--nhdarkgray) solid;
 
   // Text Image Container
   #textImageContainer {
-    width: 70%;
+    width: 100%;
     max-width: 1344px;
-    padding-top: 112px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
-  }
-
-  // Text Container
-  #textContainer {
-    width: 48%;
   }
 
   // Subtitle
@@ -40,7 +35,7 @@ const BiographyContainer = styled.section`
     font-family: "MT Dalat Sans", serif;
     font-style: normal;
     font-weight: normal;
-    font-size: 3.125em;
+    font-size: 3em;
     letter-spacing: 0.05em;
     text-align: left;
     margin: 23px 0px 35px 0px;
@@ -51,8 +46,8 @@ const BiographyContainer = styled.section`
     color: var(--nhblack);
     font-style: normal;
     font-weight: 300;
-    font-size: 0.875em;
-    line-height: 27px;
+    font-size: 0.938em;
+    line-height: 180%;
     font-family: "Pangea", sans-serif;
     text-align: left;
     text-rendering: optimizeLegibility;
@@ -98,8 +93,10 @@ const BiographyContainer = styled.section`
 
   // Image
   #nhimage {
+    margin-left: 19%;
     width: 33%;
     height: auto;
+    display: block;
   }
 
   // Hover Effects
@@ -112,296 +109,64 @@ const BiographyContainer = styled.section`
 
   /* ----------- DESKTOP RESPONSIVE ----------- */
 
-  //1860px Window -----------
-  @media (max-width: ${breakpoints.window1860}) {
-    // Text Image Container
-    #textImageContainer {
-      width: 71%;
-    }
-
-    // Subtitle
-    #textContainer span {
-      font-size: 0.85em;
-    }
-
-    // Title
-    #textContainer h2 {
-      margin: 22px 0px 34px 0px;
-      font-size: 3em;
-    }
-
-    // Text
-    #textContainer p {
-      font-size: 0.85em;
-      line-height: 26.5px;
-    }
-
-    // Button
-    #textContainer a {
-      margin: 56px 0px 0px 0px;
-    }
-
-    // Button Text
-    #textContainer a p {
-      font-size: 0.85em;
-    }
-
-    // Button Image
-    #textContainer a img {
-      width: 28px;
-    }
-  }
-
-  //1750px Window -----------
-  @media (max-width: ${breakpoints.window1750}) {
-    // Text Image Container
-    #textImageContainer {
-      width: 72%;
-    }
-
-    // Subtitle
-    #textContainer span {
-      font-size: 0.825em;
-    }
-
-    // Title
-    #textContainer h2 {
-      margin: 22px 0px 32px 0%;
-      font-size: 2.875em;
-    }
-
-    // Text
-    #textContainer p {
-      font-size: 0.825em;
-      line-height: 26px;
-    }
-
-    // Button
-    #textContainer a {
-      margin: 52px 0px 0px 0px;
-    }
-
-    // Button Text
-    #textContainer a p {
-      font-size: 0.825em;
-    }
-
-    // Button Image
-    #textContainer a img {
-      width: 27px;
-    }
-  }
-
-  //1710px Window -----------
-  @media (max-width: ${breakpoints.window1710}) {
-    // Text Image Container
-    #textImageContainer {
-      width: 73%;
-    }
-
-    // Text Container
-    #textContainer {
-      width: 50%;
-    }
-
-    // Subtitle
-    #textContainer span {
-      font-size: 0.806em;
-    }
-
-    // Title
-    #textContainer h2 {
-      margin: 21px 0px 31px 0%;
-      font-size: 2.75em;
-    }
-
-    // Text
-    #textContainer p {
-      font-size: 0.806em;
-      line-height: 25px;
-    }
-
-    // Button
-    #textContainer a {
-      margin: 49px 0px 0px 0px;
-    }
-
-    // Button Text
-    #textContainer a p {
-      font-size: 0.806em;
-    }
-
-    // Button Image
-    #textContainer a img {
-      width: 26px;
-    }
-  }
-
   //1624px Window -----------
   @media (max-width: ${breakpoints.window1624}) {
     // Text Image Container
     #textImageContainer {
-      width: 75%;
+      max-width: 1200px;
     }
 
-    // Subtitle
-    #textContainer span {
-      font-size: 0.788em;
-      letter-spacing: 2px;
-    }
-
-    // Title
-    #textContainer h2 {
-      margin: 21px 0px 29px 0%;
-      font-size: 2.625em;
-    }
-
-    // Text
-    #textContainer p {
-      font-size: 0.788em;
-      line-height: 24px;
-    }
-
-    // Button
-    #textContainer a {
-      margin: 46px 0px 0px 0px;
-    }
-
-    // Button Text
-    #textContainer a p {
-      font-size: 0.788em;
-      letter-spacing: 2px;
-    }
-
-    // Button Image
-    #textContainer a img {
-      width: 25px;
-    }
-  }
-
-  //1440px Window -----------
-  @media (max-width: ${breakpoints.window1440}) {
-    // Text Image Container
-    #textImageContainer {
-      width: 78%;
-    }
-
-    // Subtitle
-    #textContainer span {
-      font-size: 0.769em;
-    }
-
-    // Title
-    #textContainer h2 {
-      margin: 21px 0px 27px 0%;
-      font-size: 2.5em;
-    }
-
-    // Text
-    #textContainer p {
-      font-size: 0.769em;
-      line-height: 23px;
-    }
-
-    // Button
-    #textContainer a {
-      margin: 43px 0px 0px 0px;
-    }
-
-    // Button Text
-    #textContainer a p {
-      font-size: 0.769em;
-    }
-
-    // Button Image
-    #textContainer a img {
-      width: 24px;
+    // Image
+    #nhimage {
+      margin-left: 15%;
     }
   }
 
   //1366px Window -----------
   //Estandar
   @media (max-width: ${breakpoints.window1366}) {
+    // Biography Container
+    padding: 80px 0px 0px 0px;
+
     // Text Image Container
     #textImageContainer {
-      width: 81%;
+      max-width: 1080px;
     }
 
-    // Text Container
-    #textContainer {
-      width: 52%;
-    }
-
-    // Subtitle
-    #textContainer span {
-      font-size: 0.75em;
-    }
-
-    // Title
-    #textContainer h2 {
-      margin: 20px 0px 25px 0%;
-      font-size: 2.375em;
-    }
-
-    // Text
-    #textContainer p {
-      font-size: 0.75em;
-      line-height: 22px;
-    }
-
-    // Button
-    #textContainer a {
-      margin: 40px 0px 0px 0px;
-    }
-
-    // Button Text
-    #textContainer a p {
-      font-size: 0.75em;
-    }
-
-    // Button Image
-    #textContainer a img {
-      width: 23px;
+    // Image
+    #nhimage {
+      margin-left: 10%;
     }
   }
 
   //1250px Window -----------
   @media (max-width: ${breakpoints.window1250}) {
+    // Biography Container
+    padding: 40px 0px 0px 0px;
+
     // Text Image Container
     #textImageContainer {
-      width: 83%;
+      max-width: 950px;
     }
 
     // Subtitle
     #textContainer span {
-      font-size: 0.688em;
+      font-size: 0.813em;
     }
 
     // Title
     #textContainer h2 {
-      margin: 18px 0px 23px 0px;
-      font-size: 2.25em;
+      font-size: 2.5em;
     }
 
     // Text
     #textContainer p {
-      font-size: 0.688em;
-      line-height: 21px;
-    }
-
-    // Button
-    #textContainer a {
-      margin: 37px 0px 0px 0px;
+      font-size: 0.875em;
     }
 
     // Button Text
     #textContainer a p {
-      font-size: 0.688em;
-    }
-
-    // Button Image
-    #textContainer a img {
-      width: 22px;
+      font-size: 0.813em;
     }
   }
 
@@ -410,56 +175,12 @@ const BiographyContainer = styled.section`
   //1024px Tablet -----------
   //iPad Pro
   @media (max-width: ${breakpoints.tablet1024}) {
+    // Biography Container
+    padding: 80px 0px 0px 0px;
+
     // Text Image Container
     #textImageContainer {
-      width: 87%;
-      padding-top: 70px;
-    }
-
-    // Text Container
-    #textContainer {
-      width: 54%;
-    }
-
-    // Subtitle
-    #textContainer span {
-      font-size: 0.688em;
-    }
-
-    // Title
-    #textContainer h2 {
-      margin: 16px 0px 21px 0px;
-      font-size: 2.25em;
-    }
-
-    // Text
-    #textContainer p {
-      font-size: 0.688em;
-      line-height: 21px;
-    }
-
-    // Button
-    #textContainer a {
-      margin: 35px 0px 0px 0px;
-    }
-
-    // Button Text
-    #textContainer a p {
-      font-size: 0.688em;
-    }
-
-    // Button Image
-    #textContainer a img {
-      width: 22px;
-    }
-  }
-
-  //934px Tablet -----------
-  @media (max-width: ${breakpoints.tablet934}) {
-    // Text Image Container
-    #textImageContainer {
-      width: 60%;
-      padding-top: 70px;
+      max-width: 700px;
       display: block;
     }
 
@@ -468,45 +189,45 @@ const BiographyContainer = styled.section`
       width: 100%;
     }
 
-    // Subtitle
-    #textContainer span {
-      font-size: 0.875em;
-    }
-
-    // Title
-    #textContainer h2 {
-      margin: 16px 0px 21px 0px;
-      font-size: 3.125em;
-    }
-
     // Text
     #textContainer p {
-      font-size: 0.875em;
-      line-height: 27px;
-      text-align: justify;
-    }
-
-    // Button
-    #textContainer a {
-      margin: 35px 0px 0px 0px;
-    }
-
-    // Button Text
-    #textContainer a p {
-      font-size: 0.875em;
-    }
-
-    // Button Image
-    #textContainer a img {
-      width: 29px;
+      max-width: 100%;
     }
 
     // Image
     #nhimage {
-      padding-top: 80px;
+      margin: 80px 0px 0px 0px; 
+      width: 60%;
+    }
+  }
+
+  //830px Tablet -----------
+  @media (max-width: ${breakpoints.tablet830}) {
+    // Biography Container
+    padding: 70px 0px 0px 0px;
+
+    // Text Image Container
+    #textImageContainer {
+      max-width: 600px;
+    }
+  }
+
+  //760px Tablet -----------
+  //iPad
+  @media (max-width: ${breakpoints.tablet760}) {
+    // Biography Container
+    padding: 70px 0px 0px 0px;
+
+    // Text Image Container
+    #textImageContainer {
+      max-width: 500px;
       display: block;
-      width: 90%;
-      margin: 0 auto;
+    }
+
+    // Image
+    #nhimage {
+      margin: 80px 0px 0px 0px; 
+      width: 65%;
     }
   }
 
@@ -517,7 +238,6 @@ const BiographyContainer = styled.section`
     // Text Image Container
     #textImageContainer {
       width: 80%;
-      padding-top: 82px;
       display: block;
     }
 
@@ -529,46 +249,21 @@ const BiographyContainer = styled.section`
     // Subtitle
     #textContainer span {
       font-size: 1em;
-      letter-spacing: 0.225em;
-    }
-
-    // Title
-    #textContainer h2 {
-      margin: 23px 0px 36px 0px;
-      font-size: 40px;
-      line-height: 54px;
-      letter-spacing: 0.05em;
     }
 
     // Text
     #textContainer p {
       font-size: 1em;
       line-height: 35px;
-      letter-spacing: 0.025em;
-      text-align: left;
-    }
-
-    // Button
-    #textContainer a {
-      margin: 58px 0px 0px 0px;
     }
 
     // Button Text
     #textContainer a p {
-      font-size: 16px;
-      letter-spacing: 0.225em;
-    }
-
-    // Button Image
-    #textContainer a img {
-      width: 35px;
-      max-width: 35px;
+      font-size: 1em;
     }
 
     // Image
     #nhimage {
-      padding-top: 100px;
-      display: block;
       width: 100%;
     }
   }
@@ -576,53 +271,18 @@ const BiographyContainer = styled.section`
   //414px Mobile -----------
   //iPhone 6 7 8 Plus
   @media (max-width: ${breakpoints.mobile414}) {
-    // Text Image Container
-    #textImageContainer {
-      padding-top: 60px;
-    }
-
-    // Subtitle
-    #textContainer span {
-      font-size: 0.9em;
-    }
-
     // Title
     #textContainer h2 {
-      margin: 23px 0px 23px 0px;
-      font-size: 37px;
-    }
-
-    // Text
-    #textContainer p {
-      font-size: 0.9em;
-      line-height: 28px;
-    }
-
-    // Button
-    #textContainer a {
-      margin: 40px 0px 0px 0px;
-    }
-
-    // Button Text
-    #textContainer a p {
-      font-size: 0.9em;
-    }
-
-    // Button Image
-    #textContainer a img {
-      width: 32px;
-      max-width: 32px;
-    }
-
-    // Image
-    #nhimage {
-      padding-top: 80px;
+      font-size: 2.35em;
     }
   }
 
   //375px Mobile -----------
   //iPhone X
   @media (max-width: ${breakpoints.mobile375}) {
+    // Biography Container
+    padding: 50px 0px 0px 0px;
+
     // Subtitle
     #textContainer span {
       font-size: 0.8em;
@@ -630,7 +290,7 @@ const BiographyContainer = styled.section`
 
     // Title
     #textContainer h2 {
-      font-size: 34px;
+      font-size: 2em;
     }
 
     // Text
@@ -638,20 +298,19 @@ const BiographyContainer = styled.section`
       font-size: 0.85em;
     }
 
+    // Button
+    #textContainer a {
+      margin: 35px 0px 0px 0px;
+    }
+
     // Button Text
     #textContainer a p {
       font-size: 0.8em;
     }
 
-    // Button Image
-    #textContainer a img {
-      width: 30px;
-      max-width: 30px;
-    }
-
     // Image
     #nhimage {
-      padding-top: 75px;
+      margin: 60px 0px 0px 0px;
     }
   }
 

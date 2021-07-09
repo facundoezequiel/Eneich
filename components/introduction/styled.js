@@ -86,13 +86,17 @@ const IntroductionContainer = styled.div`
     transition: 0.2s;
   }
 
+  // Lottie Animation Container
   #lottieAnimationContainer {
     display: flex;
     justify-content: flex-start;
-    align-items: center;
-    align-content: center;
-    margin-top: 5%;
-    width: 100%;
+    margin: 5% 0% 0% 0%;
+  }
+
+  // Lottie Animation Section
+  #lottieAnimationContainer section {
+    height: 70px;
+    width: 45px;
   }
 
   // Hover Effects
@@ -165,6 +169,12 @@ const IntroductionContainer = styled.div`
     #buttonsContainer button p {
       font-size: 0.83em;
     }
+
+    // Lottie Animation Section
+    #lottieAnimationContainer section {
+      height: 66px;
+      width: 42px;
+    }
   }
 
   //1710px Window -----------
@@ -234,6 +244,12 @@ const IntroductionContainer = styled.div`
     #buttonsContainer button p {
       font-size: 0.79em;
     }
+
+    // Lottie Animation Section
+    #lottieAnimationContainer section {
+      height: 58px;
+      width: 37px;
+    }
   }
 
   //14404px Window -----------
@@ -279,7 +295,7 @@ const IntroductionContainer = styled.div`
     #logoTitleButtonsContainer {
       width: 81%;
     }
-    
+
     // Eneich logo
     img {
       width: 13%;
@@ -305,6 +321,12 @@ const IntroductionContainer = styled.div`
     #buttonsContainer button p {
       font-size: 0.75em;
     }
+
+    // Lottie Animation Section
+    #lottieAnimationContainer section {
+      height: 50px;
+      width: 32px;
+    }
   }
 
   //1250px Window -----------
@@ -313,10 +335,132 @@ const IntroductionContainer = styled.div`
     #logoTitleButtonsContainer {
       width: 83%;
     }
+
+    // Lottie Animation Section
+    #lottieAnimationContainer section {
+      height: 49px;
+      width: 31px;
+    }
   }
 
   /* ----------- TABLET RESPONSIVE ----------- */
 
+  //1024px Tablet -----------
+  //iPad Pro
+  @media (max-width: ${breakpoints.tablet1024}) {
+    max-height: 720px !important;
+
+    // Logo, title and buttons container
+    #logoTitleButtonsContainer {
+      width: 87%;
+    }
+  }
+
+  //934px Tablet -----------
+  @media (max-width: ${breakpoints.tablet934}) {
+    // Logo, title and buttons container
+    #logoTitleButtonsContainer {
+      width: 85%;
+    }
+  }
+
+  /* ----------- MOBILE RESPONSIVE ----------- */
+
+  //651px Mobile -----------
+  @media (max-width: ${breakpoints.mobile651}) {
+    // Section Introduction Container
+    min-height: 858px !important;
+
+    // Logo, title and buttons container
+    #logoTitleButtonsContainer {
+      width: 80%;
+      margin-top: 35px;
+    }
+
+    // Eneich logo
+    img {
+      width: 35%;
+    }
+
+    // Title
+    h1 {
+      font-size: 12vw;
+      margin: 10% 0% 12% 0%;
+    }
+
+    // Buttons container
+    #buttonsContainer {
+      width: 100%;
+      justify-content: space-between;
+      margin: 10% 0% 0% 0%;
+    }
+
+    // Buttons
+    #buttonsContainer button {
+      padding: 1% 10% 1% 10%;
+      width: 46%;
+      margin-right: 0px;
+    }
+
+    // Buttons Text
+    #buttonsContainer button p {
+      font-size: 0.9em;
+      letter-spacing: 3px;
+    }
+
+    // Lottie Animation Container
+    #lottieAnimationContainer {
+      margin: 15% 0% 0% 0%;
+    }
+
+    // Lottie Animation Section
+    #lottieAnimationContainer section {
+      height: 70px;
+      width: 45px;
+    }
+  }
+
+   //550px Mobile -----------
+   @media (max-width: ${breakpoints.mobile550}) {
+    // Eneich logo
+    img {
+      width: 45%;
+    }
+
+    // Title
+    h1 {
+      margin: 15% 0% 17% 0%;
+    }
+
+    // Buttons container
+    #buttonsContainer {
+      width: 100%;
+      margin: 10% 0% 0% 0%;
+    }
+
+    // Buttons
+    #buttonsContainer button {
+    }
+
+    // Buttons Text
+    #buttonsContainer button p {
+      font-size: 0.9em;
+      letter-spacing: 3px;
+    }
+
+    // Lottie Animation Container
+    #lottieAnimationContainer {
+      display: flex;
+      justify-content: center;
+      margin: 35% 0% 0% 0%;
+    }
+
+    // Lottie Animation Section
+    #lottieAnimationContainer section {
+      height: 70px;
+      width: 45px;
+    }
+  }
 `;
 
 export { IntroductionContainer };

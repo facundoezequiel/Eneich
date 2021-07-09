@@ -9,6 +9,7 @@ export const breakpoints = {
   mobile651: "651px",
   // Tablet Resolutions
   tablet768: "768px", // iPad
+  tablet830: "830px",
   tablet934: "934px",
   tablet1024: "1024px", // iPad Pro
   // Desktop Resolutions
