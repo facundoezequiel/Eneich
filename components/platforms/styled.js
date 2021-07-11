@@ -20,14 +20,9 @@ const PlatformsContainer = styled.section`
     margin-bottom: 30px;
   }
 
-  // Border Lines
-  hr {
-    display: none;
-  }
-
   // Buttons Container
   #buttonsContainer {
-    width: 70%;
+    width: 100%;
     max-width: 1344px;
     margin: 0 auto;
     display: flex;
@@ -42,8 +37,8 @@ const PlatformsContainer = styled.section`
   a {
     margin: 4rem 1rem 0rem 1rem;
     height: auto;
-    transition: 0.2s;
     cursor: pointer;
+    transition: 0.2s;
   }
 
   // YouTube Button
@@ -58,15 +53,20 @@ const PlatformsContainer = styled.section`
 
   // Buttons Logo image
   img {
-    width: 11rem;
+    width: 11.5rem;
     height: auto;
     display: block;
+    transition: 0.2s;
   }
 
   // Spotify and YouTube Logos
   #spotifyLogo img,
   #youtubeLogo img {
     width: 10rem;
+  }
+
+  #bandcampLogo img {
+    padding-top: 5px;
   }
 
   // Soundcloud Logo
@@ -76,37 +76,15 @@ const PlatformsContainer = styled.section`
 
   // Hover Effects
   @media (hover: hover) {
-    a:hover {
+    a:hover > img {
       transform: scale(1.1);
     }
   }
 
   /* ----------- DESKTOP RESPONSIVE ----------- */
 
-  //1860px Window -----------
-  @media (max-width: ${breakpoints.window1860}) {
-    // Title
-    p {
-      font-size: 0.95em;
-    }
-
-    // Buttons Container
-    #buttonsContainer {
-      width: 71%;
-    }
-  }
-
   //1750px Window -----------
   @media (max-width: ${breakpoints.window1750}) {
-    // Title
-    p {
-      font-size: 0.9em;
-    }
-
-    // Buttons Container
-    #buttonsContainer {
-      width: 72%;
-    }
 
     // Buttons Logo image
     img {
@@ -125,29 +103,11 @@ const PlatformsContainer = styled.section`
     }
   }
 
-  //1710px Window -----------
-  @media (max-width: ${breakpoints.window1710}) {
-    // Title
-    p {
-      font-size: 0.87em;
-    }
-
-    // Buttons Container
-    #buttonsContainer {
-      width: 73%;
-    }
-  }
-
   //1624px Window -----------
   @media (max-width: ${breakpoints.window1624}) {
-    // Title
-    p {
-      font-size: 0.84em;
-    }
-
     // Buttons Container
     #buttonsContainer {
-      width: 75%;
+      max-width: 1200px;
     }
 
     // Buttons Logo image
@@ -169,16 +129,6 @@ const PlatformsContainer = styled.section`
 
   //1440px Window -----------
   @media (max-width: ${breakpoints.window1440}) {
-    // Title
-    p {
-      font-size: 0.81em;
-    }
-
-    // Buttons Container
-    #buttonsContainer {
-      width: 78%;
-    }
-
     // Buttons Logo image
     img {
       width: 10.4rem;
@@ -199,14 +149,9 @@ const PlatformsContainer = styled.section`
   //1366px Window -----------
   //Estandar
   @media (max-width: ${breakpoints.window1366}) {
-    // Title
-    p {
-      font-size: 0.79em;
-    }
-
     // Buttons Container
     #buttonsContainer {
-      width: 81%;
+      max-width: 1080px;
     }
 
     // Buttons Logo image
@@ -235,7 +180,7 @@ const PlatformsContainer = styled.section`
 
     // Buttons Container
     #buttonsContainer {
-      width: 83%;
+      max-width: 950px;
     }
 
     // Buttons Logo image
@@ -260,63 +205,27 @@ const PlatformsContainer = styled.section`
   //1024px Tablet -----------
   //iPad Pro
   @media (max-width: ${breakpoints.tablet1024}) {
-    // Title
-    p {
-      font-size: 0.77em;
-    }
-
-    // Buttons Container
-    #buttonsContainer {
-      width: 87%;
-    }
-
-    // Buttons Logo image
-    img {
-      width: 9rem;
-    }
-
-    // Spotify and YouTube Logos
-    #spotifyLogo img,
-    #youtubeLogo img {
-      width: 8rem;
-    }
-
-    // Soundcloud Logo
-    #soundcloudLogo img {
-      width: 12rem;
-    }
-  }
-
-  //934px Tablet -----------
-  @media (max-width: ${breakpoints.tablet934}) {
     // Platforms Container
     padding: 60px 0px 0px 0px;
 
     // Title
     p {
       font-size: 0.875em;
-      margin-bottom: 60px;
-    }
-
-    // Border Lines
-    hr {
-      display: inline;
-      width: 100vw;
-      min-width: 100vw;
-      margin: 0px 0px 0px 0px;
-      border-top: 1px solid var(--nhdarkgray);
+      margin-bottom: 0px;
+      padding-bottom: 60px;
+      border-bottom: 1px var(--nhdarkgray) solid;
     }
 
     // Buttons Container
     #buttonsContainer {
-      width: 60%;
+      max-width: 700px;
       justify-content: center;
     }
 
     // Buttons
     a {
-      width: 49.7%;
-      height: 60px;
+      width: 49.787%;
+      height: 80px;
       transition: 0.2s;
       cursor: pointer;
       margin: 0rem 0rem 0rem 0rem;
@@ -324,7 +233,6 @@ const PlatformsContainer = styled.section`
       justify-content: center;
       align-items: center;
       align-content: center;
-      padding: 1.5% 0% 1.5% 0%;
     }
 
     // Left Buttons Mobile
@@ -356,9 +264,45 @@ const PlatformsContainer = styled.section`
       width: 7rem;
     }
 
+    #tidalLogo, #bandcampLogo, #soundcloudLogo {
+      border-top: 1px var(--nhdarkgray) solid;
+    }
+
     // Soundcloud Logo
     #soundcloudLogo img {
       width: 11rem;
+    }
+  }
+
+  //934px Tablet -----------
+  @media (max-width: ${breakpoints.tablet934}) {
+    
+  }
+
+   //830px Tablet -----------
+   @media (max-width: ${breakpoints.tablet830}) {
+    // Buttons Container
+    #buttonsContainer {
+      max-width: 600px;
+    }
+
+    // Buttons
+    a {
+      width: 49.752%;
+    }
+  }
+
+  //768px Tablet -----------
+  //iPad
+  @media (max-width: ${breakpoints.tablet768}) {
+    // Buttons Container
+    #buttonsContainer {
+      max-width: 500px;
+    }
+
+    // Buttons
+    a {
+      width: 49.703%;
     }
   }
 
@@ -374,6 +318,7 @@ const PlatformsContainer = styled.section`
     // Buttons Container
     #buttonsContainer {
       width: 100%;
+      max-width: none;
     }
 
     // Left Buttons Mobile

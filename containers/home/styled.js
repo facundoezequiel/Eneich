@@ -20,50 +20,22 @@ const HomeContainer = styled.section`
 
   // Image
   #fristElement img {
-    max-width: 492px;
+    max-width: 485px;
+    min-width: 485px;
+    height: auto;
     position: absolute;
     padding-top: 152px;
   }
 
   /* ----------- DESKTOP RESPONSIVE ----------- */
 
-  //1860px Window -----------
-  @media (max-width: ${breakpoints.window1860}) {
-    // Image
-    #fristElement img {
-      max-width: 465px;
-    }
-  }
-
-  //1750px Window -----------
-  @media (max-width: ${breakpoints.window1750}) {
-    // Image
-    #fristElement img {
-      max-width: 450px;
-    }
-  }
-
-  //1710px Window -----------
-  @media (max-width: ${breakpoints.window1710}) {
-    // Image
-    #fristElement img {
-      max-width: 440px;
-    }
-  }
-
   //16240px Window -----------
   @media (max-width: ${breakpoints.window1624}) {
     // Image
     #fristElement img {
       max-width: 430px;
-    }
-  }
-
-  //1440px Window -----------
-  @media (max-width: ${breakpoints.window1440}) {
-    // Image
-    #fristElement img {
-      max-width: 410px;
+      min-width: 430px;
+      padding-top: 140px;
     }
   }
 
@@ -71,7 +43,9 @@ const HomeContainer = styled.section`
   @media (max-width: ${breakpoints.window1366}) {
     // Image
     #fristElement img {
-      max-width: 390px;
+      max-width: 370px;
+      min-width: 370px;
+      padding-top: 105px;
     }
   }
 
@@ -79,15 +53,9 @@ const HomeContainer = styled.section`
   @media (max-width: ${breakpoints.window1250}) {
     // Image
     #fristElement img {
-      max-width: 360px;
-    }
-  }
-
-  //1120px Window -----------
-  @media (max-width: ${breakpoints.window1120}) {
-    // Image
-    #fristElement img {
       max-width: 320px;
+      min-width: 320px;
+      padding-top: 70px;
     }
   }
 
@@ -97,7 +65,9 @@ const HomeContainer = styled.section`
   @media (max-width: ${breakpoints.tablet1024}) {
     // Image
     #fristElement img {
-      max-width: 280px;
+      max-width: 510px;
+      min-width: 510px;
+      padding-top: 440px;
     }
   }
 
@@ -105,8 +75,19 @@ const HomeContainer = styled.section`
   @media (max-width: ${breakpoints.tablet934}) {
     // Image
     #fristElement img {
-      max-width: 480px;
-      padding-top: 600px;
+      max-width: 440px;
+      min-width: 440px;
+      padding-top: 480px;
+    }
+  }
+
+  //830px Tablet -----------
+  @media (max-width: ${breakpoints.tablet830}) {
+    // Image
+    #fristElement img {
+      max-width: 400px;
+      min-width: 400px;
+      padding-top: 440px;
     }
   }
 
@@ -116,72 +97,7 @@ const HomeContainer = styled.section`
   @media (max-width: ${breakpoints.mobile651}) {
     // Image
     #fristElement img {
-      max-width: 530px;
-      width: 530px;
-      padding-top: 800px;
-    }
-  }
-
-  //550px Mobile -----------
-  @media (max-width: ${breakpoints.mobile550}) {
-    // Image
-    #fristElement img {
-      max-width: 450px;
-      width: 450px;
-      padding-top: 870px;
-    }
-  }
-
-  //414px Mobile -----------
-  // iPhone 6 7 8 Plus
-  @media (max-width: ${breakpoints.mobile414}) {
-    // Image
-    #fristElement img {
-      max-width: 360px;
-      width: 360px;
-      padding-top: 760px;
-    }
-  }
-
-  //375px Mobile -----------
-  // iPhone x
-  @media (max-width: ${breakpoints.mobile375}) {
-    // Image
-    #fristElement img {
-      max-width: 330px;
-      width: 330px;
-    }
-  }
-
-  //360px Mobile -----------
-  // Moto G4
-  @media (max-width: ${breakpoints.mobile360}) {
-    // Image
-    #fristElement img {
-      max-width: 320px;
-      width: 320px;
-      padding-top: 780px;
-    }
-  }
-
-  //320px Mobile -----------
-  // IPhone 5 SE
-  @media (max-width: ${breakpoints.mobile320}) {
-    // Image
-    #fristElement img {
-      max-width: 270px;
-      width: 270px;
-    }
-  }
-
-  //280px Mobile -----------
-  // Galaxy Fold
-  @media (max-width: ${breakpoints.mobile280}) {
-    // Image
-    #fristElement img {
-      max-width: 240px;
-      width: 240px;
-      padding-top: 690px;
+      display: none;
     }
   }
 `;

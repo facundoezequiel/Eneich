@@ -212,9 +212,9 @@ const BiographyContainer = styled.section`
     }
   }
 
-  //760px Tablet -----------
+  //768px Tablet -----------
   //iPad
-  @media (max-width: ${breakpoints.tablet760}) {
+  @media (max-width: ${breakpoints.tablet768}) {
     // Biography Container
     padding: 70px 0px 0px 0px;
 
@@ -314,60 +314,9 @@ const BiographyContainer = styled.section`
     }
   }
 
-  //320px Mobile -----------
-  //iPhone 5 SE
-  @media (max-width: ${breakpoints.mobile320}) {
-    // Text Image Container
-    #textImageContainer {
-      padding-top: 50px;
-    }
-
-    // Subtitle
-    #textContainer span {
-      font-size: 0.75em;
-    }
-
-    // Title
-    #textContainer h2 {
-      font-size: 28px;
-      margin: 15px 0px 15px 0px;
-    }
-
-    // Text
-    #textContainer p {
-      font-size: 0.8em;
-    }
-
-    // Button
-    #textContainer a {
-      margin: 30px 0px 0px 0px;
-    }
-
-    // Button Text
-    #textContainer a p {
-      font-size: 0.75em;
-    }
-
-    // Button Image
-    #textContainer a img {
-      width: 27px;
-      max-width: 27px;
-    }
-
-    // Image
-    #nhimage {
-      padding-top: 55px;
-    }
-  }
-
   //280px Mobile -----------
   //Galaxy Fold
   @media (max-width: ${breakpoints.mobile280}) {
-    // Text Image Container
-    #textImageContainer {
-      padding-top: 40px;
-    }
-
     // Subtitle
     #textContainer span {
       font-size: 0.7em;
@@ -375,14 +324,13 @@ const BiographyContainer = styled.section`
 
     // Title
     #textContainer h2 {
-      font-size: 26px;
-      margin: 10px 0px 10px 0px;
+      font-size: 1.625em;
     }
 
     // Text
     #textContainer p {
       font-size: 0.75em;
-      line-height: 24px;
+      line-height: 26px;
     }
 
     // Button
@@ -399,11 +347,6 @@ const BiographyContainer = styled.section`
     #textContainer a img {
       width: 24px;
       max-width: 24px;
-    }
-
-    // Image
-    #nhimage {
-      padding-top: 50px;
     }
   }
 `;
