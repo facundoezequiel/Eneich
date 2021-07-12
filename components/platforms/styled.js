@@ -16,7 +16,7 @@ const PlatformsContainer = styled.section`
     color: var(--nhblack);
     letter-spacing: 0.425em;
     font-family: "Pangea", sans-serif;
-    text-rendering: optimizeLegibility;
+    text-rendering: optimizeLegibility; 
     margin-bottom: 30px;
   }
 
@@ -85,7 +85,6 @@ const PlatformsContainer = styled.section`
 
   //1750px Window -----------
   @media (max-width: ${breakpoints.window1750}) {
-
     // Buttons Logo image
     img {
       width: 10.8rem;
@@ -175,7 +174,7 @@ const PlatformsContainer = styled.section`
   @media (max-width: ${breakpoints.window1250}) {
     // Title
     p {
-      font-size: 0.77em;
+      font-size: 0.875em;
     }
 
     // Buttons Container
@@ -210,7 +209,6 @@ const PlatformsContainer = styled.section`
 
     // Title
     p {
-      font-size: 0.875em;
       margin-bottom: 0px;
       padding-bottom: 60px;
       border-bottom: 1px var(--nhdarkgray) solid;
@@ -274,11 +272,6 @@ const PlatformsContainer = styled.section`
     }
   }
 
-  //934px Tablet -----------
-  @media (max-width: ${breakpoints.tablet934}) {
-    
-  }
-
    //830px Tablet -----------
    @media (max-width: ${breakpoints.tablet830}) {
     // Buttons Container
@@ -338,13 +331,10 @@ const PlatformsContainer = styled.section`
       border-left: 0px var(--nhdarkgray) solid;
       width: 100%;
     }
-  }
-
-  //550px Mobile -----------
-  @media (max-width: ${breakpoints.mobile550}) {
-    // Title
-    p {
-      font-size: 0.95em;
+    
+    // Hover Effects
+    a:hover > img {
+      transform: scale(1);
     }
   }
 
@@ -353,7 +343,7 @@ const PlatformsContainer = styled.section`
   @media (max-width: ${breakpoints.mobile414}) {
     // Title
     p {
-      font-size: 0.9em;
+      font-size: 1em;
     }
 
     // Buttons Logo image
@@ -398,21 +388,12 @@ const PlatformsContainer = styled.section`
     }
   }
 
-  //360px Mobile -----------
-  //Moto G4
-  @media (max-width: ${breakpoints.mobile360}) {
+  //280px Mobile -----------
+  //Galaxy Fold
+  @media (max-width: ${breakpoints.mobile280}) {
     // Title
     p {
-      font-size: 0.77em;
-    }
-  }
-
-  //320px Mobile -----------
-  //iPhone 5 SE
-  @media (max-width: ${breakpoints.mobile320}) {
-    // Title
-    p {
-      font-size: 0.75em;
+      font-size: 0.7em;
     }
 
     // Buttons Logo image
@@ -429,15 +410,6 @@ const PlatformsContainer = styled.section`
     // Soundcloud Logo
     #soundcloudLogo img {
       width: 9rem;
-    }
-  }
-
-  //280px Mobile -----------
-  //Galaxy Fold
-  @media (max-width: ${breakpoints.mobile280}) {
-    // Title
-    p {
-      font-size: 0.7em;
     }
   }
 `;

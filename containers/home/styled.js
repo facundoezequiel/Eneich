@@ -64,7 +64,7 @@ const HomeContainer = styled.section`
   //1024px Tablet -----------
   @media (max-width: ${breakpoints.tablet1024}) {
     // Image
-    #fristElement img {
+    #fristElement img { 
       max-width: 510px;
       min-width: 510px;
       padding-top: 440px;

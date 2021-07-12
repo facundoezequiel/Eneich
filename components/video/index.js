@@ -28,14 +28,15 @@ function Video() {
         <div id="decorationElement">
           <img src="images/elements/star.svg" draggable="false" alt="" />
         </div>
-        {/* Title, text and image container */}
-        <div id="textImageContainer">
-          {/* Image Container */}
-          <div id="imageContainer">
+        {/* Title, text and video container */}
+        <div id="textVideoContainer">
+          {/* Image */}
+          <div id="videoContainer">
+            <VideoPlayer videoId="-_nupRfjkWw"></VideoPlayer>
           </div>
           {/* Title and text Container */}
           <div id="textContainer">
-            <span>NEW SINGLE</span>
+            <span>NEW EP</span>
             <h2>Overspeed</h2>
             <p>
               Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -44,11 +45,11 @@ function Video() {
               type and scrambled it to make a type specimen book. It has
               survived not only five. It has survived not only five.
             </p>
-            {/* Open Modal button */}
-            <button onClick={() => setShowModal(true)}>
+            {/* Open Modal button 
+            {/* <button onClick={() => setShowModal(true)}>
               <p>ESCUCHAR AHORA</p>
               <img src="images/icons/flecha.svg" draggable="false" alt="" />
-            </button>
+            </button> */}
           </div>
         </div>
       </VideoContainer>

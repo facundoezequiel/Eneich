@@ -1,10 +1,10 @@
 import styled from "styled-components";
+import { breakpoints } from "../../constants/media";
 
 // Section Video Container
 const VideoContainer = styled.div`
   width: 100%;
   border-bottom: 1.5px #6a615a solid;
-  max-height: 581px;
   padding: 112px 0px 112px 0px;
   position: relative;
 
@@ -13,45 +13,29 @@ const VideoContainer = styled.div`
     position: absolute;
     display: flex;
     justify-content: flex-start;
-    top: 20.7%;
+    top: 18.4%;
     left: 0px;
     z-index: 98;
   }
 
-  // Text, Title and Image Container
-  #textImageContainer {
-    width: 70%;
+  // Text, Title and Video Container
+  #textVideoContainer {
+    width: 100%;
+    max-width: 1344px;
     display: flex;
     margin: 0 auto;
-    max-width: 1344px;
     justify-content: space-between;
-    flex-direction: row;
-    align-items: center;
-    align-content: center;
-    flex-wrap: wrap-reverse !important;
   }
 
-  // Image Container
-  #imageContainer {
-    max-width: 634px;
-    display: flex;
-    justify-content: flex-end;
+  // Video Container
+  #videoContainer {
+    width: 50%;
     z-index: 99 !important;
-  }
-
-  #imageContainer img {
-    width: 100%;
-    height: auto;
-    display: block;
-    border-radius: 18px 18px 18px 18px;
-    -moz-border-radius: 18px 18px 18px 18px;
-    -webkit-border-radius: 18px 18px 18px 18px;
-    border: 0px solid #000000;
+    margin-right: 19% !important;
   }
 
   // Text Container
   #textContainer {
-    padding-left: 50px;
     display: inline;
   }
 
@@ -94,7 +78,7 @@ const VideoContainer = styled.div`
   }
 
   // Open Modal Button
-  #textContainer button {
+  /* #textContainer button {
     background-color: transparent;
     border: 0px solid;
     padding: 0 !important;
@@ -130,7 +114,36 @@ const VideoContainer = styled.div`
     #textContainer button:hover > img {
       transform: translate(23px);
     }
+  } */
+
+  /* ----------- DESKTOP RESPONSIVE ----------- */
+
+  //1624px Window -----------
+  @media (max-width: ${breakpoints.window1624}) {
+    // Text, Title and Image Container
+    #textVideoContainer {
+      max-width: 1200px;
+    }
   }
+
+  //1366px Window -----------
+  //Estandar
+  @media (max-width: ${breakpoints.window1366}) {
+    // Text, Title and Image Container
+    #textVideoContainer {
+      max-width: 1080px;
+    }
+  }
+
+  //1250px Window -----------
+  @media (max-width: ${breakpoints.window1250}) {
+    // Text, Title and Image Container
+    #textVideoContainer {
+      max-width: 950px;
+    }
+  }
+
+  /* ----------- TABLET RESPONSIVE ----------- */
 `;
 
 export { VideoContainer };
