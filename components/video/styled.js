@@ -127,6 +127,7 @@ const VideoContainer = styled.div`
 
   // Hover Effects
   @media (hover: hover) {
+    // Button Hover
     #textContainer a:hover > img  {
       transform: translate(23px);
     }
@@ -262,6 +263,11 @@ const VideoContainer = styled.div`
     // Button Text
     #textContainer a p {
       font-size: 1em;
+    }
+
+    // Button Hover
+    #textContainer a:hover > img  {
+      transform: translate(0px);
     }
   }
 

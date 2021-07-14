@@ -4,6 +4,7 @@ export const breakpoints = {
   mobile320: "320px", // iPhone 5 SE
   mobile360: "360px", // Moto G4
   mobile375: "375px", // iPhone X
+  mobile403: "403px",
   mobile414: "414px", // iPhone 6 7 8 Plus
   mobile550: "550px",
   mobile651: "651px",

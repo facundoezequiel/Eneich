@@ -262,6 +262,11 @@ const BiographyContainer = styled.section`
     #nhimage {
       width: 100%;
     }
+
+    // Button Hover
+    #textContainer a:hover > img  {
+      transform: translate(0px);
+    }
   }
 
   //414px Mobile -----------
