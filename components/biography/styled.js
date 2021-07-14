@@ -216,9 +216,6 @@ const BiographyContainer = styled.section`
   //768px Tablet -----------
   //iPad
   @media (max-width: ${breakpoints.tablet768}) {
-    // Biography Container
-    padding: 70px 0px 0px 0px;
-
     // Text Image Container
     #textImageContainer {
       max-width: 500px;

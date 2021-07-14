@@ -151,6 +151,9 @@ const VideoContainer = styled.div`
   //1366px Window -----------
   //Estandar
   @media (max-width: ${breakpoints.window1366}) {
+    // Section Video Container
+    padding: 70px 0px 70px 0px;
+
     // Text, Title and Image Container
     #textImageContainer {
       max-width: 1080px;
@@ -165,6 +168,9 @@ const VideoContainer = styled.div`
 
   //1250px Window -----------
   @media (max-width: ${breakpoints.window1250}) {
+    // Section Video Container
+    padding: 40px 0px 40px 0px;
+
     // Text, Title and Image Container
     #textImageContainer {
       max-width: 950px;
@@ -183,9 +189,18 @@ const VideoContainer = styled.div`
   //1024px Tablet -----------
   //iPad Pro
   @media (max-width: ${breakpoints.tablet1024}) {
+    // Section Video Container
+    padding: 80px 0px 80px 0px;
+
     // Text, Title and Image Container
     #textImageContainer {
       max-width: 700px;
+    }
+
+    // Image Container
+    #imageContainer {
+      width: 100%;
+      margin: 80px 0px 0px 0px; 
     }
 
     // Text Container
@@ -197,16 +212,13 @@ const VideoContainer = styled.div`
     #textContainer p {
       max-width: 100%;
     }
-
-    #imageContainer {
-      width: 100%;
-      z-index: 99 !important;
-      margin: 80px 0px 0px 0px; 
-    }
   }
 
   //830px Tablet -----------
   @media (max-width: ${breakpoints.tablet830}) {
+    // Section Video Container
+    padding: 70px 0px 70px 0px;
+
     // Text, Title and Image Container
     #textImageContainer {
       max-width: 600px;
@@ -265,6 +277,14 @@ const VideoContainer = styled.div`
   //375px Mobile -----------
   //iPhone X
   @media (max-width: ${breakpoints.mobile375}) {
+    // Section Video Container
+    padding: 50px 0px 70px 0px;
+
+    // Image Container
+    #imageContainer {
+      margin: 60px 0px 0px 0px; 
+    }
+
     // Subtitle
     #textContainer span {
       font-size: 0.8em;
