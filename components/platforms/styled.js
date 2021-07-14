@@ -26,7 +26,7 @@ const PlatformsContainer = styled.section`
     max-width: 1344px;
     margin: 0 auto;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     align-content: center;
     flex-direction: row;

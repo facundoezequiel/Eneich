@@ -24,15 +24,15 @@ function Video() {
           show={showModal}
           children={<VideoPlayer videoId="-_nupRfjkWw" />}
         ></Modal>
-        {/* Decoration Element */}
+        {/* Decoration Element
         <div id="decorationElement">
           <img src="images/elements/star.svg" draggable="false" alt="" />
-        </div>
-        {/* Title, text and video container */}
-        <div id="textVideoContainer">
+        </div> */}
+        {/* Title, text and image container */}
+        <div id="textImageContainer">
           {/* Image */}
-          <div id="videoContainer">
-            <VideoPlayer videoId="-_nupRfjkWw"></VideoPlayer>
+          <div id="imageContainer">
+            <img src="images/Overspeed.png" draggable="false" alt="Overspeed art" />
           </div>
           {/* Title and text Container */}
           <div id="textContainer">
@@ -45,11 +45,11 @@ function Video() {
               type and scrambled it to make a type specimen book. It has
               survived not only five. It has survived not only five.
             </p>
-            {/* Open Modal button 
-            {/* <button onClick={() => setShowModal(true)}>
+            {/* Open Modal button */}
+            <a onClick={() => setShowModal(true)}>
               <p>ESCUCHAR AHORA</p>
               <img src="images/icons/flecha.svg" draggable="false" alt="" />
-            </button> */}
+            </a> 
           </div>
         </div>
       </VideoContainer>

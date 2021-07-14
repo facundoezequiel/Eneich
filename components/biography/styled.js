@@ -66,6 +66,8 @@ const BiographyContainer = styled.section`
     align-content: center;
     margin: 58px 0px 0px 0px;
     cursor: pointer;
+    display: flex;
+    width: fit-content;
   }
 
   // Button Text
@@ -79,7 +81,6 @@ const BiographyContainer = styled.section`
     text-rendering: optimizeLegibility;
     margin: 0px 18px 0px 0px;
     display: inline;
-    width: auto;
   }
 
   // Button Image
@@ -221,12 +222,10 @@ const BiographyContainer = styled.section`
     // Text Image Container
     #textImageContainer {
       max-width: 500px;
-      display: block;
     }
 
     // Image
     #nhimage {
-      margin: 80px 0px 0px 0px; 
       width: 65%;
     }
   }
