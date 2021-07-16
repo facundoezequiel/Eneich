@@ -24,10 +24,10 @@ function Video() {
           show={showModal}
           children={<VideoPlayer videoId="-_nupRfjkWw" />}
         ></Modal>
-        {/* Decoration Element
+        {/* Decoration Element */}
         <div id="decorationElement">
           <img src="images/elements/star.svg" draggable="false" alt="" />
-        </div> */}
+        </div>
         {/* Title, text and image container */}
         <div id="textImageContainer">
           {/* Image */}

@@ -11,31 +11,43 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 function Contact() {
   return (
+    {
+      /* Contact Container */
+    },
     <ContactContainer>
+      {/* Buttons Container */}
       <div id="buttonsContainers">
+        {/* WhatsApp Button */}
         <NextLink href="https://api.whatsapp.com/send?phone=5492326422923">
           <a target="blank" id="whatsappButton">
+            {/* Icon */}
             <span>
               <FontAwesomeIcon icon={faWhatsapp} />
             </span>
           </a>
         </NextLink>
+        {/* Instagram Button */}
         <NextLink href="https://www.instagram.com/eneichmusic/?hl=es-la">
           <a target="blank" id="instagramButton">
+            {/* Icon */}
             <span>
               <FontAwesomeIcon icon={faInstagram} />
             </span>
           </a>
         </NextLink>
+        {/* Facebook Button */}
         <NextLink href="https://www.facebook.com/nico.hirschfeld">
           <a target="blank" id="facebookButton">
+            {/* Icon */}
             <span id="facebookIcon">
               <FontAwesomeIcon icon={faFacebookF} />
             </span>
           </a>
         </NextLink>
+        {/* Mail Button */}
         <NextLink href="mailto:gandinimusic@gmail.com">
           <a target="blank" id="mailButton">
+            {/* Icon */}
             <span>
               <FontAwesomeIcon icon={faEnvelope} />
             </span>

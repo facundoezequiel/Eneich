@@ -11,11 +11,19 @@ const VideoContainer = styled.div`
   // Decoration Element
   #decorationElement {
     position: absolute;
+    width: 100%;
     display: flex;
     justify-content: flex-start;
-    top: 18.4%;
+    top: 16.6%;
     left: 0px;
     z-index: 98;
+  }
+
+  #decorationElement img {
+    max-width: 391px;
+    min-width: 391px;
+    height: auto;
+    display: block;
   }
 
   // Text, Title and Video Container
@@ -137,6 +145,11 @@ const VideoContainer = styled.div`
 
   //1624px Window -----------
   @media (max-width: ${breakpoints.window1624}) {
+    // Decoration Element
+    #decorationElement {
+      top: 19.4%;
+    }
+
     // Text, Title and Image Container
     #textImageContainer {
       max-width: 1200px;
@@ -155,6 +168,17 @@ const VideoContainer = styled.div`
     // Section Video Container
     padding: 70px 0px 70px 0px;
 
+    // Decoration Element
+    #decorationElement {
+      top: 17.4%;
+    }
+
+    // Decoration Element Image
+    #decorationElement img {
+      max-width: 320px;
+      min-width: 320px;
+    }
+
     // Text, Title and Image Container
     #textImageContainer {
       max-width: 1080px;
@@ -171,6 +195,17 @@ const VideoContainer = styled.div`
   @media (max-width: ${breakpoints.window1250}) {
     // Section Video Container
     padding: 40px 0px 40px 0px;
+
+    // Decoration Element
+    #decorationElement {
+      top: 20.6%;
+    }
+
+    // Decoration Element Image
+    #decorationElement img {
+      max-width: 270px;
+      min-width: 270px;
+    }
 
     // Text, Title and Image Container
     #textImageContainer {
@@ -192,6 +227,17 @@ const VideoContainer = styled.div`
   @media (max-width: ${breakpoints.tablet1024}) {
     // Section Video Container
     padding: 80px 0px 80px 0px;
+
+    // Decoration Element
+    #decorationElement {
+      top: 54.9%;
+    }
+
+    // Decoration Element Image
+    #decorationElement img {
+      max-width: 350px;
+      min-width: 350px;
+    }
 
     // Text, Title and Image Container
     #textImageContainer {
@@ -229,6 +275,17 @@ const VideoContainer = styled.div`
   //768px Tablet -----------
   //iPad
   @media (max-width: ${breakpoints.tablet768}) {
+    // Decoration Element
+    #decorationElement {
+      top: 55.9%;
+    }
+
+    // Decoration Element Image
+    #decorationElement img {
+      max-width: 310px;
+      min-width: 310px;
+    }
+
     // Text, Title and Image Container
     #textImageContainer {
       max-width: 500px;
@@ -239,6 +296,11 @@ const VideoContainer = styled.div`
 
   //651px Mobile -----------
   @media (max-width: ${breakpoints.mobile651}) {
+    // Decoration Element
+    #decorationElement {
+      display: none;
+    }
+
     // Text, Title and Image Container
     #textImageContainer {
       width: 80%;
