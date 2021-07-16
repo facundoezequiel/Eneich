@@ -132,6 +132,11 @@ const VideoContainer = styled.div`
     padding-bottom: 2px;
   }
 
+  // Mobile BUtton Active
+  #youtubeButton {
+    display: none !important;
+  }
+
   // Hover Effects
   @media (hover: hover) {
     // Button Hover
@@ -329,6 +334,16 @@ const VideoContainer = styled.div`
     // Button Hover
     #textContainer a:hover > img  {
       transform: translate(0px);
+    }
+
+    // Mobile BUtton Active
+    #youtubeButton {
+      display: flex !important;
+    }
+
+    // Desktop BUtton Hidden
+    #modalButton {
+      display: none !important; 
     }
   }
 

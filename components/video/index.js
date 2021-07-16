@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { default as NextLink } from "next/link";
 import { VideoContainer } from "./styled";
 import Iframe from "../../components/iframe";
 import Modal from "../modal";
@@ -22,7 +23,9 @@ function Video() {
         <Modal
           onClose={() => setShowModal(false)}
           show={showModal}
-          children={<Iframe videoURL="https://www.youtube-nocookie.com/embed/-_nupRfjkWw"/>}
+          children={
+            <Iframe videoURL="https://www.youtube-nocookie.com/embed/-_nupRfjkWw" />
+          }
         ></Modal>
         {/* Decoration Element */}
         <div id="decorationElement">
@@ -32,7 +35,11 @@ function Video() {
         <div id="textImageContainer">
           {/* Image */}
           <div id="imageContainer">
-            <img src="images/Overspeed.png" draggable="false" alt="Overspeed art" />
+            <img
+              src="images/Overspeed.png"
+              draggable="false"
+              alt="Overspeed art"
+            />
           </div>
           {/* Title and text Container */}
           <div id="textContainer">
@@ -46,10 +53,17 @@ function Video() {
               survived not only five. It has survived not only five.
             </p>
             {/* Open Modal button */}
-            <a onClick={() => setShowModal(true)}>
+            <a onClick={() => setShowModal(true)} id="modalButton">
               <p>ESCUCHAR AHORA</p>
               <img src="images/icons/flecha.svg" draggable="false" alt="" />
-            </a> 
+            </a>
+            {/* Open YouTube button mobile */}
+            <NextLink href="https://www.youtube.com/watch?v=-_nupRfjkWw">
+              <a id="youtubeButton" target="blank">
+                <p>ESCUCHAR AHORA</p>
+                <img src="images/icons/flecha.svg" draggable="false" alt="" />
+              </a>
+            </NextLink>
           </div>
         </div>
       </VideoContainer>
