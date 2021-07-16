@@ -6,6 +6,7 @@ import {
   faInstagram,
   faWhatsapp,
 } from "@fortawesome/free-brands-svg-icons";
+import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 function Contact() {
@@ -36,8 +37,7 @@ function Contact() {
         <NextLink href="mailto:gandinimusic@gmail.com">
           <a className="buttonBorder" target="blank" id="mailButton">
             <span>
-              {/*Este icono no levantaba de forma regular utilizando la libreria npm*/}
-              <i class="far fa-envelope"></i>
+              <FontAwesomeIcon icon={faEnvelope} />
             </span>
           </a>
         </NextLink>
