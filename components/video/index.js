@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { VideoContainer } from "./styled";
-import VideoPlayer from "../../components/player";
+import Iframe from "../../components/iframe";
 import Modal from "../modal";
 
 function Video() {
@@ -22,7 +22,7 @@ function Video() {
         <Modal
           onClose={() => setShowModal(false)}
           show={showModal}
-          children={<VideoPlayer videoId="-_nupRfjkWw" />}
+          children={<Iframe videoURL="https://www.youtube-nocookie.com/embed/-_nupRfjkWw"/>}
         ></Modal>
         {/* Decoration Element */}
         <div id="decorationElement">

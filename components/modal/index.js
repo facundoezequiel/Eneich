@@ -34,8 +34,8 @@ const Modal = ({ show, onClose, children }) => {
                 <FontAwesomeIcon icon={faTimes} />
               </span>
             </a>
-            {/* Ifram Container */}
-            <div id="videoWrapper">{children}</div>
+            {/* Video Container */}
+            <div id="videoContainer">{children}</div>
           </div>
         </ModalContainer>
       ))

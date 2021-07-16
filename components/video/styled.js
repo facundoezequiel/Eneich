@@ -11,12 +11,11 @@ const VideoContainer = styled.div`
   // Decoration Element
   #decorationElement {
     position: absolute;
-    width: 100%;
     display: flex;
     justify-content: flex-start;
     top: 16.6%;
     left: 0px;
-    z-index: 98;
+    z-index: 96;
   }
 
   #decorationElement img {
@@ -42,7 +41,7 @@ const VideoContainer = styled.div`
   // Image Container
   #imageContainer {
     width: 43%;
-    z-index: 99 !important;
+    z-index: 97 !important;
   }
 
   // Image
