@@ -14,14 +14,14 @@ function Contact() {
     <ContactContainer>
       <div id="buttonsContainers">
         <NextLink href="https://api.whatsapp.com/send?phone=5492326422923">
-          <a className="buttonBorder" target="blank" id="whatsappButton">
+          <a target="blank" id="whatsappButton">
             <span>
               <FontAwesomeIcon icon={faWhatsapp} />
             </span>
           </a>
         </NextLink>
         <NextLink href="https://www.instagram.com/eneichmusic/?hl=es-la">
-          <a className="borderRight" target="blank" id="instagramButton">
+          <a target="blank" id="instagramButton">
             <span>
               <FontAwesomeIcon icon={faInstagram} />
             </span>
@@ -35,7 +35,7 @@ function Contact() {
           </a>
         </NextLink>
         <NextLink href="mailto:gandinimusic@gmail.com">
-          <a className="buttonBorder" target="blank" id="mailButton">
+          <a target="blank" id="mailButton">
             <span>
               <FontAwesomeIcon icon={faEnvelope} />
             </span>

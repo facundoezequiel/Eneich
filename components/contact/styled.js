@@ -3,55 +3,72 @@ import { breakpoints } from "../../constants/media";
 
 const ContactContainer = styled.div`
   width: 100%;
-  background-color: #edeae2;
+  background-color: var(--nhwhite);
 
   // Buttons Container
   #buttonsContainers {
     width: 100%;
     max-width: 1344px;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-content: center;
     align-items: center;
-    margin: 0 auto;
     flex-direction: row;
     flex-wrap: wrap;
   }
 
   // Buttons
   a {
-    width: 24.9%;
+    position: relative;
+    width: calc(25% - 1px);
     padding: 1.5% 0% 1.5% 0%;
     display: flex;
-    position: relative;
-    background-color: #6a615a;
-    border: none;
     justify-content: center;
     align-content: center;
     align-items: center;
+    background-color: var(--nhdarkgray);
+    border: none;
   }
 
   // Buttons Before
   a::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
     top: 0;
     left: 0;
     right: 0;
-    height: 100%;
-    width: 100%;
-    background-color: #edeae2;
-    position: absolute;
-    content: "";
+    background-color: var(--nhwhite);
     transition: 0.2s ease-out;
   }
 
   // Icon
   span {
-    color: #6a615a;
     position: relative;
-    display: inline-block;
-    font-size: 2em;
-    transition: 0.2s;
     display: block;
+    font-size: 2em;
+    color: var(--nhdarkgray);
+    transition: 0.2s;
+  }
+
+  // Border Right and Left Buttons
+  #whatsappButton {
+    width: calc(25% - 2px); 
+    border-left: 1px var(--nhdarkgray) solid;
+    border-right: 1px var(--nhdarkgray) solid;
+  }
+
+  // Border Right Buttons
+  #facebookButton, #instagramButton, #mailButton {
+    border-right: 1px var(--nhdarkgray) solid;
+  }
+
+  // Facebook Icon
+  #facebookIcon {
+    transform: scale(0.8);
+    transition: 0.2s;
   }
 
   // Hover Effects
@@ -61,31 +78,13 @@ const ContactContainer = styled.div`
     }
 
     a:hover > span {
-      color: #edeae2;
-      display: block;
+      color: var(--nhwhite);
       transform: scale(1.1);
     }
 
     a:hover > #facebookIcon {
       transform: scale(1);
     }
-  }
-
-  // Buttons Border
-  .buttonBorder {
-    border-left: 1px #6a615a solid;
-    border-right: 1px #6a615a solid;
-  }
-
-  // Buttons Border Right
-  .borderRight {
-    border-right: 1px #6a615a solid;
-  }
-
-  // Facebook Icon
-  #facebookIcon {
-    transform: scale(0.8);
-    transition: 0.2s;
   }
 
   /* ----------- DESKTOP RESPONSIVE ----------- */
@@ -96,11 +95,6 @@ const ContactContainer = styled.div`
     #buttonsContainers {
       max-width: 1200px;
     }
-
-    // Butons
-    a {
-      width: 24.89%;
-    }
   }
 
   //1366px Window -----------
@@ -110,11 +104,6 @@ const ContactContainer = styled.div`
     #buttonsContainers {
       max-width: 1080px;
     }
-
-    // Butons
-    a {
-      width: 24.88%;
-    }
   }
 
   //1250px Window -----------
@@ -122,11 +111,6 @@ const ContactContainer = styled.div`
     // Buttons Container
     #buttonsContainers {
       max-width: 950px;
-    }
-
-    // Butons
-    a {
-      width: 24.87%;
     }
   }
 
@@ -143,7 +127,6 @@ const ContactContainer = styled.div`
     // BUtons
     a {
       height: 80px;
-      width: 24.82%;
       padding: 0% 0% 0% 0%;
     }
   }
@@ -154,11 +137,6 @@ const ContactContainer = styled.div`
     #buttonsContainers {
       max-width: 600px;
     }
-
-    // Butons
-    a {
-      width: 24.79%;
-    }
   }
 
   //768px Tablet -----------
@@ -167,11 +145,6 @@ const ContactContainer = styled.div`
     // Buttons Container
     #buttonsContainers {
       max-width: 500px;
-    }
-
-    // Butons
-    a {
-      width: 24.75%;
     }
   }
 
@@ -190,48 +163,22 @@ const ContactContainer = styled.div`
       width: 50%;
     }
 
-    // Buttons Border
-    .buttonBorder {
-      border-left: 0px #6a615a solid;
-      border-right: 0px #6a615a solid;
-    }
-
-    // Buttons Border Right
-    .borderRight {
-      border-right: 0px #6a615a solid;
-    }
-
+    // Border Right Buttons
     #whatsappButton, #facebookButton {
-      border-right: 1px #6a615a solid;
+      width: calc(50% - 1px);
+      border-right: 1px var(--nhdarkgray) solid;
+      border-left: 0px var(--nhdarkgray) solid;
     }
 
+    // None Border Butttons
+    #instagramButton, #mailButton {
+      border-right: 0px var(--nhdarkgray) solid;
+      border-left: 0px var(--nhdarkgray) solid;
+    }
+
+    // Border Top Buttons
     #facebookButton, #mailButton {
-      border-top: 1px #6a615a solid;
-    }
-  }
-
-  //550px Mobile -----------
-  @media (max-width: ${breakpoints.mobile651}) {
-    // Buttons
-    a {
-      width: 49.8%;
-    }
-  }
-
-  //414px Mobile -----------
-  //iPhone 6 7 8 Plus
-  @media (max-width: ${breakpoints.mobile414}) {
-    // Buttons
-    a {
-      width: 49.88%;
-    }
-  }
-
-  //403px Mobile -----------
-  @media (max-width: ${breakpoints.mobile403}) {
-    // Buttons
-    a {
-      width: 49.8%;
+      border-top: 1px var(--nhdarkgray) solid;
     }
   }
 `;

@@ -4,20 +4,20 @@ import { breakpoints } from "../../constants/media";
 // Platforms Container
 const PlatformsContainer = styled.section`
   width: 100%;
-  border-bottom: 1px var(--nhdarkgray) solid;
   padding: 112px 0px 112px 0px;
+  border-bottom: 1px var(--nhdarkgray) solid;
 
   // Title
   p {
-    text-align: center;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 1em;
-    color: var(--nhblack);
-    letter-spacing: 0.425em;
-    font-family: "Pangea", sans-serif;
-    text-rendering: optimizeLegibility; 
     margin-bottom: 30px;
+    font-family: "Pangea", sans-serif;
+    font-size: 1em;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: 0.425em;
+    text-align: center;
+    color: var(--nhblack);
+    text-rendering: optimizeLegibility; 
   }
 
   // Buttons Container
@@ -35,8 +35,8 @@ const PlatformsContainer = styled.section`
 
   // Buttons
   a {
-    margin: 4rem 1rem 0rem 1rem;
     height: auto;
+    margin: 4rem 1rem 0rem 1rem;
     cursor: pointer;
     transition: 0.2s;
   }
@@ -222,33 +222,35 @@ const PlatformsContainer = styled.section`
 
     // Buttons
     a {
-      width: 49.787%;
+      width: 50%;
       height: 80px;
-      transition: 0.2s;
-      cursor: pointer;
       margin: 0rem 0rem 0rem 0rem;
       display: flex;
       justify-content: center;
       align-items: center;
       align-content: center;
+      cursor: pointer;
+      transition: 0.2s;
     }
 
     // Left Buttons Mobile
     .leftButtonMobile {
+      width: calc(50% - 2px);
       border-right: 1px var(--nhdarkgray) solid;
       border-left: 1px var(--nhdarkgray) solid;
     }
 
     // Right Buttons Mobile
     .rightButtonMobile {
+      width: calc(50% - 1px);
       border-right: 1px var(--nhdarkgray) solid;
     }
 
     // Center Buttons Mobile
     .centerButtonMobile {
+      width: calc(100% - 2px);
       border-right: 1px var(--nhdarkgray) solid;
       border-left: 1px var(--nhdarkgray) solid;
-      width: 99.8%;
     }
 
     // Buttons Logo image
@@ -278,11 +280,6 @@ const PlatformsContainer = styled.section`
     #buttonsContainer {
       max-width: 600px;
     }
-
-    // Buttons
-    a {
-      width: 49.752%;
-    }
   }
 
   //768px Tablet -----------
@@ -291,11 +288,6 @@ const PlatformsContainer = styled.section`
     // Buttons Container
     #buttonsContainer {
       max-width: 500px;
-    }
-
-    // Buttons
-    a {
-      width: 49.703%;
     }
   }
 
@@ -316,20 +308,22 @@ const PlatformsContainer = styled.section`
 
     // Left Buttons Mobile
     .leftButtonMobile {
+      width: calc(50% - 1px);
       border-right: 1px var(--nhdarkgray) solid;
       border-left: 0px var(--nhdarkgray) solid;
     }
 
     // Right Buttons Mobile
     .rightButtonMobile {
+      width: 50%;
       border-right: 0px var(--nhdarkgray) solid;
     }
 
     // Center Buttons Mobile
     .centerButtonMobile {
+      width: 100%;
       border-right: 0px var(--nhdarkgray) solid;
       border-left: 0px var(--nhdarkgray) solid;
-      width: 100%;
     }
     
     // Hover Effects
@@ -341,11 +335,6 @@ const PlatformsContainer = styled.section`
   //414px Mobile -----------
   //iPhone 6 7 8 Plus
   @media (max-width: ${breakpoints.mobile414}) {
-    // Title
-    p {
-      font-size: 1em;
-    }
-
     // Buttons Logo image
     img {
       width: 7.5rem;
