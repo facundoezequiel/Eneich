@@ -31,84 +31,6 @@ const NewsContainer = styled.div`
     letter-spacing: 0.5px;
   }
 
-  /* ----------- DESKTOP RESPONSIVE ----------- */
-
-  //1860px Window -----------
-  @media (max-width: ${breakpoints.window1860}) {
-    // Text
-    .ticker__element p {
-      font-size: 0.86em;
-    }
-  }
-
-  //1750px Window -----------
-  @media (max-width: ${breakpoints.window1750}) {
-    // Text
-    .ticker__element p {
-      font-size: 0.82em;
-    }
-  }
-
-  //1710px Window -----------
-  @media (max-width: ${breakpoints.window1710}) {
-    // Text
-    .ticker__element p {
-      font-size: 0.8em;
-    }
-  }
-  
-   //1624px Window -----------
-   @media (max-width: ${breakpoints.window1624}) {
-    // Text
-    .ticker__element p {
-      font-size: 0.77em;
-    }
-  }
-
-   //1440px Window -----------
-   @media (max-width: ${breakpoints.window1440}) {
-    // Text
-    .ticker__element p {
-      font-size: 0.74em;
-    }
-  }
-
-  //1366px Window -----------
-  //Estandar
-  @media (max-width: ${breakpoints.window1366}) {
-    // Text
-    .ticker__element p {
-      font-size: 0.72em;
-    }
-  }
-
-  //1250px Window -----------
-  @media (max-width: ${breakpoints.window1250}) {
-    // Text
-    .ticker__element p {
-      font-size: 0.7em;
-    }
-  }
-
-  /* ----------- TABLET RESPONSIVE ----------- */
-
-  //1024px Tablet -----------
-  //iPad Pro
-  @media (max-width: ${breakpoints.tablet1024}) {
-    // Text
-    .ticker__element p {
-      font-size: 0.68em;
-    }
-  }
-  
-  //934px Tablet -----------
-  @media (max-width: ${breakpoints.tablet1024}) {
-    // Text
-    .ticker__element p {
-      font-size: 0.65em;
-    }
-  }
-
   /* ----------- MOBILE RESPONSIVE ----------- */
 
   //651px Mobile -----------
@@ -116,7 +38,6 @@ const NewsContainer = styled.div`
     // Text
     .ticker__element p {
       margin-right: 60px;
-      font-size: 0.9em;
     }
   }
 
@@ -134,7 +55,6 @@ const NewsContainer = styled.div`
     // Text
     .ticker__element p {
       margin-right: 50px;
-      font-size: 0.9em;
     }
   }
 
