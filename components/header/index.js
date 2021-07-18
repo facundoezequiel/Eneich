@@ -41,11 +41,11 @@ function Header({ design }) {
           >
             {/* Spanish Button */}
             <NextLink href="#">
-              <a>ESP</a>
+              <a id="esp">ESP</a>
             </NextLink>
             {/* English Button */}
             <NextLink href="#">
-              <a>ENG</a>
+              <a id="eng">ENG</a>
             </NextLink>
           </div>
           {/*

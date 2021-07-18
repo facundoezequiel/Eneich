@@ -47,12 +47,21 @@ const HeaderContainer = styled.div`
 
   #lenguajeContainer a {
     display: block;
-    margin-left: 10px;
-    color: #edeae2;
+    margin-left: 20px;
+    color: var(--nhwhite);
     text-rendering: optimizeLegibility;
     font-family: "Pangea", sans-serif;
     font-size: 0.9em;
-    font-weight: 700;
+    font-weight: 400;
+    transition: 0.2s;
+  }
+  
+  #esp {
+    font-weight: 700 !important;
+  }
+
+  #lenguajeContainer a:hover {
+    color: var(--nhblack);
   }
 
   ${(props) =>
@@ -68,6 +77,10 @@ const HeaderContainer = styled.div`
 
       #logoWhite {
         display: block;
+      }
+
+      #lenguajeContainer a:hover {
+        color: var(--nhlightgray);
       }
   `};
 
@@ -177,6 +190,10 @@ const HeaderContainer = styled.div`
     #logoLenguajeContainer {
       width: 80%;
       max-width: none;
+    }
+
+    h1 a img {
+      max-width: 28px;
     }
   }
 `;

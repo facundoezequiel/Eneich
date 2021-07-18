@@ -5,11 +5,12 @@ import { FooterContainer } from "./styled";
 function Footer() {
   return (
     <FooterContainer>
+      {/* Logo and Buttons Container */}
       <div id="logoButtonsContainer">
-        <div id="logoDiv">
-          {/* LOGO BUTTON */}
+          {/* Logo Button */}
           <NextLink href="#">
-            <a>
+            <a id="logoButton">
+              {/* Logo Image */}
               <img
                 src="images/logos/LogoEneich.svg"
                 draggable="false"
@@ -17,33 +18,34 @@ function Footer() {
               />
             </a>
           </NextLink>
-        </div>
-        <div id="buttonsDiv">
-          <div id="lenguajeButtonsDiv">
-            {/* SPANISH BUTTON */}
+        {/* Buttons and Copyright Container */}
+        <div id="buttonsCopyrightContainer">
+          {/* Buttons Container */}
+          <div id="buttonsContainer">
+            {/* Spanish Button */}
             <NextLink href="#">
               <a>
                 <span id="esp">ESP</span>
               </a>
             </NextLink>
-            {/* ENGLISH BUTTON */}
+            {/* English Button */}
             <NextLink href="#">
               <a>
-                <span>EN</span>
+                <span>ENG</span>
+              </a>
+            </NextLink>
+            {/* Press Kit Button */}
+            <NextLink href="#">
+              <a>
+                <span>PRESS KIT</span>
               </a>
             </NextLink>
           </div>
-          {/* PRESS KIT BUTTON */}
-          <NextLink href="#">
-            <a>
-              <span>PRESS KIT</span>
-            </a>
-          </NextLink>
-          {/* COPYRIGHT */}
+          {/* Copyright */}
           <p>Eneich 2021. Todos los derechos reservados.©</p>
         </div>
       </div>
-      {/* GRADIENT LINE */}
+      {/* Gradient Line*/}
       <div id="gradientLine"> 
       </div>
     </FooterContainer>

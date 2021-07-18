@@ -1,14 +1,16 @@
 import styled from "styled-components";
+import { breakpoints } from "../../constants/media";
 
 const FooterContainer = styled.div`
   width: 100%;
-  background-color: #6a615a;
-  border-top: 1.5px #edeae2 solid;
+  background-color: var(--nhdarkgray);
+  border-top: 1.5px var(--nhwhite) solid;
 
+  // Logo Buttons Container
   #logoButtonsContainer {
-    width: 70%;
-    margin: 0 auto;
+    width: 100%;
     max-width: 1344px;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -16,89 +18,73 @@ const FooterContainer = styled.div`
     padding: 1.5% 0% 1.5% 0%;
   }
 
-  #logoDiv {
-    width: 20%;
+  // Logo Button
+  #logoButton {
+    max-width: 120px;
+  }
+
+  // Logo Image
+  #logoButton img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  // Buttons Copyright Container and Buttons Container
+  #buttonsCopyrightContainer, #buttonsContainer {
     display: flex;
-    justify-content: space-between;
     align-items: center;
     align-content: center;
-  }
-
-  #logoDiv a img {
-    width: 80%;
-  }
-
-  #buttonsDiv {
-    display: flex;
     justify-content: flex-end;
-    align-items: center;
-    align-content: center;
-    width: 80%;
   }
 
-  #buttonsDiv a,
-  #buttonsDiv p {
-    color: #edeae2;
-    margin: 0% 0% 0% 5%;
+  // Buttons Container 
+  #buttonsContainer {
+    margin-right: 35px;
   }
 
-  #buttonsDiv a {
-    font-size: 12px !important;
+  // Buttons
+  #buttonsContainer a {
+    margin-left: 35px;
+    background-color: var(--nhwhite);
     position: relative;
-    letter-spacing: 0.065em !important;
-    background-color: #edeae2;
   }
 
-  #buttonsDiv p,
-  #buttonsDiv a span,
-  #lenguajeButtonsDiv a span {
-    font-style: normal;
-    font-weight: 300;
-    font-size: 14px;
-    letter-spacing: 0.045em;
+  // Copyright and Buttons Texts
+  #buttonsCopyrightContainer p,
+  #buttonsContainer a span {
+    color: var(--nhwhite);
     font-family: "Pangea", sans-serif;
-    text-align: right;
+    font-size: 0.875em;
+    font-weight: 400;
     text-rendering: optimizeLegibility;
   }
 
-  #lenguajeButtonsDiv {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    margin: 0% 0% 0% 5%;
-  }
-
-  #lenguajeButtonsDiv a {
-    margin: 0% 0% 0% 30% !important;
-  }
-
-  #buttonsDiv span {
-    color: #edeae2;
+  // Buttons Texts
+  #buttonsContainer a span {
     position: relative;
     display: inline-block;
     transition: 0.2s;
     height: 100%;
   }
 
-  #buttonsDiv a:hover > span {
-    color: #6a615a;
-    display: block;
+  #buttonsContainer a:hover > span {
+    color: var(--nhdarkgray);
   }
 
-  #buttonsDiv a::before {
+  #buttonsContainer a::before {
     top: 0;
     bottom: 0;
     right: 0;
     height: 100%;
     width: 100%;
-    background-color: #6a615a;
+    background-color: var(--nhdarkgray);
     position: absolute;
     content: "";
     transition: 0.4s ease-out;
   }
 
-  #buttonsDiv a:hover::before {
+  #buttonsContainer a:hover::before {
     width: 0%;
   }
 
@@ -148,6 +134,65 @@ const FooterContainer = styled.div`
     width: 100%;
     height: 5px;
   }
+
+  /* ----------- DESKTOP RESPONSIVE ----------- */
+
+  //1624px Window -----------
+  @media (max-width: ${breakpoints.window1624}) {
+    // Logo Buttons Container
+    #logoButtonsContainer {
+      max-width: 1200px;
+    }
+  }
+
+  //1366px Window -----------
+  //Estandar
+  @media (max-width: ${breakpoints.window1366}) {
+    // Logo Buttons Container
+    #logoButtonsContainer {
+      max-width: 1080px;
+    }
+  }
+
+  //1250px Window -----------
+  @media (max-width: ${breakpoints.window1250}) {
+    // Logo Buttons Container
+    #logoButtonsContainer {
+      max-width: 950px;
+    }
+  }
+
+  /* ----------- TABLET RESPONSIVE ----------- */
+
+  //1024px Tablet -----------
+  //iPad Pro
+  @media (max-width: ${breakpoints.tablet1024}) {
+    // Logo Buttons Container
+    #logoButtonsContainer {
+      max-width: 700px;
+    }
+  }
+
+  //830px Tablet -----------
+  @media (max-width: ${breakpoints.tablet830}) {
+    // Logo Buttons Container
+    #logoButtonsContainer {
+      max-width: 600px;
+    }
+  }
+
+  //768px Tablet -----------
+  //iPad
+  @media (max-width: ${breakpoints.tablet768}) {
+    // Logo Buttons Container
+    #logoButtonsContainer {
+      max-width: 500px;
+    }
+  }
+
+  /* ----------- MOBILE RESPONSIVE ----------- */
+
+
 `;
 
 export { FooterContainer };
