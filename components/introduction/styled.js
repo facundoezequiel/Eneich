@@ -240,13 +240,14 @@ const IntroductionContainer = styled.div`
 
     // Eneich logo
     img {
-      width: 35%;
+      width: 37%;
     }
 
     // Title
     h1 {
       font-size: 4.1em;
       margin: 13% 0% 13% 0%;
+      line-height: 130%;
     }
 
     // Buttons container
@@ -285,6 +286,12 @@ const IntroductionContainer = styled.div`
     h1 {
       font-size: 3.1em;
     }
+
+    // Lottie Animation Section
+    #lottieAnimationContainer section {
+      height: 58px;
+      width: 37px;
+    }
   }
 
   //414px Mobile -----------
@@ -311,12 +318,6 @@ const IntroductionContainer = styled.div`
     // Buttons Text
     #buttonsContainer a p {
       font-size: 0.7em;
-    }
-
-    // Lottie Animation Section
-    #lottieAnimationContainer section {
-      height: 70px;
-      width: 45px;
     }
   }
 
@@ -345,12 +346,6 @@ const IntroductionContainer = styled.div`
     // Buttons Text
     #buttonsContainer a p {
       font-size: 0.55em;
-    }
-
-    // Lottie Animation Section
-    #lottieAnimationContainer section {
-      height: 58px;
-      width: 37px;
     }
   }
 
