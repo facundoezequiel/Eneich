@@ -29,7 +29,8 @@ const HeaderContainer = styled.div`
 
   h1 a img {
     display: block;
-    width: 90%;
+    width: 100%;
+    max-width: 32px;
     height: auto;
   }
 

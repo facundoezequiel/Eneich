@@ -229,6 +229,7 @@ const IntroductionContainer = styled.div`
     // Section Introduction Container
     min-height: 400px !important;
     max-height: none !important;
+    background-image: url(${"/images/Background651.png"});
 
     // Logo, title and buttons container
     #logoTitleButtonsContainer {
