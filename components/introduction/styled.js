@@ -5,7 +5,8 @@ import { breakpoints } from "../../constants/media";
 const IntroductionContainer = styled.div`
   width: 100%;
   height: 100vh;
-  min-height: 768px !important;
+  max-height: 1080px !important;
+  min-height: 850px !important;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -17,9 +18,9 @@ const IntroductionContainer = styled.div`
 
   // Logo, title and buttons container
   #logoTitleButtonsContainer {
-    width: 70%;
+    width: 100%;
     max-width: 1344px;
-    margin-top: 65px;
+    margin-top: 55px;
   }
 
   // Eneich logo
@@ -41,7 +42,6 @@ const IntroductionContainer = styled.div`
     font-family: "MT Dalat Sans", serif;
     font-size: 7.2em;
     font-weight: 400;
-    display: block;
     -webkit-touch-callout: none;
     -webkit-user-select: none;
     -khtml-user-select: none;
@@ -61,7 +61,7 @@ const IntroductionContainer = styled.div`
   }
 
   // Buttons
-  #buttonsContainer button {
+  #buttonsContainer a {
     background-color: var(--nhwhite);
     margin-right: 46px;
     padding: 0.1% 3% 0.1% 3%;
@@ -74,15 +74,14 @@ const IntroductionContainer = styled.div`
   }
 
   // Buttons Text
-  #buttonsContainer button p {
+  #buttonsContainer a p {
     color: var(--nhorange);
     font-family: "Pangea", sans-serif;
-    font-size: 0.85em;
+    font-size: 0.7em;
     letter-spacing: 3px;
     text-align: center;
     font-weight: 800;
     text-rendering: optimizeLegibility;
-    width: 100%;
     transition: 0.2s;
   }
 
@@ -102,86 +101,39 @@ const IntroductionContainer = styled.div`
   // Hover Effects
   @media (hover: hover) {
     // Buttons Hover
-    button:hover {
+    a:hover {
       transform: scale(1.1);
     }
     // Buttons Text Hover
-    button:hover > p {
+    a:hover > p {
       transform: scale(0.9) !important;
     }
   }
 
   /* ----------- DESKTOP RESPONSIVE ----------- */
 
-  //1860px Window -----------
-  @media (max-width: ${breakpoints.window1860}) {
+  //1624px Window -----------
+  @media (max-width: ${breakpoints.window1624}) {
+    // Section Introduction Container
+    max-height: 850px !important;
+    min-height: 800px !important;
+
     // Logo, title and buttons container
     #logoTitleButtonsContainer {
-      width: 71%;
-    }
-
-    // Eneich logo
-    img {
-      width: 19%;
-    }
-
-    // Title
-    h1 {
-      font-size: 7em;
-      margin: 4% 0% 4% 0%;
-    }
-
-    // Buttons container
-    #buttonsContainer {
-      width: 98%;
+      max-width: 1200px;
     }
   }
 
-  //1750px Window -----------
-  @media (max-width: ${breakpoints.window1750}) {
+  //1366px Window -----------
+  //Estandar
+  @media (max-width: ${breakpoints.window1366}) {
+    // Section Introduction Container
+    max-height: 768px !important;
+    min-height: 768px !important;
+
     // Logo, title and buttons container
     #logoTitleButtonsContainer {
-      width: 72%;
-    }
-
-    // Eneich logo
-    img {
-      width: 18%;
-    }
-
-    // Title
-    h1 {
-      font-size: 6.6em;
-      margin: 4% 0% 4% 0%;
-    }
-
-    // Buttons container
-    #buttonsContainer {
-      width: 94%;
-    }
-
-    // Buttons
-    #buttonsContainer button {
-      margin-right: 44px;
-    }
-
-    // Buttons Text
-    #buttonsContainer button p {
-      font-size: 0.83em;
-    }
-
-    // Lottie Animation Section
-    #lottieAnimationContainer section {
-      height: 66px;
-      width: 42px;
-    }
-  }
-
-  //1710px Window -----------
-  @media (max-width: ${breakpoints.window1710}) {
-    // Logo, title and buttons container
-    #logoTitleButtonsContainer {
-      width: 73%;
+      max-width: 1080px;
     }
 
     // Eneich logo
@@ -191,155 +143,30 @@ const IntroductionContainer = styled.div`
 
     // Title
     h1 {
-      font-size: 6.2em;
-      margin: 4% 0% 4% 0%;
-    }
-
-    // Buttons container
-    #buttonsContainer {
-      width: 92%;
+      font-size: 5.5em;
     }
 
     // Buttons
-    #buttonsContainer button {
-      margin-right: 42px;
-      padding: 0.1% 2.8% 0.1% 2.8%;
-    }
-
-    // Buttons Text
-    #buttonsContainer button p {
-      font-size: 0.81em;
-    }
-  }
-
-  //1624px Window -----------
-  @media (max-width: ${breakpoints.window1624}) {
-    // Logo, title and buttons container
-    #logoTitleButtonsContainer {
-      width: 75%;
-    }
-
-    // Eneich logo
-    img {
-      width: 16%;
-    }
-
-    // Title
-    h1 {
-      font-size: 5.8em;
-      margin: 4% 0% 4% 0%;
-    }
-
-    // Buttons container
-    #buttonsContainer {
-      width: 88%;
-    }
-
-    // Buttons
-    #buttonsContainer button {
-      margin-right: 38px;
-    }
-
-    // Buttons Text
-    #buttonsContainer button p {
-      font-size: 0.79em;
+    #buttonsContainer a {
+      padding: 0.2% 4% 0.2% 4%;
     }
 
     // Lottie Animation Section
     #lottieAnimationContainer section {
-      height: 58px;
-      width: 37px;
-    }
-  }
-
-  //14404px Window -----------
-  @media (max-width: ${breakpoints.window1440}) {
-    // Logo, title and buttons container
-    #logoTitleButtonsContainer {
-      width: 78%;
-    }
-
-    // Eneich logo
-    img {
-      width: 14%;
-    }
-
-    // Title
-    h1 {
-      font-size: 5.4em;
-      margin: 4% 0% 4% 0%;
-    }
-
-    // Buttons container
-    #buttonsContainer {
-      width: 84%;
-    }
-
-    // Buttons
-    #buttonsContainer button {
-      margin-right: 34px;
-      padding: 0% 2.7% 0% 2.7%;
-    }
-
-    // Buttons Text
-    #buttonsContainer button p {
-      font-size: 0.77em;
-      letter-spacing: 2px;
-    }
-  }
-
-  //1366px Window -----------
-  //Estandar
-  @media (max-width: ${breakpoints.window1366}) {
-    // Logo, title and buttons container
-    #logoTitleButtonsContainer {
-      width: 81%;
-    }
-
-    // Eneich logo
-    img {
-      width: 13%;
-    }
-
-    // Title
-    h1 {
-      font-size: 5em;
-      margin: 4% 0% 4% 0%;
-    }
-
-    // Buttons container
-    #buttonsContainer {
-      width: 80%;
-    }
-
-    // Buttons
-    #buttonsContainer button {
-      margin-right: 30px;
-    }
-
-    // Buttons Text
-    #buttonsContainer button p {
-      font-size: 0.75em;
-    }
-
-    // Lottie Animation Section
-    #lottieAnimationContainer section {
-      height: 50px;
-      width: 32px;
+      height: 60px;
+      width: 38px;
     }
   }
 
   //1250px Window -----------
   @media (max-width: ${breakpoints.window1250}) {
+    // Section Introduction Container
+    max-height: 700px !important;
+    min-height: 700px !important;
+
     // Logo, title and buttons container
     #logoTitleButtonsContainer {
-      width: 83%;
-    }
-
-    // Lottie Animation Section
-    #lottieAnimationContainer section {
-      height: 49px;
-      width: 31px;
+      max-width: 950px;
     }
   }
 
@@ -348,19 +175,50 @@ const IntroductionContainer = styled.div`
   //1024px Tablet -----------
   //iPad Pro
   @media (max-width: ${breakpoints.tablet1024}) {
-    max-height: 720px !important;
+    // Section Introduction Container
+    min-height: 650px !important;
+    max-height: 650px !important;
 
     // Logo, title and buttons container
     #logoTitleButtonsContainer {
-      width: 87%;
+      max-width: 700px;
+    }
+
+    // Buttons
+    #buttonsContainer a {
+      padding: 0.1% 5% 0.1% 5%;
+      margin-right: 30px;
     }
   }
 
-  //934px Tablet -----------
-  @media (max-width: ${breakpoints.tablet934}) {
+  //830px Tablet -----------
+  @media (max-width: ${breakpoints.tablet830}) {
     // Logo, title and buttons container
     #logoTitleButtonsContainer {
-      width: 85%;
+      max-width: 600px;
+    }
+  }
+
+  //768px Tablet -----------
+  //iPad
+  @media (max-width: ${breakpoints.tablet768}) {
+    // Section Introduction Container
+    min-height: 600px !important;
+    max-height: 600px !important;
+
+    // Logo, title and buttons container
+    #logoTitleButtonsContainer {
+      max-width: 500px;
+    }
+
+    // Eneich logo
+    img {
+      width: 28%;
+    }
+
+    // Title
+    h1 {
+      font-size: 4.5em;
     }
   }
 
@@ -369,12 +227,14 @@ const IntroductionContainer = styled.div`
   //651px Mobile -----------
   @media (max-width: ${breakpoints.mobile651}) {
     // Section Introduction Container
-    min-height: 858px !important;
+    min-height: 400px !important;
+    max-height: none !important;
 
     // Logo, title and buttons container
     #logoTitleButtonsContainer {
       width: 80%;
-      margin-top: 35px;
+      display: block;
+      max-width: none;
     }
 
     // Eneich logo
@@ -384,33 +244,72 @@ const IntroductionContainer = styled.div`
 
     // Title
     h1 {
-      font-size: 12vw;
-      margin: 10% 0% 12% 0%;
+      font-size: 4.1em;
+      margin: 13% 0% 13% 0%;
     }
 
     // Buttons container
     #buttonsContainer {
-      width: 100%;
       justify-content: space-between;
-      margin: 10% 0% 0% 0%;
     }
 
     // Buttons
-    #buttonsContainer button {
-      padding: 1% 10% 1% 10%;
-      width: 46%;
+    #buttonsContainer a {
       margin-right: 0px;
+      padding: 1% 0% 1% 0%;
+      width: 47%;
     }
 
     // Buttons Text
-    #buttonsContainer button p {
-      font-size: 0.9em;
-      letter-spacing: 3px;
+    #buttonsContainer a p {
+      font-size: 0.8em;
     }
 
     // Lottie Animation Container
     #lottieAnimationContainer {
-      margin: 15% 0% 0% 0%;
+      justify-content: center;
+      margin: 25% 0% 0% 0%;
+    }
+
+    // Lottie Animation Section
+    #lottieAnimationContainer section {
+      height: 86px;
+      width: 55px;
+    }
+  }
+
+  //550px Mobile -----------
+  @media (max-width: ${breakpoints.mobile550}) {
+    // Title
+    h1 {
+      font-size: 3.1em;
+    }
+  }
+
+  //414px Mobile -----------
+  //iPhone 6 7 8 Plus
+  @media (max-width: ${breakpoints.mobile414}) {
+    // Title
+    h1 {
+      font-size: 3em;
+    }
+
+    // Buttons Text
+    #buttonsContainer a p {
+      font-size: 0.7em;
+    }
+  }
+
+  //403px Mobile -----------
+  @media (max-width: ${breakpoints.mobile403}) {
+    // Title
+    h1 {
+      font-size: 2.8em;
+    }
+
+    // Buttons Text
+    #buttonsContainer a p {
+      font-size: 0.7em;
     }
 
     // Lottie Animation Section
@@ -420,45 +319,55 @@ const IntroductionContainer = styled.div`
     }
   }
 
-   //550px Mobile -----------
-   @media (max-width: ${breakpoints.mobile550}) {
-    // Eneich logo
-    img {
-      width: 45%;
-    }
-
+  //375px Mobile -----------
+  //iPhone X
+  @media (max-width: ${breakpoints.mobile375}) {
     // Title
     h1 {
-      margin: 15% 0% 17% 0%;
-    }
-
-    // Buttons container
-    #buttonsContainer {
-      width: 100%;
-      margin: 10% 0% 0% 0%;
-    }
-
-    // Buttons
-    #buttonsContainer button {
+      font-size: 2.7em;
     }
 
     // Buttons Text
-    #buttonsContainer button p {
-      font-size: 0.9em;
-      letter-spacing: 3px;
+    #buttonsContainer a p {
+      font-size: 0.65em;
+    }
+  }
+
+  //360px Mobile -----------
+  //Moto G4
+  @media (max-width: ${breakpoints.mobile375}) {
+    // Title
+    h1 {
+      font-size: 2.4em;
     }
 
-    // Lottie Animation Container
-    #lottieAnimationContainer {
-      display: flex;
-      justify-content: center;
-      margin: 35% 0% 0% 0%;
+    // Buttons Text
+    #buttonsContainer a p {
+      font-size: 0.55em;
     }
 
     // Lottie Animation Section
     #lottieAnimationContainer section {
-      height: 70px;
-      width: 45px;
+      height: 58px;
+      width: 37px;
+    }
+  }
+
+  //320px Mobile -----------
+  //iPhone 5 SE
+  @media (max-width: ${breakpoints.mobile320}) {
+    // Title
+    h1 {
+      font-size: 2.1em;
+    }
+  }
+
+  //280px Mobile -----------
+  //Galaxy Fold
+  @media (max-width: ${breakpoints.mobile280}) {
+    // Buttons Text
+    #buttonsContainer a p {
+      font-size: 0.5em;
     }
   }
 `;

@@ -8,7 +8,7 @@ function Platforms() {
       /* PLatforms Container */
     },
     (
-      <PlatformsContainer>
+      <PlatformsContainer name="platforms">
         {/* Title */}
         <p>ESCUCHAME EN</p>
         {/* Buttons Container */}

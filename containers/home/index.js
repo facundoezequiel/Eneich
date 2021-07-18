@@ -31,7 +31,7 @@ function Home() {
         </Fade>
         {/* Platforms Section */}
         <Fade duration={1800}>
-          <Platforms />
+          <Platforms/>
         </Fade>
       </div>
       {/* Video Section */}

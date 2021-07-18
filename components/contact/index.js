@@ -14,7 +14,7 @@ function Contact() {
     {
       /* Contact Container */
     },
-    <ContactContainer>
+    <ContactContainer name="contact">
       {/* Buttons Container */}
       <div id="buttonsContainers">
         {/* WhatsApp Button */}

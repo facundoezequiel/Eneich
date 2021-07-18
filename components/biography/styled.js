@@ -235,6 +235,7 @@ const BiographyContainer = styled.section`
     #textImageContainer {
       width: 80%;
       display: block;
+      max-width: none;
     }
 
     // Text Container
