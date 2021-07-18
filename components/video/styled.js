@@ -345,6 +345,11 @@ const VideoContainer = styled.div`
       font-size: 1em;
     }
 
+    // Title
+    #textContainer h2 {
+      margin: 35px 0px 35px 0px !important;
+    }
+
     // Text
     #textContainer p {
       font-size: 1em;
