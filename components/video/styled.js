@@ -218,9 +218,34 @@ const VideoContainer = styled.div`
 
     // Image Container
     #imageContainer {
-      width: 47%;
+      width: 44%;
       z-index: 99 !important;
-      margin-right: 2%;
+      margin-right: 5%;
+    }
+
+     // Text Image Container
+     #textImageContainer {
+      max-width: 950px;
+    }
+
+    // Subtitle
+    #textContainer span {
+      font-size: 0.813em;
+    }
+
+    // Title
+    #textContainer h2 {
+      font-size: 2.5em;
+    }
+
+    // Text
+    #textContainer p {
+      font-size: 0.875em;
+    }
+
+    // Button Text
+    #textContainer a p {
+      font-size: 0.813em;
     }
   }
 

@@ -9,9 +9,8 @@ function Header({design}) {
     {/* Header Container */},
     <HeaderContainer design={design}>
       {/* Logo Shop Container */}
-      <div id="logoShopContainer">
+      <div id="logoLenguajeContainer">
         {/* Logo */}
-        <div id="logoContainer">
           <h1>
             <NextLink href="/">
             <a>
@@ -20,19 +19,18 @@ function Header({design}) {
             </a>
             </NextLink>
           </h1>
-        </div>
-        {/* Shop Botton Desktop */}
-        <div id="shopLenguajeContainer">
+        {/* Shop and Lenguaje Botton Desktop */}
           <div id="lenguajeContainer" className="animate__animated animate__fadeIn">
             <a>ESP</a>
             <a>ENG</a>
           </div>
+          {/*
           <button>
             <FontAwesomeIcon icon={faShoppingBasket} />
             <p>SHOP</p>
           </button>
+          */}
         </div>
-      </div>
     </HeaderContainer>
   );
 }

@@ -1,4 +1,5 @@
 import styled, { css } from "styled-components";
+import { breakpoints } from "../../constants/media";
 
 const HeaderContainer = styled.div`
   // Position and scale
@@ -8,18 +9,17 @@ const HeaderContainer = styled.div`
   width: 100%;
   height: 55px;
   min-height: 55px;
-  // Blur
+  max-height: 55px;
   backdrop-filter: blur(30px) brightness(1.08);
   -webkit-backdrop-filter: blur(30px) brightness(1.08);
-  // Display
   display: flex;
   justify-content: center;
   align-items: center;
   align-content: center;
 
   // Logo and Buttons Container
-  #logoShopContainer {
-    width: 70%;
+  #logoLenguajeContainer {
+    width: 100%;
     max-width: 1344px;
     display: flex;
     justify-content: space-between;
@@ -27,37 +27,16 @@ const HeaderContainer = styled.div`
     align-content: center;
   }
 
-  #logoContainer,
-  #shopLenguajeContainer {
-    width: 50% !important;
-    display: flex;
-    align-content: center;
-    align-items: center;
-  }
-
-  #logoContainer {
-    justify-content: flex-start;
-  }
-
-  #shopLenguajeContainer {
-    justify-content: flex-end;
-  }
-
-  #logoContainer h1,
-  #logoContainer h1 a {
-    width: 100%;
-  }
-
-  #logoContainer img {
-    width: 4.5%;
-    max-width: 30.23px;
+  h1 a img {
+    display: block;
+    width: 90%;
+    height: auto;
   }
 
   #logoWhite {
     display: none;
   }
 
-  //Lenguaje Buttons Container
   #lenguajeContainer {
     display: flex;
     align-content: center;
@@ -75,6 +54,23 @@ const HeaderContainer = styled.div`
     font-weight: 700;
   }
 
+  ${(props) =>
+    props.design === "bio" && css` 
+      // Blur
+      backdrop-filter: none;
+      -webkit-backdrop-filter: none;
+      background-color: transparent;
+
+      #logoBlack {
+        display: none;
+      }
+
+      #logoWhite {
+        display: block;
+      }
+  `};
+
+  /*
   // Shop Button
   button {
     background-color: #141414;
@@ -115,24 +111,73 @@ const HeaderContainer = styled.div`
     display: block;
     margin-right: 20px;
     padding-top: 1px;
+  } */
+
+  /* ----------- DESKTOP RESPONSIVE ----------- */
+
+  //1624px Window -----------
+  @media (max-width: ${breakpoints.window1624}) {
+    // Logo and Buttons Container
+    #logoLenguajeContainer {
+      max-width: 1200px;
+    }
   }
 
-  ${(props) =>
-    props.design === "bio" &&
-    css`
-      // Blur
-      backdrop-filter: none;
-      -webkit-backdrop-filter: none;
-      background-color: transparent;
+  //1366px Window -----------
+  //Estandar
+  @media (max-width: ${breakpoints.window1366}) {
+    // Logo and Buttons Container
+    #logoLenguajeContainer {
+      max-width: 1080px;
+    }
+  }
 
-      #logoBlack {
-        display: none;
-      }
+  //1250px Window -----------
+  @media (max-width: ${breakpoints.window1250}) {
+    // Logo and Buttons Container
+    #logoLenguajeContainer {
+      max-width: 950px;
+    }
+  }
 
-      #logoWhite {
-        display: block;
-      }
-  `};
+  /* ----------- TABLET RESPONSIVE ----------- */
+
+  //1024px Tablet -----------
+  //iPad Pro
+  @media (max-width: ${breakpoints.tablet1024}) {
+    // Logo and Buttons Container
+    #logoLenguajeContainer {
+      max-width: 700px;
+    }
+  }
+
+  //830px Tablet -----------
+  @media (max-width: ${breakpoints.tablet830}) {
+    // Logo and Buttons Container
+    #logoLenguajeContainer {
+      max-width: 600px;
+    }
+  }
+
+  //768px Tablet -----------
+  //iPad
+  @media (max-width: ${breakpoints.tablet768}) {
+    // Logo and Buttons Container
+    #logoLenguajeContainer {
+      max-width: 500px;
+    }
+  }
+
+  /* ----------- MOBILE RESPONSIVE ----------- */
+
+  //651px Mobile -----------
+  @media (max-width: ${breakpoints.mobile651}) {
+    // Logo and Buttons Container
+    #logoLenguajeContainer {
+      width: 80%;
+      max-width: none;
+    }
+  }
 `;
 
 export { HeaderContainer };
