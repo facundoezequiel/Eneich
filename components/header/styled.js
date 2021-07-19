@@ -17,6 +17,10 @@ const HeaderContainer = styled.div`
   align-items: center;
   align-content: center;
 
+  @supports not ((-webkit-backdrop-filter: none) or (backdrop-filter: none)) {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+
   // Logo and Buttons Container
   #logoLenguajeContainer {
     width: 100%;
@@ -28,14 +32,18 @@ const HeaderContainer = styled.div`
   }
 
   h1 a img {
-    display: block;
     width: 100%;
     max-width: 32px;
     height: auto;
   }
 
+  #logoBlack {
+    display: block;
+  }
+
   #logoWhite {
     display: none;
+    max-width: 31px;
   }
 
   #lenguajeContainer {
@@ -46,7 +54,6 @@ const HeaderContainer = styled.div`
   }
 
   #lenguajeContainer a {
-    display: block;
     margin-left: 20px;
     color: var(--nhwhite);
     text-rendering: optimizeLegibility;
@@ -55,7 +62,7 @@ const HeaderContainer = styled.div`
     font-weight: 400;
     transition: 0.2s;
   }
-  
+
   #esp {
     font-weight: 700 !important;
   }
@@ -65,24 +72,26 @@ const HeaderContainer = styled.div`
   }
 
   ${(props) =>
-    props.design === "bio" && css` 
-      // Blur
-      backdrop-filter: none;
-      -webkit-backdrop-filter: none;
-      background-color: transparent;
-
-      #logoBlack {
-        display: none;
-      }
+    props.design === "bio" &&
+    css`
+      background-color: var(--nhdarkgray);
 
       #logoWhite {
-        display: block;
+        display: block !important; 
+      }
+
+      #logoBlack {
+        display: none !important;
       }
 
       #lenguajeContainer a:hover {
         color: var(--nhlightgray);
       }
-  `};
+
+      @supports not ((-webkit-backdrop-filter: none) or (backdrop-filter: none)) {
+        background-color: rgba(0, 0, 0, 0);
+      }
+    `};
 
   /*
   // Shop Button

@@ -238,7 +238,7 @@ const FooterContainer = styled.div`
       max-width: none;
       width: 80%;
       display: block;
-      padding: 8% 0% 8% 0%;
+      padding: 10% 0% 10% 0%;
     }
 
     // Logo Image
@@ -249,6 +249,7 @@ const FooterContainer = styled.div`
     // Buttons Container 
     #buttonsContainer {
       justify-content: flex-start;
+      padding: 10% 0% 6% 0%;
     }
 
     // Buttons Container 
