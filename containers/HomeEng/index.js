@@ -8,11 +8,11 @@ import Video from "../../components/video";
 import Contact from "../../components/contact";
 import Footer from "../../components/footer";
 import Fade from "react-reveal/Fade";
-import { HomeContainer } from "../Home/styled";
+import { HomeEngContainer } from "./styled";
 
 function Homeeng() {
   return (
-    <HomeContainer>
+    <HomeEngContainer>
       {/* Header */}
       <Header active="eng" linkeng="/home" linkesp="/" logolink="/home" />
       {/* Introduction Section  */}
@@ -44,7 +44,7 @@ function Homeeng() {
       <News />
       {/* Footer */}
       <Footer active="eng" linkeng="/home" linkesp="/" logolink="/home" />
-    </HomeContainer>
+    </HomeEngContainer>
   );
 }
 
