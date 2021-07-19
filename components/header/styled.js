@@ -63,8 +63,8 @@ const HeaderContainer = styled.div`
     transition: 0.2s;
   }
 
-  #esp {
-    font-weight: 700 !important;
+  #esp, #eng {
+    font-weight: 400;
   }
 
   #lenguajeContainer a:hover {
@@ -77,7 +77,7 @@ const HeaderContainer = styled.div`
       background-color: var(--nhdarkgray);
 
       #logoWhite {
-        display: block !important; 
+        display: block !important;
       }
 
       #logoBlack {
@@ -88,8 +88,26 @@ const HeaderContainer = styled.div`
         color: var(--nhlightgray);
       }
 
-      @supports not ((-webkit-backdrop-filter: none) or (backdrop-filter: none)) {
+      @supports not (
+        (-webkit-backdrop-filter: none) or (backdrop-filter: none)
+      ) {
         background-color: rgba(0, 0, 0, 0);
+      }
+    `};
+
+  ${(props) =>
+    props.active === "esp" &&
+    css`
+      #esp {
+        font-weight: 700 !important;
+      }
+    `};
+
+    ${(props) =>
+    props.active === "eng" &&
+    css`
+      #eng {
+        font-weight: 700 !important;
       }
     `};
 

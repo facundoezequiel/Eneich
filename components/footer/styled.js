@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled, { css } from "styled-components";
 import { breakpoints } from "../../constants/media";
 
 const FooterContainer = styled.div`
@@ -91,9 +91,25 @@ const FooterContainer = styled.div`
     width: 0%;
   }
 
-  #esp {
-    font-weight: 800 !important;
+  #esp, #eng {
+    font-weight: 400;
   }
+
+  ${(props) =>
+    props.active === "esp" &&
+    css`
+      #esp {
+        font-weight: 700 !important;
+      }
+    `};
+
+    ${(props) =>
+    props.active === "eng" &&
+    css`
+      #eng {
+        font-weight: 700 !important;
+      }
+    `};
 
   #gradientLine {
     content: "";

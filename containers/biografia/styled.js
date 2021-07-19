@@ -1,28 +1,34 @@
 import styled from "styled-components";
 
+// Biography Esp Eng Container
 const BioespengContainer = styled.div`
   width: 100%;
-  background-color: #edeae2;
+  background-color: var(--nhwhite);
 
+  // Font for bio
   @import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap");
   
+  // Bio Container
   #bioContainer {
     width: 100%;
-    border-bottom: 1.5px #6a615a solid;
+    border-bottom: 1px var(--nhdarkgray) solid;
   }
 
+  // Title Container
   #titleContainer {
     width: 100%;
-    background-color: #6a615a;
+    background-color: var(--nhdarkgray);
     padding: 3% 0% 2% 0%;
   }
 
+  // Title Container
   #titleContainer div {
     width: 30%;
     margin: 0 auto;
     max-width: 1344px;
   }
 
+  // Title
   #titleContainer h2 {
     color: #edeae2;
     text-rendering: optimizeLegibility;
@@ -36,8 +42,9 @@ const BioespengContainer = styled.div`
     margin: 0px 0px 0px 0px !important;
   }
 
+  // Subtitle
   #titleContainer p {
-    color: #edeae2;
+    color: var(--nhwhite);
     font-family: "Pangea", sans-serif;
     font-size: 0.9em !important;
     letter-spacing: 3px;
@@ -45,23 +52,30 @@ const BioespengContainer = styled.div`
     font-weight: 400;
     text-rendering: optimizeLegibility;
     display: inline;
-    border-top: 1px #edeae2 solid;
+    border-top: 1px var(--nhwhite) solid;
     padding: 14px 0px 0px 0px;
   }
   
+  // Text Container
   #pContainer {
     width: 100%;
     padding: 3% 0% 5% 0%;
-    background-color: #edeae2;
+    background-color: var(--nhwhite);;
     z-index: 98;
   }
 
+  // Text
   #pContainer p {
     width: 30%;
     margin: 0 auto;
     max-width: 1344px;
+    font-size: 1.2em;
+    line-height: 35px;
+    font-family: "Lora", serif;
+    text-align: left;
   }
 
+  // Back Button
   #backButton {
     display: flex;
     justify-content: flex-start;
@@ -73,14 +87,16 @@ const BioespengContainer = styled.div`
     cursor: pointer;
   }
 
+  // Back Button Image
   #backButton img {
     transition: 0.2s;
     display: block;
     transform: rotate(180deg);
   }
 
+  // Back Button Text
   #backButton span {
-    color: #edeae2;
+    color: var(--nhwhite);;
     font-family: "Pangea", sans-serif;
     font-size: 0.9em !important;
     letter-spacing: 3px;
@@ -95,13 +111,7 @@ const BioespengContainer = styled.div`
     transform: rotate(180deg) translateX(23px);
   }
 
-  #pContainer p {
-    font-size: 1.2em;
-    line-height: 35px;
-    font-family: "Lora", serif;
-    text-align: left;
-  }
-
+  // Gradient Line
   #gradientLine {
     content: "";
     background: rgba(250, 201, 171, 1);

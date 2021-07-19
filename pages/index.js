@@ -1,8 +1,8 @@
-import Home from "../containers/home/index.js";
+import Inicio from "../containers/home/index.js";
 
 function Index() {
   return (
-      <Home />
+      <Inicio />
   );
 }
 

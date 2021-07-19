@@ -4,18 +4,18 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { HeaderContainer } from "./styled";
 import { faShoppingBasket } from "@fortawesome/free-solid-svg-icons";
 
-function Header({ design }) {
+function Header({ design, active, linkeng, linkesp, logolink }) {
   return (
     {
       /* Header Container */
     },
     (
-      <HeaderContainer design={design}>
+      <HeaderContainer design={design} active={active}>
         {/* Logo Shop Container */}
         <div id="logoLenguajeContainer">
           {/* Logo */}
           <h1>
-            <NextLink href="/">
+            <NextLink href={logolink}>
               <a>
                 <img
                   src="images/logos/LogoCiervoEneich.svg"
@@ -40,11 +40,11 @@ function Header({ design }) {
             className="animate__animated animate__fadeIn"
           >
             {/* Spanish Button */}
-            <NextLink href="#">
+            <NextLink href={linkesp}>
               <a id="esp">ESP</a>
             </NextLink>
             {/* English Button */}
-            <NextLink href="#">
+            <NextLink href={linkeng}>
               <a id="eng">ENG</a>
             </NextLink>
           </div>

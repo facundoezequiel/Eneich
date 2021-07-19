@@ -1,8 +1,8 @@
 import styled from "styled-components";
 import { breakpoints } from "../../constants/media";
 
-// Biography Container
-const BiographyContainer = styled.section`
+// AboutMe Container
+const AboutMeContainer = styled.section`
   width: 100%;
   padding: 112px 0px 0px 0px;
   border-bottom: 1px var(--nhdarkgray) solid;
@@ -359,4 +359,4 @@ const BiographyContainer = styled.section`
   }
 `;
 
-export { BiographyContainer };
+export { AboutMeContainer };

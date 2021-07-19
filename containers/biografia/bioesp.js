@@ -10,7 +10,13 @@ function Bioesp() {
   return (
     <BioespengContainer>
       {/* Header Component */}
-      <Header design="bio"/>
+      <Header
+        design="bio"
+        active="esp"
+        linkeng="/biography"
+        linkesp="/biografia"
+        logolink="/"
+      />
       {/* Bio Container */}
       <div id="bioContainer">
         {/* Button Title Container */}
@@ -28,9 +34,13 @@ function Bioesp() {
               </a>
             </NextLink>
             {/* Title */}
-            <h2 className="animate__animated animate__fadeIn">Nicolás Hirschfeld</h2>
+            <h2 className="animate__animated animate__fadeIn">
+              Nicolás Hirschfeld
+            </h2>
             {/* Subtitle */}
-            <p className="animate__animated animate__fadeIn">PRODUCTOR DE HOUSE MUSIC & DJ</p>
+            <p className="animate__animated animate__fadeIn">
+              PRODUCTOR DE HOUSE MUSIC & DJ
+            </p>
           </div>
         </div>
         {/* Gradient Line */}
@@ -107,7 +117,12 @@ function Bioesp() {
       {/* News Component */}
       <News />
       {/* Footer Component */}
-      <Footer />
+      <Footer
+        active="esp"
+        linkeng="/biography"
+        linkesp="/biografia"
+        logolink="/"
+      />
     </BioespengContainer>
   );
 }

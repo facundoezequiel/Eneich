@@ -1,13 +1,13 @@
 import React from "react";
 import { default as NextLink } from "next/link";
-import { BiographyContainer } from "./styled";
+import { AboutMeContainer } from "./styled";
 
-function Biography() {
+function AboutMe() {
   return (
     {
-      /* Biography Container */
+      /* AboutMe Container */
     },
-    <BiographyContainer>
+    <AboutMeContainer>
       {/* Text and Image Container */}
       <div id="textImageContainer">
         {/* Text Container */}
@@ -42,8 +42,8 @@ function Biography() {
           alt="Foto de Nicolás Hirschfeld"
         />
       </div>
-    </BiographyContainer>
+    </AboutMeContainer>
   );
 }
 
-export default Biography;
+export default AboutMe;
