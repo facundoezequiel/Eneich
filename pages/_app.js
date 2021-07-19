@@ -41,6 +41,7 @@ function MyApp({ Component, pageProps }) {
           content="https://www.eneich.com/images/share.jpg"
         />
         <meta property="og:description" content="Eneich Landing Page" />
+        <meta name="theme-color" content="#EDEAE2" />
       </Head>
       <Component {...pageProps} />
       <GlobalStyles />
