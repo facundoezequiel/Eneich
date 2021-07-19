@@ -20,14 +20,17 @@ const FooterContainer = styled.div`
 
   // Logo Button
   #logoButton {
-    max-width: 120px;
+    height: auto;
+    cursor: pointer;
+    transition: 0.2s;
   }
 
   // Logo Image
   #logoButton img {
-    width: 100%;
+    width: 8rem;
     height: auto;
     display: block;
+    transition: 0.2s;
   }
 
   // Buttons Copyright Container and Buttons Container
@@ -170,6 +173,42 @@ const FooterContainer = styled.div`
     // Logo Buttons Container
     #logoButtonsContainer {
       max-width: 700px;
+      display: block;
+    }
+
+    // Logo Button
+    #logoButton {
+      padding: 2% 0% 0% 0%;
+      width: auto;
+    }
+
+    // Logo Image
+    #logoButton img {
+      margin: 0 auto;
+    }
+
+    // Buttons Copyright Container and Buttons Container
+    #buttonsCopyrightContainer {
+      display: block;
+      margin: 0 auto;
+    }
+
+    // Buttons Container 
+    #buttonsContainer {
+      margin-right: 0px;
+      margin: 0 auto;
+      padding: 5% 0% 3% 0%;
+      justify-content: center;
+    }
+
+    // Buttons Container 
+    #buttonsContainer a {
+      margin: 0px 17.5px 0px 17.5px;
+    }
+
+    // Copyright Text
+    #buttonsCopyrightContainer p {
+      text-align: center;
     }
   }
 
@@ -192,6 +231,36 @@ const FooterContainer = styled.div`
 
   /* ----------- MOBILE RESPONSIVE ----------- */
 
+  //651px Mobile -----------
+  @media (max-width: ${breakpoints.mobile651}) {
+    // Logo Buttons Container
+    #logoButtonsContainer {
+      max-width: none;
+      width: 80%;
+      display: block;
+      padding: 8% 0% 8% 0%;
+    }
+
+    // Logo Image
+    #logoButton img {
+      margin: 0px 0px 0px 0px;
+    }
+
+    // Buttons Container 
+    #buttonsContainer {
+      justify-content: flex-start;
+    }
+
+    // Buttons Container 
+    #buttonsContainer a {
+      margin: 0px 35px 0px 0px;
+    }
+
+    // Copyright Text
+    #buttonsCopyrightContainer p {
+      text-align: left;
+    }
+  }
 
 `;
 
