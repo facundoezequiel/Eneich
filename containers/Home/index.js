@@ -14,7 +14,7 @@ function Inicio() {
   return (
     <HomeContainer>
       {/* Header */}
-      <Header active="esp" linkeng="/english" linkesp="/" logolink="/" />
+      <Header active="esp" linkeng="/" linkesp="/" logolink="/" />
       {/* Introduction Section  */}
       <Introduction />
       {/* News Section */}
@@ -43,7 +43,7 @@ function Inicio() {
       {/* News Section */}
       <News />
       {/* Footer */}
-      <Footer active="esp" linkeng="/english" linkesp="/" logolink="/" />
+      <Footer active="esp" linkeng="/" linkesp="/" logolink="/" />
     </HomeContainer>
   );
 }

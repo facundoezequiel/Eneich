@@ -15,7 +15,7 @@ function Bioeng() {
         active="eng"
         linkeng="/biography"
         linkesp="/biografia"
-        logolink="/english"
+        logolink="/"
       />
       {/* Bio Container */}
       <div id="bioContainer">
@@ -23,7 +23,7 @@ function Bioeng() {
         <div id="titleContainer">
           <div>
             {/* Back Button */}
-            <NextLink href="/english">
+            <NextLink href="/">
               <a id="backButton" className="animate__animated animate__fadeIn">
                 <img
                   src="images/icons/flechaWhite.svg"
@@ -119,7 +119,7 @@ function Bioeng() {
         active="eng"
         linkeng="/biography"
         linkesp="/biografia"
-        logolink="/english"
+        logolink="/"
       />
     </BioespengContainer>
   );
