@@ -1,8 +1,8 @@
-import Home from "../containers/home/home.js";
+import Homeeng from "../containers/home/homeeng.js";
 
 function HomePage() {
   return (
-      <Home />
+      <Homeeng />
   );
 }
 

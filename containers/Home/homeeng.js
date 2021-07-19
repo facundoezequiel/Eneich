@@ -10,11 +10,11 @@ import Footer from "../../components/footer";
 import Fade from "react-reveal/Fade";
 import { HomeContainer } from "./styled";
 
-function Inicio() {
+function Homeeng() {
   return (
     <HomeContainer>
       {/* Header */}
-      <Header active="esp" linkeng="/home" linkesp="/" logolink="/" />
+      <Header active="eng" linkeng="/home" linkesp="/" logolink="/home" />
       {/* Introduction Section  */}
       <Introduction />
       {/* News Section */}
@@ -43,9 +43,9 @@ function Inicio() {
       {/* News Section */}
       <News />
       {/* Footer */}
-      <Footer active="esp" linkeng="/home" linkesp="/" logolink="/" />
+      <Footer active="eng" linkeng="/home" linkesp="/" logolink="/home" />
     </HomeContainer>
   );
 }
 
-export default Inicio;
+export default Homeeng;

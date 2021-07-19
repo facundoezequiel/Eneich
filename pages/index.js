@@ -1,8 +1,8 @@
-import Inicio from "../containers/home/index.js";
+import Homeesp from "../containers/home/homeesp.js";
 
 function Index() {
   return (
-      <Inicio />
+      <Homeesp />
   );
 }
 
