@@ -16,9 +16,9 @@ function EnglishPage() {
       {/* Header */}
       <Header active="eng" linkeng="/english" linkesp="/" logolink="/" />
       {/* Introduction Section  */}
-      <Introduction />
+      <Introduction active="eng" />
       {/* News Section */}
-      <News />
+      <News active="eng" />
       <div id="bioraphyPlatformsSection">
         <div id="fristElement">
           <Fade duration={2800}>
@@ -27,21 +27,21 @@ function EnglishPage() {
         </div>
         {/* AboutMe Section */}
         <Fade duration={1800}>
-          <AboutMe />
+          <AboutMe active="eng" link="/biography"/>
         </Fade>
         {/* Platforms Section */}
         <Fade duration={1800}>
-          <Platforms />
+          <Platforms active="eng" />
         </Fade>
       </div>
       {/* Video Section */}
       <Fade duration={1800}>
-        <Video />
+        <Video active="eng" />
       </Fade>
       {/* Contact Section */}
       <Contact />
       {/* News Section */}
-      <News />
+      <News active="eng" />
       {/* Footer */}
       <Footer active="eng" linkeng="/english" linkesp="/" logolink="/" />
     </EnglishContainer>

@@ -2,7 +2,7 @@ import React from "react";
 import { default as NextLink } from "next/link";
 import { PlatformsContainer } from "./styled";
 
-function Platforms() {
+function Platforms({ active }) {
   return (
     {
       /* PLatforms Container */
@@ -10,7 +10,7 @@ function Platforms() {
     (
       <PlatformsContainer name="platforms">
         {/* Title */}
-        <p>ESCUCHAME EN</p>
+        {active === "esp" ? <p>ESCUCHAME EN</p> : <p>LISTEN ME ON</p>}
         {/* Buttons Container */}
         <div id="buttonsContainer">
           {/* YouTube Button */}

@@ -4,7 +4,7 @@ import { VideoContainer } from "./styled";
 import Iframe from "../../components/iframe";
 import Modal from "../modal";
 
-function Video() {
+function Video({ active }) {
   // Modal States
   const [showModal, setShowModal] = useState(false);
 
@@ -43,7 +43,7 @@ function Video() {
           </div>
           {/* Title and text Container */}
           <div id="textContainer">
-            <span>NEW EP</span>
+            {active === "esp" ? <span>NUEVO EP</span> : <span>NEW EP</span>}
             <h2>Overspeed</h2>
             <p>
               Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -54,13 +54,13 @@ function Video() {
             </p>
             {/* Open Modal button */}
             <a onClick={() => setShowModal(true)} id="modalButton">
-              <p>ESCUCHAR AHORA</p>
+              {active === "esp" ? <p>ESCUCHAR AHORA</p> : <p>LISTEN NOW</p>}
               <img src="images/icons/flecha.svg" draggable="false" alt="" />
             </a>
             {/* Open YouTube button mobile */}
             <NextLink href="https://www.youtube.com/watch?v=-_nupRfjkWw">
               <a id="youtubeButton" target="blank">
-                <p>ESCUCHAR AHORA</p>
+                {active === "esp" ? <p>ESCUCHAR AHORA</p> : <p>LISTEN NOW</p>}
                 <img src="images/icons/flecha.svg" draggable="false" alt="" />
               </a>
             </NextLink>

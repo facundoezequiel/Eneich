@@ -4,7 +4,7 @@ import * as Scroll from "react-scroll";
 import MouseAnimation from "../animations/mouse";
 import { IntroductionContainer } from "./styled";
 
-function Introduction() {
+function Introduction({ active }) {
   return (
     {
       /* Introduction Container */
@@ -30,12 +30,18 @@ function Introduction() {
             className="animate__animated animate__fadeIn animate__delay-1s"
           >
             {/* Escuchame button */}
-            <Link to="platforms" smooth={true} spy={true} offset={-150} duration={500}>
-              <p>ESCUCHAME</p>
+            <Link
+              to="platforms"
+              smooth={true}
+              spy={true}
+              offset={-150}
+              duration={500}
+            >
+              {active === "esp" ? <p>ESCUCHAME</p> : <p>LISTEN</p>}
             </Link>
             {/* Contacto button */}
             <Link to="contact" smooth={true} spy={true} duration={700}>
-              <p>CONTACTO</p>
+              {active === "esp" ? <p>CONTACTO</p> : <p>CONTACT</p>}
             </Link>
           </div>
           {/* Mouse Lottie Animation Container */}

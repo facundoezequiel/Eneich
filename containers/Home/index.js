@@ -16,9 +16,9 @@ function Inicio() {
       {/* Header */}
       <Header active="esp" linkeng="/english" linkesp="/" logolink="/" />
       {/* Introduction Section  */}
-      <Introduction />
+      <Introduction active="esp" />
       {/* News Section */}
-      <News />
+      <News active="esp" />
       <div id="bioraphyPlatformsSection">
         <div id="fristElement">
           <Fade duration={2800}>
@@ -27,21 +27,21 @@ function Inicio() {
         </div>
         {/* AboutMe Section */}
         <Fade duration={1800}>
-          <AboutMe />
+          <AboutMe active="esp" link="/biografia"/>
         </Fade>
         {/* Platforms Section */}
         <Fade duration={1800}>
-          <Platforms />
+          <Platforms active="esp" />
         </Fade>
       </div>
       {/* Video Section */}
       <Fade duration={1800}>
-        <Video />
+        <Video active="esp" />
       </Fade>
       {/* Contact Section */}
       <Contact />
       {/* News Section */}
-      <News />
+      <News active="esp" />
       {/* Footer */}
       <Footer active="esp" linkeng="/english" linkesp="/" logolink="/" />
     </HomeContainer>

@@ -2,13 +2,17 @@ import React from "react";
 import Ticker from "react-ticker";
 import { NewsContainer } from "./styled";
 
-function News() {
+function News({ active }) {
   return (
     <NewsContainer>
       <Ticker>
         {({ index }) => (
           <>
-            <p>Overspeed - Eneich ft. Gandini. Live now on Spotify.</p>
+            {active === "esp" ? (
+              <p>Overspeed - Eneich ft. Gandini. Escuchalo ahora.</p>
+            ) : (
+              <p>Overspeed - Eneich ft. Gandini. Listen now.</p>
+            )}
           </>
         )}
       </Ticker>
