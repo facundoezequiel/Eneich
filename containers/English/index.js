@@ -10,11 +10,11 @@ import Footer from "../../components/footer";
 import Fade from "react-reveal/Fade";
 import { HomeEngContainer } from "./styled";
 
-function Homeeng() {
+function English() {
   return (
     <HomeEngContainer>
       {/* Header */}
-      <Header active="eng" linkeng="/home" linkesp="/" logolink="/home" />
+      <Header active="eng" linkeng="/english" linkesp="/" logolink="/home" />
       {/* Introduction Section  */}
       <Introduction />
       {/* News Section */}
@@ -43,9 +43,9 @@ function Homeeng() {
       {/* News Section */}
       <News />
       {/* Footer */}
-      <Footer active="eng" linkeng="/home" linkesp="/" logolink="/home" />
+      <Footer active="eng" linkeng="/english" linkesp="/" logolink="/home" />
     </HomeEngContainer>
   );
 }
 
-export default Homeeng;
+export default English;
