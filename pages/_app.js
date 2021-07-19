@@ -42,6 +42,8 @@ function MyApp({ Component, pageProps }) {
         />
         <meta property="og:description" content="Eneich Landing Page" />
         <meta name="theme-color" content="#6A615A" />
+        <meta name="msapplication-navbutton-color" content="#6A615A"></meta>
+        <meta name="apple-mobile-web-app-status-bar-style" content="#6A615A"></meta>
       </Head>
       <Component {...pageProps} />
       <GlobalStyles />
