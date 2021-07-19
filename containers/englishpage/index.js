@@ -8,13 +8,13 @@ import Video from "../../components/video";
 import Contact from "../../components/contact";
 import Footer from "../../components/footer";
 import Fade from "react-reveal/Fade";
-import { HomeContainer } from "./styled";
+import { EnglishContainer } from "./styled";
 
-function Inicio() {
+function EnglishPage() {
   return (
-    <HomeContainer>
+    <EnglishContainer>
       {/* Header */}
-      <Header active="esp" linkeng="/english" linkesp="/" logolink="/" />
+      <Header active="eng" linkeng="/english" linkesp="/" logolink="/" />
       {/* Introduction Section  */}
       <Introduction />
       {/* News Section */}
@@ -43,9 +43,9 @@ function Inicio() {
       {/* News Section */}
       <News />
       {/* Footer */}
-      <Footer active="esp" linkeng="/english" linkesp="/" logolink="/" />
-    </HomeContainer>
+      <Footer active="eng" linkeng="/english" linkesp="/" logolink="/" />
+    </EnglishContainer>
   );
 }
 
-export default Inicio;
+export default EnglishPage;
