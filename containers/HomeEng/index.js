@@ -8,13 +8,13 @@ import Video from "../../components/video";
 import Contact from "../../components/contact";
 import Footer from "../../components/footer";
 import Fade from "react-reveal/Fade";
-import { HomeContainer } from "./styled";
+import { HomeContainer } from "../Home/styled";
 
-function Homeesp() {
+function Homeeng() {
   return (
     <HomeContainer>
       {/* Header */}
-      <Header active="esp" linkeng="/home" linkesp="/" logolink="/" />
+      <Header active="eng" linkeng="/home" linkesp="/" logolink="/home" />
       {/* Introduction Section  */}
       <Introduction />
       {/* News Section */}
@@ -43,9 +43,9 @@ function Homeesp() {
       {/* News Section */}
       <News />
       {/* Footer */}
-      <Footer active="esp" linkeng="/home" linkesp="/" logolink="/" />
+      <Footer active="eng" linkeng="/home" linkesp="/" logolink="/home" />
     </HomeContainer>
   );
 }
 
-export default Homeesp;
+export default Homeeng;

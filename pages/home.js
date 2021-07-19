@@ -1,4 +1,4 @@
-import Homeeng from "../containers/home/homeeng.js";
+import Homeeng from "../containers/HomeEng/index.js";
 
 function HomePage() {
   return (
