@@ -19,14 +19,14 @@ const FooterContainer = styled.div`
   }
 
   // Logo Button
-  #logoButton {
+  #homeLogoButton, #bioLogoButton {
     height: auto;
     cursor: pointer;
     transition: 0.2s;
   }
 
   // Logo Image
-  #logoButton img {
+  #homeLogoButton img, #bioLogoButton img {
     width: 8rem;
     height: auto;
     display: block;
@@ -152,6 +152,11 @@ const FooterContainer = styled.div`
     );
     width: 100%;
     height: 5px;
+  }
+
+  // Logo Button
+  #homeLogoButton:hover > img, #bioLogoButton:hover > img {
+    transform: scale(1.06);
   }
 
   /* ----------- DESKTOP RESPONSIVE ----------- */

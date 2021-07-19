@@ -43,7 +43,7 @@ function Inicio() {
       {/* News Section */}
       <News active="esp" />
       {/* Footer */}
-      <Footer active="esp" linkeng="/english" linkesp="/" logolink="/" />
+      <Footer active="esp" linkeng="/english" linkesp="/" logolink="none" />
     </HomeContainer>
   );
 }

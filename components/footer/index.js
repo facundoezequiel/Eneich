@@ -1,4 +1,6 @@
 import React from "react";
+import { Link } from "react-scroll";
+import * as Scroll from "react-scroll";
 import { default as NextLink } from "next/link";
 import { FooterContainer } from "./styled";
 
@@ -8,16 +10,32 @@ function Footer({ active, linkeng, linkesp, logolink }) {
       {/* Logo and Buttons Container */}
       <div id="logoButtonsContainer">
         {/* Logo Button */}
-        <NextLink href={logolink}>
-          <a id="logoButton">
-            {/* Logo Image */}
+        {logolink === "none" ? (
+          <Link
+            to="header"
+            smooth={true}
+            spy={true}
+            offset={0}
+            duration={700}
+            id="homeLogoButton"
+          >
             <img
               src="images/logos/LogoEneich.svg"
               draggable="false"
               alt="Foto de Nicolas Hirschfeld"
             />
-          </a>
-        </NextLink>
+          </Link>
+        ) : (
+          <NextLink href={logolink}>
+            <a id="bioLogoButton">
+              <img
+                src="images/logos/LogoEneich.svg"
+                draggable="false"
+                alt="Foto de Nicolas Hirschfeld"
+              />
+            </a>
+          </NextLink>
+        )}
         {/* Buttons and Copyright Container */}
         <div id="buttonsCopyrightContainer">
           {/* Buttons Container */}

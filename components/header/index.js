@@ -10,7 +10,7 @@ function Header({ design, active, linkeng, linkesp, logolink }) {
       /* Header Container */
     },
     (
-      <HeaderContainer design={design} active={active}>
+      <HeaderContainer design={design} active={active} name="header">
         {/* Logo Shop Container */}
         <div id="logoLenguajeContainer">
           {/* Logo */}

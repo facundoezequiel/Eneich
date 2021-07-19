@@ -43,7 +43,7 @@ function EnglishPage() {
       {/* News Section */}
       <News active="eng" />
       {/* Footer */}
-      <Footer active="eng" linkeng="/english" linkesp="/" logolink="/" />
+      <Footer active="eng" linkeng="/english" linkesp="/" logolink="none" />
     </EnglishContainer>
   );
 }
