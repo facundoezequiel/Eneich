@@ -18,7 +18,7 @@ function Contact() {
       {/* Buttons Container */}
       <div id="buttonsContainers">
         {/* WhatsApp Button */}
-        <NextLink href="https://api.whatsapp.com/send?phone=5492326422923">
+        <NextLink href="https://api.whatsapp.com/send?phone=5491122706890">
           <a target="blank" id="whatsappButton">
             {/* Icon */}
             <span>
@@ -45,7 +45,7 @@ function Contact() {
           </a>
         </NextLink>
         {/* Mail Button */}
-        <NextLink href="mailto:gandinimusic@gmail.com">
+        <NextLink href="mailto:eneichmusic@outlook.com">
           <a target="blank" id="mailButton">
             {/* Icon */}
             <span>

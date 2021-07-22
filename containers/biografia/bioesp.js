@@ -48,67 +48,46 @@ function Bioesp() {
         {/* Paragraph Container */}
         <div id="pContainer" className="animate__animated animate__fadeIn">
           <p>
-            Gallardo es un conocidísimo jugador de fútbol argentino que se
-            desempeña en el medio campo. Posee una gran trayectoria en el fútbol
-            europeo y en la Selección Nacional. Marcelo Daniel Gallardo nació el
-            18 de Enero de 1976 en Merlo, provincia de Buenos Aires, Argentina.
-            Ya desde pequeño “El Muñeco” como lo bautizaron cariñosamente sus
-            padres por ser pequeño, demostró un gran amor y devoción por el
-            fútbol. Por esta razón su padre lo anotó en un pequeño club donde
-            practicó durante su infancia, el Estrella de Maldonado. Allí
-            Gallardo se hizo amigo del balón muy rápidamente y demostró que era
-            muy difícil quitarle el mismo una vez que empezaba a jugar. Se
-            desempeñó como mediocampista y armador de jugadas, pues posee una
-            capacidad de dribleo que es casi envidiable. Esta característica de
-            su juego no pasó desapercibida por los buscadores de talentos del
-            River Plate, quienes decidieron darle la posibilidad de incluirlo en
-            las divisiones inferiores del club. Poco tiempo después Gallardo se
-            mudó a la Capital Federal y pasó por cada una de las divisiones
-            menores del club para llegar a su gran debut. Éste se produjo el 18
-            de Abril de 1993 cuando “El muñeco” solo contaba con 16 años. Quien
-            decidió incluirlo en el equipo que le ganó 2 a 0 a Newell’s Old
-            Boys, fue nada menos que Daniel Passarella, quien posteriormente
-            guardó un gran cariño por el jugador. A partir de ese momento para
-            Gallardo en el River Plate fue todo felicidad, puesto que fue uno de
-            los mayores partícipes de la gloria del equipo en los ’90. El mismo
-            año de su ingreso, el River Plate se consagró campeón del Torneo
-            Apertura 1993 y al año siguiente una vez más en el Torneo Apertura
-            1994. En ambos casos las apariciones de Gallardo lo fueron plantando
-            como uno de esos jugadores de quienes no se podía prescindir, pues
-            armaban casi todo el juego. Posteriormente llegó el triunfo en la
-            Copa Libertadores de América, en 1996. Uno de los momentos más
-            recordados por los simpatizantes del River Plate. Fue por este
-            tiempo que Gallardo compartió equipo con algunos de los mejores
-            jugadores de la década como ser Enzo Francescoli, Gabriel Batistuta,
-            Hernán Crespo, Juan Pablo Sorín, Matias Almeyda, Ángel Comizzo,
-            Julio Cruz, Ariel Ortega, Marcelo Salas, Germán Burgos y muchos
-            otros que vendrían posteriormente. Luego de toda la algarabía de la
-            Copa Libertadores, los triunfos del River Plate no cesaban: el
-            Torneo Apertura 1996 también quedó en el “Monumental”. En 1997
-            Gallardo era ya una figura indiscutible en el ambiente del River, y
-            de su mano como capitán del equipo, la institución alcanzó el Torneo
-            Clausura 1997, la Supercopa y el Torneo Apertura del mismo año. En
-            1998 fue convocado para jugar con el Seleccionado de Fútbol
-            Argentino para el mundial de Francia de ese año. Lamentablemente
-            para él, una serie de lesiones le impidieron disfrutar de todos los
-            encuentros, aunque participó en las victorias contra Japón, Jamaica,
-            Croacia e Inglaterra. También en el '98 se completó su transferencia
-            al Mónaco de Francia al cual llegó pisando fuerte y marcando la
-            superioridad de su fútbol. Este equipo gracias a Gallardo consiguió
-            el triunfo de la Liga de Francia y la Copa de Francia en la
-            temporada 1999/2000. A fines del 2002, “el muñeco” tuvo una
-            diferencia de criterios con el entonces entrenador del equipo, y al
-            poco tiempo volvió a jugar al River Plate. Ese mismo año fue miembro
-            del equipo Argentino que disputó la Copa Mundial en Korea-Japón,
-            pero una vez más las lesiones se hicieron presentes y no pudo
-            disputar muchos partidos. En el 2004 levantó su último trofeo con la
-            camiseta roja y blanca, el Torneo Clausura 2004 junto a la nueva
-            camada de estrellas riverplantenses: Fernando Cavenaghi, Ariel
-            Ortega, Andrés D´Alessandro, Pablo Aimar, Javier Saviola, Javier
-            Mascherano, Luis González, German Lux y Eduardo Coudet entre otros.
-            A finales del 2006 y comienzos del 2007 su pase al Paris
-            Saint-Germain Football Club fue concretado y juega ahí hasta el
-            momento.
+            Nicolás Hirschfeld (San Antonio de Areco, 1993), es un DJ y
+            productor musical Argentino.<br></br>
+            <br></br>Inició su carrera musical a los 11 años cuando sus padres,
+            viendo el interés que le generaba la música, le regalaron un teclado
+            Yamaha para que aprendiera piano. Ya con 14 años, descubrió que lo
+            que verdaderamente le apasionaba era la pista de baile, y comenzó a
+            incursionar en el mundo del DJ. Gracias a vivir en una ciudad
+            pequeña, tuvo la oportunidad de aprender en la empresa local de
+            Miguel “Chango” Cárdenas sobre el arte de ser DJ y todo el mundo que
+            lo rodea. Así fue comenzando a tocar en eventos sociales, bares y
+            discotecas de la ciudad y alrededores. Ya con 18 años, empieza a
+            tocar en eventos sociales en la ciudad de Buenos Aires.<br></br>
+            <br></br>No conforme con esto, y ante la necesidad de expandir sus
+            conocimientos, comienza a estudiar Producción Musical en Sonar Pro
+            School, de la ciudad de Pilar (Bs. As.). Allí conoce a su profesor,
+            Cristian Gandini, con el que varios años después se reencontraría
+            para crear su primer EP, “Overspeed”.
+            <br></br>
+            <br></br>Luego comienza a estudiar profesorado de música en la
+            escuela de arte de San Antonio de Areco, realizando 3 años de la
+            carrera. Para ese entonces, decide mudarse definitivamente a Buenos
+            Aires, ciudad en donde reside actualmente. Allí inicia sus estudios
+            en “Artes Digitales” en la Universidad Nacional de Quilmes, dando
+            prioridad a materias como “Diseño Sonoro” o “Síntesis”.<br></br>
+            <br></br>Como DJ, ha trabajado para empresas como Grupo Sarapura o
+            Pato Zambrano DJ’s, de la mano de su colega Ezequiel Laplacette. Ya
+            en el año 2020, debido a las restricciones por la pandemia y ante la
+            imposibilidad de tocar en eventos en vivo, toma la decisión de
+            enfocarse en la producción musical. Es por ello por lo que se pone
+            en contacto con Gandini, quien fue su profesor hace unos años, y
+            retoma los estudios. Gandini lo motiva a crear un track propio, ya
+            que la idea original era realizar un remix de la canción “Keep on
+            Moving”, de la artista noruega Hanne Leland. Con el correr de las
+            clases, la canción iba tomando forma, y se planeó el lanzamiento de
+            esta en formato EP, que incluía el “Original Mix” y un “Remix” del
+            propio Gandini. De estas clases también surge el nombre “Eneich”
+            como artista, fácil de nombrar y reconocer a nivel mundial.<br></br>
+            <br></br>
+            Eneich actualmente se encuentra trabajando en nuevos proyectos,
+            experimentando con síntesis y distintos géneros musicales .
           </p>
         </div>
       </div>

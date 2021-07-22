@@ -46,11 +46,12 @@ function Video({ active }) {
             {active === "esp" ? <span>NUEVO EP</span> : <span>NEW EP</span>}
             <h2>Overspeed</h2>
             <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printe r took a galley of
-              type and scrambled it to make a type specimen book. It has
-              survived not only five. It has survived not only five.
+              Este EP nace de la idea y la necesidad de crear un sonido propio.
+              En principio, Eneich quería realizar un remix de la canción “Keep
+              on Moving”, de la artista noruega Hanne Leland, pero Gandini lo
+              impulsa a crear un track propio. Es así como durante el 2020 nace
+              la colaboración entre los artistas y surge el EP lanzado en 2021
+              en todas las plataformas.
             </p>
             {/* Open Modal button */}
             <a onClick={() => setShowModal(true)} id="modalButton">
