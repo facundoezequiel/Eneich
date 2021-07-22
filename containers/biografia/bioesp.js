@@ -47,6 +47,9 @@ function Bioesp() {
         <div id="gradientLine"></div>
         {/* Paragraph Container */}
         <div id="pContainer" className="animate__animated animate__fadeIn">
+          {/* Bio Image */}
+          <img src="images/bio/bioimage.jpg" draggable="false" alt="Nicolás Hirschfeld" />
+          {/* Bio Text */}
           <p>
             Nicolás Hirschfeld (San Antonio de Areco, 1993), es un DJ y
             productor musical Argentino.<br></br>

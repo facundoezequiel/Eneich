@@ -8,7 +8,7 @@ const BioespengContainer = styled.div`
 
   // Font for bio
   @import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap");
-  
+
   // Bio Container
   #bioContainer {
     width: 100%;
@@ -57,13 +57,23 @@ const BioespengContainer = styled.div`
     border-top: 1px var(--nhwhite) solid;
     padding: 14px 0px 0px 0px;
   }
-  
+
   // Text Container
   #pContainer {
     width: 100%;
     padding: 60px 0px 100px 0px;
-    background-color: var(--nhwhite);;
+    background-color: var(--nhwhite);
     z-index: 98;
+  }
+
+  // Image
+  #pContainer img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    min-width: 768px;
+    max-width: 768px;
   }
 
   // Text
@@ -76,6 +86,7 @@ const BioespengContainer = styled.div`
     line-height: 35px;
     font-family: "Lora", serif;
     text-align: left;
+    padding: 60px 0px 0px 0px;
   }
 
   // Back Button
@@ -99,7 +110,7 @@ const BioespengContainer = styled.div`
 
   // Back Button Text
   #backButton span {
-    color: var(--nhwhite);;
+    color: var(--nhwhite);
     font-family: "Pangea", sans-serif;
     font-size: 0.9em !important;
     letter-spacing: 3px;
@@ -169,6 +180,12 @@ const BioespengContainer = styled.div`
       max-width: 700px;
     }
 
+    // Image
+    #pContainer img {
+      min-width: 700px;
+      max-width: 700px;
+    }
+
     // Text
     #pContainer p {
       min-width: 700px;
@@ -211,6 +228,12 @@ const BioespengContainer = styled.div`
       max-width: 600px;
     }
 
+    // Image
+    #pContainer img {
+      min-width: 600px;
+      max-width: 600px;
+    }
+
     // Text
     #pContainer p {
       min-width: 600px;
@@ -225,6 +248,12 @@ const BioespengContainer = styled.div`
   @media (max-width: ${breakpoints.tablet768}) {
     // Title Container
     #titleContainer div {
+      min-width: 500px;
+      max-width: 500px;
+    }
+
+    // Image
+    #pContainer img {
       min-width: 500px;
       max-width: 500px;
     }
@@ -245,6 +274,13 @@ const BioespengContainer = styled.div`
       min-width: 80%;
       max-width: 80%;
       width: 80%;
+    }
+
+    // Image
+    #pContainer img {
+      width: 80%;
+      min-width: 80%;
+      max-width: 80%;
     }
 
     // Text
