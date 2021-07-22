@@ -19,13 +19,14 @@ function AboutMe({ active, link }) {
             <h2>Nicolás Hirschfeld</h2>
             {/* Text */}
             <p>
-              Nicolás Hirschfeld, nació en San Antonio de Areco en 1993. A los
-              11 años comenzó a estudiar piano, y a los 14 se volcó al mundo del
-              DJ. A los 22, comenzó sus estudios en producción musical en Sonar
-              Pro School y en artes digitales en la Universidad Nacional de
-              Quilmes. En 2020, debido a la pandemia y la imposibilidad de tocar
-              en vivo en eventos, decide abocarse formalmente a la producción
-              musical.
+              Nací en San Antonio de Areco, una pequeña ciudad de la provincia
+              de Buenos Aires, Argentina, en 1993. A los 11 años comencé a
+              estudiar piano, y a los 14 descubrí el mundo del DJ. A los 22,
+              inicié mis estudios en producción musical en Sonar Pro School, en
+              la ciudad de Pilar (Arg.) y en artes digitales en la Universidad
+              Nacional de Quilmes. En 2020, debido a la pandemia y la
+              imposibilidad de tocar en vivo en eventos, decidí abocarme de
+              lleno a la producción musical.
             </p>
             {/* Button */}
             <NextLink href={link}>

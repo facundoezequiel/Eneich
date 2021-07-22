@@ -47,11 +47,11 @@ function Video({ active }) {
             <h2>Overspeed</h2>
             <p>
               Este EP nace de la idea y la necesidad de crear un sonido propio.
-              En principio, Eneich quería realizar un remix de la canción “Keep
-              on Moving”, de la artista noruega Hanne Leland, pero Gandini lo
+              En principio, quería realizar un remix de la canción “Keep on
+              Moving”, de la artista noruega Hanne Leland, pero Gandini me
               impulsa a crear un track propio. Es así como durante el 2020 nace
-              la colaboración entre los artistas y surge el EP lanzado en 2021
-              en todas las plataformas.
+              la colaboración entre ambos y surge el EP lanzado en 2021 en todas
+              las plataformas. ¡Espero que les guste!
             </p>
             {/* Open Modal button */}
             <a onClick={() => setShowModal(true)} id="modalButton">
