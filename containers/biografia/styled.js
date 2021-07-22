@@ -276,11 +276,16 @@ const BioespengContainer = styled.div`
       width: 80%;
     }
 
+    // Text Container
+    #pContainer {
+      padding: 0px 0px 100px 0px;
+    }
+
     // Image
     #pContainer img {
-      width: 80%;
-      min-width: 80%;
-      max-width: 80%;
+      width: 100%;
+      min-width: 100%;
+      max-width: 100%;
     }
 
     // Text
