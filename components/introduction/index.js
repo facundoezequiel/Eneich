@@ -22,7 +22,7 @@ function Introduction({ active }) {
           />
           {/* Title */}
           <h1 className="animate__animated animate__fadeIn animate__delay-1s">
-            House Music<br></br>DJ and Producer
+            DJ and<br></br>Music Producer
           </h1>
           {/* Buttons */}
           <div
