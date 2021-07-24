@@ -45,14 +45,25 @@ function Video({ active }) {
           <div id="textContainer">
             {active === "esp" ? <span>NUEVO EP</span> : <span>NEW EP</span>}
             <h2>Overspeed</h2>
-            <p>
-              Este EP nace de la idea y la necesidad de crear un sonido propio.
-              En principio, quería realizar un remix de la canción “Keep on
-              Moving”, de la artista noruega Hanne Leland, pero Gandini me
-              impulsa a crear un track propio. Es así como durante el 2020 nace
-              la colaboración entre ambos y surge el EP lanzado en 2021 en todas
-              las plataformas. ¡Espero que les guste!
-            </p>
+            {active === "esp" ? (
+              <p>
+                Este EP nace de la idea y la necesidad de crear un sonido
+                propio. En principio, quería realizar un remix de la canción
+                “Keep on Moving”, de la artista noruega Hanne Leland, pero
+                Gandini me impulsa a crear un track propio. Es así como durante
+                el 2020 nace la colaboración entre ambos y surge el EP lanzado
+                en 2021 en todas las plataformas. ¡Espero que les guste!
+              </p>
+            ) : (
+              <p>
+                This EP was born from the idea and the need to create a sound of
+                my own. At first, I wanted to make a remix of the song “Keep on
+                Moving”, by the Norwegian artist Hanne Leland, but Gandini
+                pushed me to create my own track. This is how during 2020 the
+                collaboration between the two was born and the EP released in
+                2021 on all platforms emerged. Hope you like it!
+              </p>
+            )}
             {/* Open Modal button */}
             <a onClick={() => setShowModal(true)} id="modalButton">
               {active === "esp" ? <p>ESCUCHAR AHORA</p> : <p>LISTEN NOW</p>}

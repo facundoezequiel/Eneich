@@ -39,7 +39,7 @@ function Bioesp() {
             </h2>
             {/* Subtitle */}
             <p className="animate__animated animate__fadeIn">
-              PRODUCTOR DE HOUSE MUSIC & DJ
+              DJ & PRODUCTOR MUSICAL
             </p>
           </div>
         </div>
@@ -48,11 +48,15 @@ function Bioesp() {
         {/* Paragraph Container */}
         <div id="pContainer" className="animate__animated animate__fadeIn">
           {/* Bio Image */}
-          <img src="images/bio/bioimage.jpg" draggable="false" alt="Nicolás Hirschfeld" />
+          <img
+            src="images/bio/bioimage.jpg"
+            draggable="false"
+            alt="Nicolás Hirschfeld"
+          />
           {/* Bio Text */}
           <p>
             Nicolás Hirschfeld (San Antonio de Areco, 1993), es un DJ y
-            productor musical Argentino.<br></br>
+            productor musical argentino.<br></br>
             <br></br>Inició su carrera musical a los 11 años cuando sus padres,
             viendo el interés que le generaba la música, le regalaron un teclado
             Yamaha para que aprendiera piano. Ya con 14 años, descubrió que lo
@@ -90,7 +94,7 @@ function Bioesp() {
             como artista, fácil de nombrar y reconocer a nivel mundial.<br></br>
             <br></br>
             Eneich actualmente se encuentra trabajando en nuevos proyectos,
-            experimentando con síntesis y distintos géneros musicales .
+            experimentando con síntesis y distintos géneros musicales.
           </p>
         </div>
       </div>

@@ -13,7 +13,7 @@ const VideoContainer = styled.div`
     position: absolute;
     display: flex;
     justify-content: flex-start;
-    top: 16.6%;
+    top: 18%;
     left: 0px;
     z-index: 96;
   }
@@ -140,7 +140,7 @@ const VideoContainer = styled.div`
   // Hover Effects
   @media (hover: hover) {
     // Button Hover
-    #textContainer a:hover > img  {
+    #textContainer a:hover > img {
       transform: translate(23px);
     }
   }
@@ -174,7 +174,7 @@ const VideoContainer = styled.div`
 
     // Decoration Element
     #decorationElement {
-      top: 17.4%;
+      top: 21.8%;
     }
 
     // Decoration Element Image
@@ -202,7 +202,7 @@ const VideoContainer = styled.div`
 
     // Decoration Element
     #decorationElement {
-      top: 20.6%;
+      top: 16.6%;
     }
 
     // Decoration Element Image
@@ -223,8 +223,8 @@ const VideoContainer = styled.div`
       margin-right: 5%;
     }
 
-     // Text Image Container
-     #textImageContainer {
+    // Text Image Container
+    #textImageContainer {
       max-width: 950px;
     }
 
@@ -259,7 +259,7 @@ const VideoContainer = styled.div`
 
     // Decoration Element
     #decorationElement {
-      top: 54.9%;
+      top: 55.1%;
     }
 
     // Decoration Element Image
@@ -276,7 +276,7 @@ const VideoContainer = styled.div`
     // Image Container
     #imageContainer {
       width: 100%;
-      margin: 80px 0px 0px 0px; 
+      margin: 80px 0px 0px 0px;
     }
 
     // Text Container
@@ -306,7 +306,7 @@ const VideoContainer = styled.div`
   @media (max-width: ${breakpoints.tablet768}) {
     // Decoration Element
     #decorationElement {
-      top: 55.9%;
+      top: 54.8%;
     }
 
     // Decoration Element Image
@@ -362,7 +362,7 @@ const VideoContainer = styled.div`
     }
 
     // Button Hover
-    #textContainer a:hover > img  {
+    #textContainer a:hover > img {
       transform: translate(0px);
     }
 
@@ -373,7 +373,7 @@ const VideoContainer = styled.div`
 
     // Desktop BUtton Hidden
     #modalButton {
-      display: none !important; 
+      display: none !important;
     }
   }
 
@@ -394,7 +394,7 @@ const VideoContainer = styled.div`
 
     // Image Container
     #imageContainer {
-      margin: 60px 0px 0px 0px; 
+      margin: 60px 0px 0px 0px;
     }
 
     // Subtitle

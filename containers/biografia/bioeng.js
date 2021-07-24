@@ -39,7 +39,7 @@ function Bioeng() {
             </h2>
             {/* Subtitle */}
             <p className="animate__animated animate__fadeIn">
-              HOUSE MUSIC PRODUCER & DJ
+              DJ & MUSIC PRODUCER
             </p>
           </div>
         </div>
@@ -47,66 +47,56 @@ function Bioeng() {
         <div id="gradientLine"></div>
         {/* Paragraph Container */}
         <div id="pContainer" className="animate__animated animate__fadeIn">
+          {/* Bio Image */}
+          <img
+            src="images/bio/bioimage.jpg"
+            draggable="false"
+            alt="Nicolás Hirschfeld"
+          />
+          {/* Bio Text */}
           <p>
-            Gallardo is a well-known Argentine soccer player who plays in the
-            midfield. He has a great career in soccer European and in the
-            National Team. Marcelo Daniel Gallardo was born on January 18, 1976
-            in Merlo, province of Buenos Aires, Argentina. Since he was little,
-            "El Muñeco" as he was affectionately baptized by his parents because
-            he was small, he showed great love and devotion for the football.
-            For this reason his father wrote him down in a small club where he
-            practiced during his childhood, the Estrella de Maldonado. There
-            Gallardo befriended the ball very quickly and showed that he was
-            very difficult to remove the same once he started playing. I know
-            played as a midfielder and playmaker, as he has a dribbling ability
-            that is almost enviable. This feature of his game did not go
-            unnoticed by the talent scouts of the River Plate, who decided to
-            give it the possibility of including it in the lower divisions of
-            the club. A short time later, Gallardo moved to the Federal Capital
-            and went through each of the divisions under the club to get to the
-            big debut of him. This one occurred on 18 April 1993 when "The doll"
-            was only 16 years old. Who decided to include him in the team that
-            beat Newell’s Old 2-0 Boys, it was none other than Daniel
-            Passarella, who later he kept a great affection for the player. From
-            that moment to Gallardo at River Plate was all happiness, since he
-            was one of the biggest participants in the glory of the team in the
-            '90s. the same year of his admission, River Plate became champion of
-            the Tournament Apertura 1993 and the following year once again in
-            the Apertura Tournament 1994. In both cases Gallardo's appearances
-            were planting him as one of those players whom he could not do
-            without, because they put together most of the game. Later came the
-            triumph in the Copa Libertadores de América, in 1996. One of the
-            most remembered by River Plate supporters. It was for this time
-            Gallardo shared a team with some of the best players of the decade
-            such as Enzo Francescoli, Gabriel Batistuta, Hernán Crespo, Juan
-            Pablo Sorín, Matias Almeyda, Ángel Comizzo, Julio Cruz, Ariel
-            Ortega, Marcelo Salas, Germán Burgos and many others that would come
-            later. After all the hubbub of the Copa Libertadores, the triumphs
-            of River Plate did not stop: the Opening Tournament 1996 also
-            remained in the "Monumental". In 1997 Gallardo was already an
-            indisputable figure in the River environment, and hand in hand with
-            him as team captain, the institution reached the Tournament Clausura
-            1997, the Super Cup and the Opening Tournament of the same year. On
-            1998 he was called up to play with the National Soccer Team
-            Argentine for the World Cup in France that year. Unfortunately For
-            him, a series of injuries prevented him from enjoying all the
-            encounters, although he participated in victories against Japan,
-            Jamaica, Croatia and England. Also in '98 his transfer was completed
-            to Monaco of France where he came stomping and marking the soccer
-            superiority of him. This team, thanks to Gallardo, got the triumph
-            of the French League and the French Cup in the 1999/2000 season. At
-            the end of 2002, "the doll" had a difference of criteria with the
-            then coach of the team, and at the shortly after he returned to play
-            at River Plate. That same year he was a member of the Argentine team
-            that played the World Cup in Korea-Japan, but once again the
-            injuries were present and he could not play many games. In 2004 he
-            lifted his last trophy with the red and white jersey, the 2004
-            Clausura Tournament together with the new riverplantenses litter of
-            stars: Fernando Cavenaghi, Ariel Ortega, Andrés D´Alessandro, Pablo
-            Aimar, Javier Saviola, Javier Mascherano, Luis González, German Lux
-            and Eduardo Coudet among others. At the end of 2006 and beginning of
-            2007 the transfer from him to Paris Saint-Germain Football Club was
-            finalized and he plays there until moment.
+            Nicolás Hirschfeld (San Antonio de Areco, 1993), is an argentinian
+            DJ and music producer.<br></br>
+            <br></br>He started his musical career at the age of 11 when his
+            parents, seeing the interest that music generated in him, gave him a
+            Yamaha key piano so that he could learn how to use it. At the age of
+            14, he discovered that what he was truly passionate about was the
+            dance floor, and began to adventure into the world of DJ. Thanks to
+            living in a small town, he had the opportunity to learn at Miguel
+            “Chango” Cárdenas's local company about the art of being a DJ and
+            everything around it. That´s hpw he began to play in social events,
+            bars and discos in the city and surroundings. At the age of 18, he
+            began to play at social events in the city of Buenos Aires.
+            <br></br>
+            <br></br>Not satisfied with this, and faced with the need to expand
+            his knowledge, he began to study Musical Production at Sonar Pro
+            School, in the city of Pilar (Bs. As.). There he meets his teacher,
+            Cristian Gandini, with who he would meet again several years later
+            to create his first EP, “Overspeed”.
+            <br></br>
+            <br></br>After that he begins to study music teaching at the San
+            Antonio de Areco art school, completing 3 years of the career. By
+            that time, he decided to move permanently to Buenos Aires, the city
+            where he currently resides. There he began his studies in "Digital
+            Arts" at the National University of Quilmes, giving priority to
+            subjects such as "Sound Design" or "Synthesis".<br></br>
+            <br></br>As a DJ, he has worked for companies such as Grupo Sarapura
+            or Pato Zambrano DJ's, under the guidance of his partner Ezequiel
+            Laplacette. Already in 2020, due to restrictions due to the pandemic
+            and the impossibility of playing live events, he made the decision
+            to focus on music production. That is why he gets in touch with
+            Gandini, who was his teacher a few years ago, and takes up his
+            studies again. Gandini motivates him to create his own track, since
+            the original idea was to make a remix of the song “Keep on Moving”,
+            by the Norwegian artist Hanne Leland. As classes went by, the song
+            was taking shape, and the release of this in EP format was planned,
+            which included the "Original Mix" and a "Remix" by Gandini himself.
+            From these classes also emerges the name "Eneich" as an artist, easy
+            to name and recognize worldwide.
+            <br></br>
+            <br></br>
+            Eneich is currently working on new projects, experimenting with
+            syntheses and different musical genres.
           </p>
         </div>
       </div>
