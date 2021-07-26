@@ -78,6 +78,7 @@ const BioespengContainer = styled.div`
 
   // Text
   #pContainer p {
+    color: var(--nhdarkgray);
     width: 100%;
     margin: 0 auto;
     min-width: 768px;
@@ -87,6 +88,18 @@ const BioespengContainer = styled.div`
     font-family: "Lora", serif;
     text-align: left;
     padding: 60px 0px 0px 0px;
+  }
+
+  // Text Links
+  #pContainer p a {
+    border-bottom: 2px var(--nhdarkgray) solid;
+    transition: 0.2s;
+  }
+
+  // Text Links Hover
+  #pContainer p a:hover {
+    color: var(--nhorange);
+    border-bottom: 2px var(--nhorange) solid;
   }
 
   // Back Button

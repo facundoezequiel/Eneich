@@ -55,8 +55,11 @@ function Bioeng() {
           />
           {/* Bio Text */}
           <p>
-            Nicolás Hirschfeld (San Antonio de Areco, 1993), is an argentinian
-            DJ and music producer.<br></br>
+            Nicolás Hirschfeld (
+            <NextLink href="https://www.google.com/maps/place/San+Antonio+de+Areco,+Provincia+de+Buenos+Aires/@-34.2499035,-59.4971243,13z/data=!3m1!4b1!4m5!3m4!1s0x95bb9533fc84b0c1:0x33d6b6bd3a65b27f!8m2!3d-34.2436166!4d-59.4738665">
+              <a target="_blank">San Antonio de Areco</a>
+            </NextLink>
+            , 1993), is an argentinian DJ and music producer.<br></br>
             <br></br>He started his musical career at the age of 11 when his
             parents, seeing the interest that music generated in him, gave him a
             Yamaha key piano so that he could learn how to use it. At the age of
@@ -72,24 +75,40 @@ function Bioeng() {
             his knowledge, he began to study Musical Production at Sonar Pro
             School, in the city of Pilar (Bs. As.). There he meets his teacher,
             Cristian Gandini, with who he would meet again several years later
-            to create his first EP, “Overspeed”.
-            <br></br>
+            to create his first EP, "
+            <NextLink href="https://www.youtube.com/watch?v=-_nupRfjkWw">
+              <a target="_blank">Overspeed</a>
+            </NextLink>
+            ".<br></br>
             <br></br>After that he begins to study music teaching at the San
             Antonio de Areco art school, completing 3 years of the career. By
             that time, he decided to move permanently to Buenos Aires, the city
             where he currently resides. There he began his studies in "Digital
             Arts" at the National University of Quilmes, giving priority to
             subjects such as "Sound Design" or "Synthesis".<br></br>
-            <br></br>As a DJ, he has worked for companies such as Grupo Sarapura
-            or Pato Zambrano DJ's, under the guidance of his partner Ezequiel
-            Laplacette. Already in 2020, due to restrictions due to the pandemic
-            and the impossibility of playing live events, he made the decision
-            to focus on music production. That is why he gets in touch with
-            Gandini, who was his teacher a few years ago, and takes up his
-            studies again. Gandini motivates him to create his own track, since
-            the original idea was to make a remix of the song “Keep on Moving”,
-            by the Norwegian artist Hanne Leland. As classes went by, the song
-            was taking shape, and the release of this in EP format was planned,
+            <br></br>As a DJ, he has worked for companies such as{" "}
+            <NextLink href="https://www.sarapura.com/">
+              <a target="_blank">Grupo Sarapura</a>
+            </NextLink>{" "}
+            or{" "}
+            <NextLink href="https://www.patozambranodjs.com.ar/">
+              <a target="_blank">Pato Zambrano DJ's</a>
+            </NextLink>
+            , under the guidance of his partner{" "}
+            <NextLink href="https://www.instagram.com/laplacette.ts/">
+              <a target="_blank">Ezequiel Laplacette</a>
+            </NextLink>
+            . Already in 2020, due to restrictions due to the pandemic and the
+            impossibility of playing live events, he made the decision to focus
+            on music production. That is why he gets in touch with{" "}
+            <NextLink href="https://www.gandinimusic.com/">
+              <a target="_blank">Gandini</a>
+            </NextLink>
+            , who was his teacher a few years ago, and takes up his studies
+            again. Gandini motivates him to create his own track, since the
+            original idea was to make a remix of the song “Keep on Moving”, by
+            the Norwegian artist Hanne Leland. As classes went by, the song was
+            taking shape, and the release of this in EP format was planned,
             which included the "Original Mix" and a "Remix" by Gandini himself.
             From these classes also emerges the name "Eneich" as an artist, easy
             to name and recognize worldwide.
