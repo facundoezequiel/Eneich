@@ -6,6 +6,11 @@ const FooterContainer = styled.div`
   background-color: var(--nhdarkgray);
   border-top: 1.5px var(--nhwhite) solid;
 
+  // Press Kit Button OCULTO hasta tener el press kit
+  #pressKitButton {
+    display: none;
+  }
+
   // Logo Buttons Container
   #logoButtonsContainer {
     width: 100%;
@@ -19,14 +24,16 @@ const FooterContainer = styled.div`
   }
 
   // Logo Button
-  #homeLogoButton, #bioLogoButton {
+  #homeLogoButton,
+  #bioLogoButton {
     height: auto;
     cursor: pointer;
     transition: 0.2s;
   }
 
   // Logo Image
-  #homeLogoButton img, #bioLogoButton img {
+  #homeLogoButton img,
+  #bioLogoButton img {
     width: 8rem;
     height: auto;
     display: block;
@@ -34,14 +41,15 @@ const FooterContainer = styled.div`
   }
 
   // Buttons Copyright Container and Buttons Container
-  #buttonsCopyrightContainer, #buttonsContainer {
+  #buttonsCopyrightContainer,
+  #buttonsContainer {
     display: flex;
     align-items: center;
     align-content: center;
     justify-content: flex-end;
   }
 
-  // Buttons Container 
+  // Buttons Container
   #buttonsContainer {
     margin-right: 35px;
   }
@@ -91,7 +99,8 @@ const FooterContainer = styled.div`
     width: 0%;
   }
 
-  #esp, #eng {
+  #esp,
+  #eng {
     font-weight: 400;
   }
 
@@ -103,7 +112,7 @@ const FooterContainer = styled.div`
       }
     `};
 
-    ${(props) =>
+  ${(props) =>
     props.active === "eng" &&
     css`
       #eng {
@@ -155,7 +164,8 @@ const FooterContainer = styled.div`
   }
 
   // Logo Button
-  #homeLogoButton:hover > img, #bioLogoButton:hover > img {
+  #homeLogoButton:hover > img,
+  #bioLogoButton:hover > img {
     transform: scale(1.06);
   }
 
@@ -214,7 +224,7 @@ const FooterContainer = styled.div`
       margin: 0 auto;
     }
 
-    // Buttons Container 
+    // Buttons Container
     #buttonsContainer {
       margin-right: 0px;
       margin: 0 auto;
@@ -222,7 +232,7 @@ const FooterContainer = styled.div`
       justify-content: center;
     }
 
-    // Buttons Container 
+    // Buttons Container
     #buttonsContainer a {
       margin: 0px 17.5px 0px 17.5px;
     }
@@ -267,13 +277,13 @@ const FooterContainer = styled.div`
       margin: 0px 0px 0px 0px;
     }
 
-    // Buttons Container 
+    // Buttons Container
     #buttonsContainer {
       justify-content: flex-start;
       padding: 10% 0% 6% 0%;
     }
 
-    // Buttons Container 
+    // Buttons Container
     #buttonsContainer a {
       margin: 0px 35px 0px 0px;
     }
@@ -283,7 +293,6 @@ const FooterContainer = styled.div`
       text-align: left;
     }
   }
-
 `;
 
 export { FooterContainer };

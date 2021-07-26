@@ -54,7 +54,7 @@ function Footer({ active, linkeng, linkesp, logolink }) {
             </NextLink>
             {/* Press Kit Button */}
             <NextLink href="#">
-              <a>
+              <a id="pressKitButton">
                 <span>PRESS KIT</span>
               </a>
             </NextLink>
