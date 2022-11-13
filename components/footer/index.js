@@ -61,9 +61,9 @@ function Footer({ active, linkeng, linkesp, logolink }) {
           </div>
           {/* Copyright */}
           {active === "esp" ? (
-            <p>Eneich 2021. Todos los derechos reservados.©</p>
+            <p>Eneich 2023. Todos los derechos reservados.©</p>
           ) : (
-            <p>Eneich 2021. All rights reserved.©</p>
+            <p>Eneich 2023. All rights reserved.©</p>
           )}
         </div>
       </div>
